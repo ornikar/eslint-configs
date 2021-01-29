@@ -2,7 +2,7 @@
   "name": "@ornikar/eslint-config",
   "version": "12.1.0",
   "description": "eslint config files",
-  "repository": "ornikar/shared-configs",
+  "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {

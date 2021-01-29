@@ -2,7 +2,7 @@
   "name": "@ornikar/eslint-config-typescript-react",
   "version": "10.2.1",
   "description": "eslint typescript react config files",
-  "repository": "ornikar/shared-configs",
+  "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {

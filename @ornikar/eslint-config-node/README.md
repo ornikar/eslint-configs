@@ -6,11 +6,11 @@ Based on Airbnb.
 
 Also see:
 
-- [@ornikar/eslint-config](https://github.com/ornikar/shared-configs/tree/master/%40ornikar/eslint-config)
-- [@ornikar/eslint-config-babel](https://github.com/ornikar/shared-configs/tree/master/%40ornikar/eslint-config-babel)
-- [@ornikar/eslint-config-react](https://github.com/ornikar/shared-configs/tree/master/%40ornikar/eslint-config-react)
-- [@ornikar/eslint-config-typescript](https://github.com/ornikar/shared-configs/tree/master/%40ornikar/eslint-config-typescript)
-- [@ornikar/eslint-config-typescript-react](https://github.com/ornikar/shared-configs/tree/master/%40ornikar/eslint-config-typescript-react)
+- [@ornikar/eslint-config](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config)
+- [@ornikar/eslint-config-babel](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-babel)
+- [@ornikar/eslint-config-react](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-react)
+- [@ornikar/eslint-config-typescript](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-typescript)
+- [@ornikar/eslint-config-typescript-react](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-typescript-react)
 
 ### node without babel or typescript
 

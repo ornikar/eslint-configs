@@ -2,7 +2,7 @@
   "name": "@ornikar/eslint-config-babel-use",
   "version": "4.2.0",
   "description": "eslint babel use",
-  "repository": "ornikar/shared-configs",
+  "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {

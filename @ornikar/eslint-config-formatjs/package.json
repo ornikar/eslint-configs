@@ -2,7 +2,7 @@
   "name": "@ornikar/eslint-config-formatjs",
   "version": "2.2.0",
   "description": "eslint formatjs config files",
-  "repository": "ornikar/shared-configs",
+  "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {
