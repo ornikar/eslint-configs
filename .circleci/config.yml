@@ -86,7 +86,7 @@ workflows:
           type: approval
           filters:
             branches:
-              only: master
+              only: main
       - frontend/lerna-publish:
           cache-version: << pipeline.parameters.cache-version >>
           context: npm-publish
@@ -98,4 +98,4 @@ workflows:
             - hold-release
           filters:
             branches:
-              only: master
+              only: main
