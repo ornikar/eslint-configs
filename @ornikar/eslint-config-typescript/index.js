@@ -4,7 +4,11 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
 
-  extends: ['@ornikar/eslint-config-babel-use', './plugins/typescript-eslint'].map(require.resolve),
+  extends: [
+    require.resolve('@ornikar/eslint-config-babel-use'),
+    'plugin:import/typescript',
+    require.resolve('./plugins/typescript-eslint'),
+  ],
 
   settings: {
     'import/resolver': {
@@ -12,7 +16,7 @@ module.exports = {
         extensions: ['.js', '.ts'],
       },
     },
-    'import/extensions': ['.js', '.ts'],
+    'import/extensions': ['.ts', '.d.ts', '.js'],
   },
 
   rules: {
@@ -24,18 +28,5 @@ module.exports = {
         ts: 'never',
       },
     ],
-
-    // type-fest is typescript only
-    'import/no-unresolved': [
-      'error',
-      {
-        ignore: ['type-fest'],
-      },
-    ],
-
-    /* issues */
-
-    /* some exported type doesnt work. tsc check that anyway */
-    'import/named': 'off',
   },
 };

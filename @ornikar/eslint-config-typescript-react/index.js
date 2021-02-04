@@ -9,6 +9,7 @@ module.exports = {
         extensions: ['.js', '.ts', '.tsx'],
       },
     },
+    'import/extensions': ['.ts', '.tsx', '.d.ts', '.js'],
   },
 
   rules: {
