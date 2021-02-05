@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:prettier": "prettier --check .",
-    "lint:eslint": "eslint --ext .js --fix .",
+    "lint:eslint": "eslint --ext .js --report-unused-disable-directives --fix .",
     "release": "lerna publish --conventional-commits"
   },
   "prettier": "@ornikar/prettier-config",
@@ -15,8 +15,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "./@ornikar/eslint-config/index.js",
-      "./@ornikar/eslint-config-node/root.js"
+      "./@ornikar/eslint-config/root.js"
     ]
   },
   "commitlint": {

@@ -9,13 +9,46 @@ This is the config to use when you don't have babel on the project.
 Also see:
 
 - [@ornikar/eslint-config-babel](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-babel)
-- [@ornikar/eslint-config-node](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-node)
 - [@ornikar/eslint-config-react](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-react)
 - [@ornikar/eslint-config-typescript](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-typescript)
 - [@ornikar/eslint-config-typescript-react](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config-typescript-react)
 
+## How to install
+
+### root
+
 1. `npm install --save-dev eslint @ornikar/eslint-config`
-2. Add `"extends": ["@ornikar/eslint-config"]` to your eslint config
+2. Add `"extends": ["@ornikar/eslint-config/root"]` to your eslint config
+
+### node without babel or typescript
+
+1. `npm install --save-dev eslint @ornikar/eslint-config`
+2. Add `"extends": ["@ornikar/eslint-config", "@ornikar/eslint-config/node"]` to your eslint config
+
+### node with babel (deprecated, please use typescript instead)
+
+1. `npm install --save-dev eslint @ornikar/eslint-config @ornikar/eslint-config-babel`
+2. Add `"extends": ["@ornikar/eslint-config-babel", "@ornikar/eslint-config/node""]` to your eslint config
+
+### node with typescript
+
+1. `npm install --save-dev eslint @ornikar/eslint-config @ornikar/eslint-config-typescript`
+2. Add `"extends": ["@ornikar/eslint-config-typescript", "@ornikar/eslint-config-node"]` to your eslint config
+
+### module override
+
+```json
+{
+  "root": true,
+  "extends": ["@ornikar/eslint-config/root"],
+  "overrides": [
+    {
+      "files": ["test-setup.js"],
+      "extends": ["@ornikar/eslint-config/node-module-override"]
+    }
+  ]
+}
+```
 
 ## How to configure a project
 
