@@ -7,7 +7,7 @@ version: 2.1
 parameters:
   cache-version:
     type: string
-    default: v1
+    default: v2
 
 # -------------------------------------------------------------------------------------------------
 # ORBS
@@ -49,7 +49,6 @@ jobs:
                   - '@ornikar/eslint-config-babel/node_modules'
                   - '@ornikar/eslint-config-babel-use/node_modules'
                   - '@ornikar/eslint-config-formatjs/node_modules'
-                  - '@ornikar/eslint-config-node/node_modules'
                   - '@ornikar/eslint-config-react/node_modules'
                   - '@ornikar/eslint-config-typescript/node_modules'
                   - '@ornikar/eslint-config-typescript-react/node_modules'
