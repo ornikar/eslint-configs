@@ -33,7 +33,7 @@ Also see:
 ### node with typescript
 
 1. `npm install --save-dev eslint @ornikar/eslint-config @ornikar/eslint-config-typescript`
-2. Add `"extends": ["@ornikar/eslint-config-typescript", "@ornikar/eslint-config-node"]` to your eslint config
+2. Add `"extends": ["@ornikar/eslint-config-typescript", "@ornikar/eslint-config/node"]` to your eslint config
 
 ### module override
 
