@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0-alpha.0](https://github.com/ornikar/eslint-configs/compare/v12.3.0...v13.0.0-alpha.0) (2021-02-09)
+
+
+### Code Refactoring
+
+* typescript react dont import babel ([06b2e2d](https://github.com/ornikar/eslint-configs/commit/06b2e2df57575dd8996bf335bf81bb50711f59ab))
+
+
+### BREAKING CHANGES
+
+* extending eslint-config-react will also require to extends eslint-config-babel
+
+
+
+
+
 # [12.3.0](https://github.com/ornikar/eslint-configs/compare/v12.2.0...v12.3.0) (2021-02-08)
 
 
