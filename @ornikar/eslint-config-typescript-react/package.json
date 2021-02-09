@@ -12,6 +12,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@ornikar/eslint-config-typescript": "^12.3.0",
     "@ornikar/eslint-config-react": "^12.3.0",
     "eslint-config-prettier": "^6.7.0"
   },
