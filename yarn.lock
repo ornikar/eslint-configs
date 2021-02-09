@@ -1073,25 +1073,25 @@
     universal-user-agent "^3.0.0"
     url-template "^2.0.8"
 
-"@ornikar/commitlint-config@3.1.1", "@ornikar/commitlint-config@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-3.1.1.tgz#26329b38a93a96f8e60b62db9360567dd22bcef2"
-  integrity sha512-ITzbKQ5vgENQ7apRRhqupRlhnOusEaaM9bOXGQ1X9ZVGSrSIPvw3jlvfP4r1GcMl/sOb167j0+cl1Psp2C7k6A==
+"@ornikar/commitlint-config@3.2.0", "@ornikar/commitlint-config@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-3.2.0.tgz#1478c3dbc8f1ee9706777dcc215162eb0115eaf4"
+  integrity sha512-ziDkY9PY0RjQRqS/RLL5PIu8rHbtKNriKaKetJeJOSGVExp8V4rClLp/h73rTsM/TrRIy0PiSOREffX7nB/74Q==
   dependencies:
     "@commitlint/config-conventional" "^11.0.0"
 
-"@ornikar/prettier-config@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.2.0.tgz#ca1d7f590bc0a2e0713aeea14f5fd88a9698d088"
-  integrity sha512-C8fofjKSA97PHbDG3NPnV8cfeKKV3TkstbCLFDZllrkw9keCvxEAzmu8ijkEEevY8n+XgpkRZMwXvnDsFtwfRg==
+"@ornikar/prettier-config@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.0.tgz#15aaecdb5378d905263032f9bb539cc5739dcfae"
+  integrity sha512-R900N5cExXX0d3e2ALHRyq3WmzRo8FktbClRmQb++I4r8u9zgi22B2IDdwKnrfbrHoqq2A2fhzUAw6luKEwhfw==
 
-"@ornikar/repo-config@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-5.1.1.tgz#412fc6c807629c61a26e01cf004fbf929aee415f"
-  integrity sha512-gkyqNA5iVwkbQuMhIOXEbJ85YhsbZwRW79WPUXZ3kVMXIFReiMbjTrl+WPrt/kPXBglRvQreVDB1BS4EnVvhJA==
+"@ornikar/repo-config@5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-5.2.0.tgz#8c6c9c7f0057a32f6e6884bdcea72bf8fe9c0112"
+  integrity sha512-G5K0xBrssv0DQfe0wSJQPSw0gh5V9emvoekq+hUJLd2isXI2p81VKhQfFOUBLS3facPAMLwE4lhMdV5RVm4qgg==
   dependencies:
     "@commitlint/cli" "11.0.0"
-    "@ornikar/commitlint-config" "^3.1.1"
+    "@ornikar/commitlint-config" "^3.2.0"
     cross-env "^7.0.0"
     lint-staged "10.5.4"
     yarn-deduplicate "3.1.0"
