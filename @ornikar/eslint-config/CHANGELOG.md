@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.0.0](https://github.com/ornikar/eslint-configs/compare/v12.4.0...v13.0.0) (2021-02-09)
+
+**Note:** Version bump only for package @ornikar/eslint-config
+
+
+
+
+
 # [12.4.0](https://github.com/ornikar/eslint-configs/compare/v12.3.0...v12.4.0) (2021-02-09)
 
 
