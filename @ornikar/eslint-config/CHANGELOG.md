@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.1](https://github.com/ornikar/eslint-configs/compare/v13.0.0...v13.0.1) (2021-02-10)
+
+
+### Bug Fixes
+
+* move import/extensions rule in eslint-config [no issue] ([#9](https://github.com/ornikar/eslint-configs/issues/9)) ([e49082a](https://github.com/ornikar/eslint-configs/commit/e49082ae33812e50cbe41ff7d62d569fbc4b9715))
+
+
+
+
+
 # [13.0.0](https://github.com/ornikar/eslint-configs/compare/v12.4.0...v13.0.0) (2021-02-09)
 
 **Note:** Version bump only for package @ornikar/eslint-config
