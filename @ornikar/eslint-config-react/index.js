@@ -19,13 +19,6 @@ module.exports = {
   },
 
   rules: {
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-      },
-    ],
     'react/jsx-filename-extension': ['error', { extensions: ['js'] }],
 
     'react-hooks/rules-of-hooks': 'error',

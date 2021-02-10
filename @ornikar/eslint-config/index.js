@@ -18,5 +18,12 @@ module.exports = {
 
   rules: {
     strict: ['error', 'safe'],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+      },
+    ],
   },
 };
