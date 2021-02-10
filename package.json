@@ -13,11 +13,6 @@
     "node": ">=12.13.0",
     "yarn": ">=1.10.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "./@ornikar/eslint-config/root.js"
-    ]
-  },
   "commitlint": {
     "extends": [
       "@ornikar/commitlint-config"
@@ -30,6 +25,7 @@
     "@ornikar/commitlint-config": "3.2.0",
     "@ornikar/prettier-config": "3.3.0",
     "@ornikar/repo-config": "5.2.0",
+    "@ornikar/lerna-config": "2.3.0",
     "eslint": "6.8.0",
     "eslint-plugin-filenames": "1.3.2",
     "eslint-plugin-import": "2.22.1",
