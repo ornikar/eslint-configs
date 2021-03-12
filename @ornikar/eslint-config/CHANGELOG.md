@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.1.0](https://github.com/ornikar/eslint-configs/compare/v13.0.1...v13.1.0) (2021-03-12)
+
+
+### Features
+
+* remove max-lines rule [no issue] ([#17](https://github.com/ornikar/eslint-configs/issues/17)) ([0d2a324](https://github.com/ornikar/eslint-configs/commit/0d2a3245139ddf05b5b1e2c94685e3da6a2dcd40))
+
+
+
+
+
 ## [13.0.1](https://github.com/ornikar/eslint-configs/compare/v13.0.0...v13.0.1) (2021-02-10)
 
 
