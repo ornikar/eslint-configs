@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [13.2.0](https://github.com/ornikar/eslint-configs/compare/v13.1.0...v13.2.0) (2021-04-09)
+
+
+### Features
+
+* change `import/order` to sort imports alphabetically ARCH-1183 ([#26](https://github.com/ornikar/eslint-configs/issues/26)) ([9148f7a](https://github.com/ornikar/eslint-configs/commit/9148f7aabde0f24e8222734e4b9047f6bda5896e))
+
+
+
+
+
 # [13.1.0](https://github.com/ornikar/eslint-configs/compare/v13.0.1...v13.1.0) (2021-03-12)
 
 
