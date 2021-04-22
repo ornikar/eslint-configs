@@ -1,16 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: [
-    'eslint-config-airbnb-base',
-    './plugins/filenames',
-    './plugins/prettier',
-    './plugins/unicorn',
-    './rules/best-practices',
-    './rules/code-quality',
-    './rules/style',
-    './rules/expert',
-  ].map(require.resolve),
+  extends: ['eslint-config-airbnb-base', './_shared', './rules/prettier'].map(require.resolve),
 
   parserOptions: {
     sourceType: 'script',

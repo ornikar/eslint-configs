@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": ["../../eslint-config-typescript/index.js", "../index.js"],
+  "parserOptions": {
+    "project": "./@ornikar/eslint-config-typescript/tests/tsconfig.json",
+    "createDefaultProgram": true
+  }
+}

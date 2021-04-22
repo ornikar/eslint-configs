@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['.', './node'].map(require.resolve),
+  extends: ['./node'].map(require.resolve),
 
   rules: {
     'no-console': 'off',

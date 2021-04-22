@@ -4,6 +4,8 @@ Ornikar babel eslint config
 
 Based on Airbnb.
 
+## DEPRECATED: please use @ornikar/eslint-config-typescript instead
+
 Also see:
 
 - [@ornikar/eslint-config](https://github.com/ornikar/eslint-configs/tree/master/%40ornikar/eslint-config)
