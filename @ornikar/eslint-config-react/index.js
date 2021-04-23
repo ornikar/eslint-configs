@@ -2,26 +2,11 @@
 
 module.exports = {
   extends: [
+    '@ornikar/eslint-config-babel',
     'eslint-config-airbnb/rules/react',
     'eslint-config-airbnb/rules/react-a11y',
-    'eslint-config-prettier/react',
-    './rules/react',
+    'eslint-config-airbnb/hooks',
+    './_shared',
+    '@ornikar/eslint-config/rules/prettier',
   ].map(require.resolve),
-
-  plugins: ['eslint-plugin-react-hooks'],
-
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js'],
-      },
-    },
-  },
-
-  rules: {
-    'react/jsx-filename-extension': ['error', { extensions: ['js'] }],
-
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error',
-  },
 };

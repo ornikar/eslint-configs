@@ -47,7 +47,6 @@ jobs:
                   - node_modules
                   - '@ornikar/eslint-config/node_modules'
                   - '@ornikar/eslint-config-babel/node_modules'
-                  - '@ornikar/eslint-config-babel-use/node_modules'
                   - '@ornikar/eslint-config-formatjs/node_modules'
                   - '@ornikar/eslint-config-react/node_modules'
                   - '@ornikar/eslint-config-typescript/node_modules'

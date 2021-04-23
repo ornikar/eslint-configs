@@ -4,7 +4,13 @@
 
 const fs = require('fs');
 const path = require('path');
+const { createCheckPackageWithWorkspaces } = require('check-package-dependencies');
 const rootPkg = require('../package.json');
+
+createCheckPackageWithWorkspaces().checkRecommended({
+  isLibrary: () => true,
+  directDuplicateDependenciesOnlyWarnsFor: [],
+});
 
 const packagesDir = '@ornikar';
 
