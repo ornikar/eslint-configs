@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.0.0](https://github.com/ornikar/eslint-configs/compare/v13.3.0...v14.0.0) (2021-04-26)
+
+
+### Features
+
+* require eslint 7.25 ([ea9aefd](https://github.com/ornikar/eslint-configs/commit/ea9aefd7cf356fccd43a8288ca53e245186a1b87))
+
+
+### BREAKING CHANGES
+
+* requires eslint 7.25
+
+
+
+
+
 # [13.3.0](https://github.com/ornikar/eslint-configs/compare/v13.2.0...v13.3.0) (2021-04-26)
 
 
