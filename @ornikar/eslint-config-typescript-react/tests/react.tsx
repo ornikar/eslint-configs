@@ -1,4 +1,6 @@
 import type { FC, ReactElement, ReactNode } from 'react';
+import { View } from './view';
+import styles from './styles.module.css';
 
 interface AppIntlProviderProps {
   locale: string;
@@ -17,3 +19,9 @@ export const renderWithIntl = (ui: ReactElement, locale = 'fr-FR'): FC => {
   };
   return IntlProvider;
 };
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function Component(): ReactElement {
+  // eslint-disable-next-line react/react-in-jsx-scope
+  return <View className={styles.test} />;
+}

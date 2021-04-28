@@ -4,6 +4,7 @@
     "noEmit": true,
     "skipLibCheck": true,
     "strict": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "esModuleInterop": true
   }
 }
