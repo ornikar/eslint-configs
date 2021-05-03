@@ -23,7 +23,7 @@ module.exports = {
       'error',
       ...airbnbStyleRules.rules['no-restricted-syntax']
         .slice(1)
-        .filter(({ selector }) => selector === 'ForOfStatement'),
+        .filter(({ selector }) => selector !== 'ForOfStatement'),
     ],
   },
 };
