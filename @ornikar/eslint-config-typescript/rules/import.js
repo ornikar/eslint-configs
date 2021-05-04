@@ -24,10 +24,11 @@ module.exports = {
       },
     ],
 
-    /* issues */
-
-    /* some exported type doesnt work. tsc check that anyway */
+    /* https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/FAQ.md#eslint-plugin-import */
     'import/named': 'off',
+    'import/namespace': 'off',
+    'import/default': 'off',
+    'import/no-named-as-default-member': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'off',
