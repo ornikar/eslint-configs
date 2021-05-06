@@ -1,8 +1,12 @@
 import type { FC, ReactElement, ReactNode } from 'react';
 
 interface AppIntlProviderProps {
+  // eslint-disable-next-line react/no-unused-prop-types
+  onClick?: string;
   locale: string;
   children: ReactNode;
+  // eslint-disable-next-line react/no-unused-prop-types
+  unusedProp?: string;
 }
 
 function AppIntlProvider({ locale, children }: AppIntlProviderProps): ReactElement {
