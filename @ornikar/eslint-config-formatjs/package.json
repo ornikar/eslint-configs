@@ -19,6 +19,6 @@
     "eslint-plugin-formatjs": "^2.14.6"
   },
   "devDependencies": {
-    "eslint": "7.26.0"
+    "eslint": "7.27.0"
   }
 }
