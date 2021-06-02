@@ -12,6 +12,16 @@ module.exports = {
   rules: {
     /* added rules */
 
+    // Code style following our guidelines: https://ornikar.atlassian.net/wiki/spaces/TECH/pages/855016043/Guide+Typescript#Cr%C3%A9ation-d%E2%80%99un-composant
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'function-declaration',
+        unnamedComponents: 'function-expression',
+      },
+    ],
+
     // Prevent direct mutation of this.state
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
     'react/no-direct-mutation-state': 'error',
