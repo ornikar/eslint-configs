@@ -20,6 +20,7 @@ Typography.div.propTypes = {
   children: PropTypes.node,
 };
 
+// eslint-disable-next-line react/function-component-definition
 const InvalidFunctionComponent = () => null;
 
 export function ComponentUsingTypographyDiv() {

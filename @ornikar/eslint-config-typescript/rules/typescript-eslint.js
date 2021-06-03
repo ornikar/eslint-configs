@@ -13,6 +13,9 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
 
+    /* Enabled as 'warn' in recommended, changed to 'error' */
+    '@typescript-eslint/no-non-null-assertion': 'error',
+
     /* Changed */
     '@typescript-eslint/ban-types': [
       'error',
