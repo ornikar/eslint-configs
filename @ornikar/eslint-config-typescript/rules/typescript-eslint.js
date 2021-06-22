@@ -24,8 +24,7 @@ module.exports = {
       'error',
       {
         types: {
-          Omit:
-            'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/master/source/except.d.ts',
+          Omit: 'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/master/source/except.d.ts',
         },
       },
     ],
