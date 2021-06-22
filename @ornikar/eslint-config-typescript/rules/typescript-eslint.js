@@ -12,6 +12,9 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/restrict-template-expressions': 'error',
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -63,10 +66,7 @@ module.exports = {
 
     /* in recommended, disabled but to enable */
     '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/restrict-plus-operands': 'off',
-    '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
