@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.2.0](https://github.com/ornikar/eslint-configs/compare/v14.1.0...v14.2.0) (2021-06-22)
+
+
+### Features
+
+* enable three typescript-eslint rules ([#56](https://github.com/ornikar/eslint-configs/issues/56)) ([3096807](https://github.com/ornikar/eslint-configs/commit/3096807964d6916bce44e57d871d43bd46b51c14))
+
+
+
+
+
 # [14.1.0](https://github.com/ornikar/eslint-configs/compare/v14.0.1...v14.1.0) (2021-06-03)
 
 
