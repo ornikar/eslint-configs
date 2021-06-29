@@ -1,8 +1,11 @@
 {
   "root": true,
-  "extends": ["../index.js"],
+  "extends": ["../../react-native.js"],
   "parserOptions": {
     "project": "./@ornikar/eslint-config-typescript/tests/tsconfig.json",
     "createDefaultProgram": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off"
   }
 }
