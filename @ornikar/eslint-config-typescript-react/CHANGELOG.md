@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.2.1](https://github.com/ornikar/eslint-configs/compare/v14.2.0...v14.2.1) (2021-06-29)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript-react:** fix import of react-native config [no issue] ([#57](https://github.com/ornikar/eslint-configs/issues/57)) ([274039c](https://github.com/ornikar/eslint-configs/commit/274039c7e8a184197893d838b36e11aa0908e301))
+
+
+
+
+
 # [14.2.0](https://github.com/ornikar/eslint-configs/compare/v14.1.0...v14.2.0) (2021-06-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript-react
