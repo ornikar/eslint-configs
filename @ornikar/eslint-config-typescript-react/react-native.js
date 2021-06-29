@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['.', '@ornikar/eslint-config-react/react-native'].map(require.resolve),
+  extends: ['.', '@ornikar/eslint-config-react/rules/react-native'].map(require.resolve),
 
   settings: {
     'import/resolver': {
