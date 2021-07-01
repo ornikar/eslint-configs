@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-react",
-  "version": "14.0.0",
+  "version": "14.2.1",
   "description": "eslint react config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "eslint": "^7.25.0"
   },
   "devDependencies": {
-    "eslint": "7.25.0",
+    "eslint": "7.29.0",
     "react": "17.0.1"
   }
 }

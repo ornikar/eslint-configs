@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.2.0](https://github.com/ornikar/eslint-configs/compare/v14.1.0...v14.2.0) (2021-06-22)
+
+**Note:** Version bump only for package @ornikar/eslint-config
+
+
+
+
+
+# [14.1.0](https://github.com/ornikar/eslint-configs/compare/v14.0.1...v14.1.0) (2021-06-03)
+
+**Note:** Version bump only for package @ornikar/eslint-config
+
+
+
+
+
+## [14.0.1](https://github.com/ornikar/eslint-configs/compare/v14.0.0...v14.0.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* **eslint-config:** node restricted-syntax [no issue] ([#37](https://github.com/ornikar/eslint-configs/issues/37)) ([94ec626](https://github.com/ornikar/eslint-configs/commit/94ec6264582bd49e6a9346e87af52a23bc0fd4df))
+
+
+
+
+
 # [14.0.0](https://github.com/ornikar/eslint-configs/compare/v13.3.0...v14.0.0) (2021-04-26)
 
 

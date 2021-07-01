@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.2.0](https://github.com/ornikar/eslint-configs/compare/v14.1.0...v14.2.0) (2021-06-22)
+
+
+### Features
+
+* enable three typescript-eslint rules ([#56](https://github.com/ornikar/eslint-configs/issues/56)) ([3096807](https://github.com/ornikar/eslint-configs/commit/3096807964d6916bce44e57d871d43bd46b51c14))
+
+
+
+
+
+# [14.1.0](https://github.com/ornikar/eslint-configs/compare/v14.0.1...v14.1.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** better typescript eslint config [no issue] ([#39](https://github.com/ornikar/eslint-configs/issues/39)) ([5602a6b](https://github.com/ornikar/eslint-configs/commit/5602a6b1b595daa7c5d84a30c6fbc8bc6d6321b8))
+
+
+### Features
+
+* add rules for eslint meeting ARCH-1376 ([#50](https://github.com/ornikar/eslint-configs/issues/50)) ([15ed376](https://github.com/ornikar/eslint-configs/commit/15ed3761d395562b24cbd3723de8d1055e99a42d))
+
+
+
+
+
+## [14.0.1](https://github.com/ornikar/eslint-configs/compare/v14.0.0...v14.0.1) (2021-05-03)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
 # [14.0.0](https://github.com/ornikar/eslint-configs/compare/v13.3.0...v14.0.0) (2021-04-26)
 
 

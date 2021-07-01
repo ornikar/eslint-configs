@@ -1,13 +1,7 @@
 'use strict';
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
-  extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
 
   rules: {
     /* Enabled */
@@ -18,14 +12,19 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/restrict-template-expressions': 'error',
+    '@typescript-eslint/explicit-module-boundary-types': 'error',
+
+    /* Enabled as 'warn' in recommended, changed to 'error' */
+    '@typescript-eslint/no-non-null-assertion': 'error',
 
     /* Changed */
     '@typescript-eslint/ban-types': [
       'error',
       {
         types: {
-          Omit:
-            'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/master/source/except.d.ts',
+          Omit: 'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/master/source/except.d.ts',
         },
       },
     ],
@@ -66,10 +65,7 @@ module.exports = {
 
     /* in recommended, disabled but to enable */
     '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/restrict-plus-operands': 'off',
-    '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
