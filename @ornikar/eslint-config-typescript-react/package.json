@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "17.0.14",
-    "eslint": "7.30.0",
+    "eslint": "7.31.0",
     "react": "17.0.2",
     "type-fest": "1.0.2"
   }
