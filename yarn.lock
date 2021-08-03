@@ -1289,10 +1289,10 @@
   dependencies:
     "@commitlint/config-conventional" "^11.0.0"
 
-"@ornikar/lerna-config@2.3.3":
-  version "2.3.3"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-2.3.3.tgz#2cd3510d59cd4580491618ce60283245920dce87"
-  integrity sha512-0bmAIY2ToS0A4X6UHv9l4zHy+dnyhgb/IH0EGZs+xLSSBZ+Xf/0BcWBAaX+KYhLL/At9ORIm3nxFpKIX7TIzUA==
+"@ornikar/lerna-config@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.0.1.tgz#10a876e42a15dfcab8cf393741908c782cffe6c1"
+  integrity sha512-yFtePvGsOjHUQYJqrInbZBD3YENl0JXZi9Z8jPuAfi9JWOuyQ8Aga/YqOnwHFwvR2a9ZfEPBA+90HCo05FXdUA==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
