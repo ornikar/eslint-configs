@@ -15,6 +15,7 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 'error',
     '@typescript-eslint/restrict-template-expressions': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
+    '@typescript-eslint/consistent-indexed-object-style': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
