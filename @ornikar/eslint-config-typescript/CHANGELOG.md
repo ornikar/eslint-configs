@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.3.0](https://github.com/ornikar/eslint-configs/compare/v14.2.1...v14.3.0) (2021-08-05)
+
+
+### Features
+
+* **eslint-config-typescript:** enable rule consistent-indexed-object-style ARCH-1485 ([#82](https://github.com/ornikar/eslint-configs/issues/82)) ([874996c](https://github.com/ornikar/eslint-configs/commit/874996c41f8d2450a1b5067e6be62d6218be86d5))
+* **eslint-config-typescript:** enable rule consistent-type-imports ARCH-1486 ([#83](https://github.com/ornikar/eslint-configs/issues/83)) ([cae0845](https://github.com/ornikar/eslint-configs/commit/cae0845f1f4cb9c5f047ec07f72baa62699f49cf))
+
+
+
+
+
 # [14.2.0](https://github.com/ornikar/eslint-configs/compare/v14.1.0...v14.2.0) (2021-06-22)
 
 
