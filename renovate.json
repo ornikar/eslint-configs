@@ -1,3 +1,13 @@
 {
-  "extends": ["config:js-lib", "@ornikar"]
+  "extends": ["config:js-lib", "@ornikar"],
+  "packageRules": [
+    {
+      "packagePatterns": ["^@typescript-eslint/", "^eslint-"],
+      "packageNames": ["eslint", "typescript"],
+      "updateTypes": ["patch", "minor"],
+      "labels": [":soon: automerge"],
+      "schedule": ["at any time"],
+      "reviewers": ["team:frontend-architects"]
+    }
+  ]
 }
