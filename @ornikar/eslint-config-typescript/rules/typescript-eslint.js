@@ -18,6 +18,7 @@ module.exports = {
     '@typescript-eslint/consistent-indexed-object-style': 'error',
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+    '@typescript-eslint/prefer-ts-expect-error': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
