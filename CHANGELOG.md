@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.4.0](https://github.com/ornikar/eslint-configs/compare/v14.3.0...v14.4.0) (2021-08-11)
+
+
+### Features
+
+* enable @typescript-eslint/non-nullable-type-assertion-style ([#92](https://github.com/ornikar/eslint-configs/issues/92)) ([1a4d877](https://github.com/ornikar/eslint-configs/commit/1a4d8777dc3fdf4d8ed8602b0426d4434cdc1563))
+
+
+
+
+
 # [14.3.0](https://github.com/ornikar/eslint-configs/compare/v14.2.1...v14.3.0) (2021-08-05)
 
 
