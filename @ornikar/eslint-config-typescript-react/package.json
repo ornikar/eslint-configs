@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript-react",
-  "version": "14.3.0",
+  "version": "14.4.0",
   "description": "eslint typescript react config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@ornikar/eslint-config-react": "^14.3.0",
-    "@ornikar/eslint-config-typescript": "^14.3.0"
+    "@ornikar/eslint-config-typescript": "^14.4.0"
   },
   "peerDependencies": {
     "eslint": "^7.25.0",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "@types/react": "17.0.16",
+    "@types/react": "17.0.20",
     "eslint": "7.32.0",
     "react": "17.0.2",
     "type-fest": "1.4.0"

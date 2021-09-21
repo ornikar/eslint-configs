@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript",
-  "version": "14.3.0",
+  "version": "14.4.0",
   "description": "eslint typescript config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -26,6 +26,6 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "type-fest": "1.4.0",
-    "typescript": "4.3.5"
+    "typescript": "4.4.2"
   }
 }
