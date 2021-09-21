@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.5.0](https://github.com/ornikar/eslint-configs/compare/v14.4.0...v14.5.0) (2021-09-21)
+
+
+### Features
+
+* enable @typescript-eslint/prefer-ts-expect-error ([#91](https://github.com/ornikar/eslint-configs/issues/91)) ([98e76a7](https://github.com/ornikar/eslint-configs/commit/98e76a7be14518e07ab55809280d54ad35b9717f))
+
+
+
+
+
 # [14.4.0](https://github.com/ornikar/eslint-configs/compare/v14.3.0...v14.4.0) (2021-08-11)
 
 
