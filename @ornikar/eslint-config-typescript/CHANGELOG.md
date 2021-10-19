@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.6.0](https://github.com/ornikar/eslint-configs/compare/v14.5.0...v14.6.0) (2021-10-19)
+
+
+### Features
+
+* add eslint rules for 09-2021 eslint meeting ([#134](https://github.com/ornikar/eslint-configs/issues/134)) ([5bf73bd](https://github.com/ornikar/eslint-configs/commit/5bf73bd74873629b4122d5471baee80b6fb56b24))
+
+
+
+
+
 # [14.5.0](https://github.com/ornikar/eslint-configs/compare/v14.4.0...v14.5.0) (2021-09-21)
 
 
