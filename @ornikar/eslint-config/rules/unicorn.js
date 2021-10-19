@@ -195,7 +195,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-array-some': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
-    'unicorn/prefer-default-parameters': 'off',
+    'unicorn/prefer-default-parameters': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-array.md
     'unicorn/no-new-array': 'off',
