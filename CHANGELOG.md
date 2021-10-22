@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [14.7.0](https://github.com/ornikar/eslint-configs/compare/v14.6.0...v14.7.0) (2021-10-22)
+
+
+### Features
+
+* **eslint-config-typescript-react:** allow unsafe prefix camelcase rule [no issue] ([#138](https://github.com/ornikar/eslint-configs/issues/138)) ([48ce973](https://github.com/ornikar/eslint-configs/commit/48ce9731fd9752f1f89d86ae8c1d8cff0485afb9))
+
+
+
+
+
 # [14.6.0](https://github.com/ornikar/eslint-configs/compare/v14.5.0...v14.6.0) (2021-10-19)
 
 
