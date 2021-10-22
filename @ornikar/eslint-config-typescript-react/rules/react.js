@@ -1,5 +1,8 @@
 'use strict';
 
+// eslint-disable-next-line import/no-extraneous-dependencies
+const { rules: baseStyleRules } = require('eslint-config-airbnb-base/rules/style');
+
 module.exports = {
   rules: {
     'react/jsx-filename-extension': [
@@ -18,6 +21,6 @@ module.exports = {
     'react/sort-prop-types': 'off',
 
     // overrides camelcase rule to allow UNSAFE_* commonly used in react libraries
-    camelcase: ['error', { allow: ['^UNSAFE_'] }],
+    camelcase: ['error', { ...baseStyleRules.camelcase[1], allow: ['^UNSAFE_'] }],
   },
 };
