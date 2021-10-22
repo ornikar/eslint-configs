@@ -16,5 +16,8 @@ module.exports = {
     'react/prop-types': 'off',
     // https://github.com/yannickcr/eslint-plugin-react/issues/2702
     'react/sort-prop-types': 'off',
+
+    // overrides camelcase rule to allow UNSAFE_* commonly used in react libraries
+    camelcase: ['error', { allow: ['^UNSAFE_'] }],
   },
 };
