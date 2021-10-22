@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.7.1](https://github.com/ornikar/eslint-configs/compare/v14.7.0...v14.7.1) (2021-10-22)
+
+
+### Bug Fixes
+
+* camelcase rule ([800f00c](https://github.com/ornikar/eslint-configs/commit/800f00c9053e146495f9b81a83c8481c72458919))
+
+
+
+
+
 # [14.7.0](https://github.com/ornikar/eslint-configs/compare/v14.6.0...v14.7.0) (2021-10-22)
 
 
