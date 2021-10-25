@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-babel",
-  "version": "14.6.0",
+  "version": "15.0.0",
   "description": "eslint babel config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "^14.6.0",
+    "@ornikar/eslint-config": "^15.0.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-babel": "^5.3.0",

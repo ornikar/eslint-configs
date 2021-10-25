@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.0.0](https://github.com/ornikar/eslint-configs/compare/v14.7.1...v15.0.0) (2021-10-25)
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v37 ([#137](https://github.com/ornikar/eslint-configs/issues/137)) ([3ac2475](https://github.com/ornikar/eslint-configs/commit/3ac2475f6a12df0643abb9a62bd56eefc5f8e95b))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint ^7.32.0 
+
+
+
+
+
 # [14.6.0](https://github.com/ornikar/eslint-configs/compare/v14.5.0...v14.6.0) (2021-10-19)
 
 **Note:** Version bump only for package @ornikar/eslint-config-babel
