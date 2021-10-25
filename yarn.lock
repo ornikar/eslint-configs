@@ -1306,14 +1306,14 @@
   resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.4.tgz#674b5333c69c57188c7846967c6fb3f976e72c1b"
   integrity sha512-8kUTpBgy4e7YP5qR2t+B8inpCOZAKsdHxEtHd6XUPZPajHe5xBUI5pIER1HY5zLp6KkCK47h0OkY3Klmx1lIKQ==
 
-"@ornikar/repo-config@6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.0.1.tgz#172fdd95c91e68a06aa6dc84a2f9faf498537a9c"
-  integrity sha512-mjLlXQyxjI2BmXjvZF9+in/E1tbNe7s1H+3/V3Hm1ElIlqqu0IhULsxx8aQTFKl35i7mjh4oJGTP+v9Qf6e5ZA==
+"@ornikar/repo-config@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.0.2.tgz#15165fe3e616560e5f8236dfa979dca1d329a80e"
+  integrity sha512-1RmI1xy02ulgaD2S9CnhwdqlX532wpobrOOUAFUs6imcwOunZ6neghX26UL8HC6iikhTpsx61r9V+yPYH41gfQ==
   dependencies:
     "@commitlint/cli" "11.0.0"
     "@ornikar/commitlint-config" "^3.2.1"
-    husky "7.0.2"
+    husky "7.0.4"
     lint-staged "10.5.4"
     semver "^7.3.5"
     which-pm-runs "^1.0.0"
@@ -3387,10 +3387,10 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-husky@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.2.tgz#21900da0f30199acca43a46c043c4ad84ae88dff"
-  integrity sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==
+husky@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
+  integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
 
 iconv-lite@^0.4.24:
   version "0.4.24"
