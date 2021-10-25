@@ -16,7 +16,7 @@
     "@ornikar/eslint-config-typescript": "^14.6.0"
   },
   "peerDependencies": {
-    "eslint": "^7.25.0",
+    "eslint": "^7.32.0",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
