@@ -201,7 +201,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-new-array': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
-    'unicorn/prefer-array-index-of': 'off',
+    'unicorn/prefer-array-index-of': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
     'unicorn/prefer-regexp-test': 'off',
