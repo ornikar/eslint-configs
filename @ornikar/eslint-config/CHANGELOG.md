@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.2.0](https://github.com/ornikar/eslint-configs/compare/v15.1.0...v15.2.0) (2021-11-04)
+
+
+### Features
+
+* add unicorn/prefer-array-index-of linting rule [no issue] ([#163](https://github.com/ornikar/eslint-configs/issues/163)) ([5e0452f](https://github.com/ornikar/eslint-configs/commit/5e0452f5e8df23c2595023e055ae7437beb75430))
+
+
+
+
+
 # [15.1.0](https://github.com/ornikar/eslint-configs/compare/v15.0.0...v15.1.0) (2021-11-03)
 
 
