@@ -22,6 +22,9 @@ module.exports = {
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
 
+    'unicorn/prefer-includes': 'off',
+    '@typescript-eslint/prefer-includes': 'error',
+
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
 
