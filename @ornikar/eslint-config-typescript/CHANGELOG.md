@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.4.0](https://github.com/ornikar/eslint-configs/compare/v15.3.0...v15.4.0) (2021-11-15)
+
+
+### Features
+
+* set uprefer-switch rule ([#169](https://github.com/ornikar/eslint-configs/issues/169)) ([878fe2f](https://github.com/ornikar/eslint-configs/commit/878fe2f787c8e21ab55933d5fa71a54a9af1a0ad))
+
+
+
+
+
 # [15.3.0](https://github.com/ornikar/eslint-configs/compare/v15.2.0...v15.3.0) (2021-11-15)
 
 
