@@ -21,6 +21,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
