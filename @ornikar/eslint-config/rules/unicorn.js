@@ -225,7 +225,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-array-flat': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-switch.md
-    'unicorn/prefer-switch': 'off',
+    'unicorn/prefer-switch': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-protocol.md
     'unicorn/prefer-node-protocol': 'off',
