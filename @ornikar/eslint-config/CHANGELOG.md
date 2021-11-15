@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.3.0](https://github.com/ornikar/eslint-configs/compare/v15.2.0...v15.3.0) (2021-11-15)
+
+
+### Features
+
+* enable prefer-date-now [no issue] ([#167](https://github.com/ornikar/eslint-configs/issues/167)) ([c30ca41](https://github.com/ornikar/eslint-configs/commit/c30ca41fbe247d94cf98512030e5749ae311f9a7))
+* sort imports and exports [no issue] ([#166](https://github.com/ornikar/eslint-configs/issues/166)) ([b5fa982](https://github.com/ornikar/eslint-configs/commit/b5fa982fab11d623f910dd90a0723480c247b246))
+
+
+
+
+
 # [15.2.0](https://github.com/ornikar/eslint-configs/compare/v15.1.0...v15.2.0) (2021-11-04)
 
 
