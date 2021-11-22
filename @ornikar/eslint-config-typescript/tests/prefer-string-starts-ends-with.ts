@@ -16,9 +16,9 @@ foo.match(/^bar/) != null;
 // eslint-disable-next-line @typescript-eslint/prefer-string-starts-ends-with, unicorn/prefer-string-starts-ends-with
 /^bar/.test(foo);
 
-// eslint-disable-next-line @typescript-eslint/prefer-string-starts-ends-with, @typescript-eslint/no-unused-expressions
+// eslint-disable-next-line unicorn/prefer-at, @typescript-eslint/prefer-string-starts-ends-with, @typescript-eslint/no-unused-expressions
 foo[foo.length - 1] === 'b';
-// eslint-disable-next-line @typescript-eslint/prefer-string-starts-ends-with, @typescript-eslint/no-unused-expressions
+// eslint-disable-next-line unicorn/prefer-at, @typescript-eslint/prefer-string-starts-ends-with, @typescript-eslint/no-unused-expressions
 foo.charAt(foo.length - 1) === 'b';
 // eslint-disable-next-line @typescript-eslint/prefer-string-starts-ends-with, @typescript-eslint/no-unused-expressions
 foo.lastIndexOf('bar') === foo.length - 3;
