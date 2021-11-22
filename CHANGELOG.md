@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [15.5.0](https://github.com/ornikar/eslint-configs/compare/v15.4.0...v15.5.0) (2021-11-22)
+
+
+### Features
+
+* set unicorn/prefer-at rule to error ([#173](https://github.com/ornikar/eslint-configs/issues/173)) ([1ab6894](https://github.com/ornikar/eslint-configs/commit/1ab6894a486f7bd7f8b6e172eb0ac41fad37f3ed))
+
+
+
+
+
 # [15.4.0](https://github.com/ornikar/eslint-configs/compare/v15.3.0...v15.4.0) (2021-11-15)
 
 
