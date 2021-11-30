@@ -1307,10 +1307,10 @@
   dependencies:
     "@commitlint/config-conventional" "^13.0.0"
 
-"@ornikar/lerna-config@3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.1.tgz#426487f26d30017d7dfae381308932736ea2329d"
-  integrity sha512-WnhpLpCkv/iXxyX7WiSqrpVne8slLO2UdkVDQHOb5ZBbI8gFClK2tArz1y2qyvCyOIH2cziQFJEjuoVwr1J7Tw==
+"@ornikar/lerna-config@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.2.tgz#f8cdac2a7e541dec842813b4e12b562237c7c3f7"
+  integrity sha512-/xp4LwPcIBl/b8/7fhHerZg+R/ljusYCCVZLg8IwzsQWKTodTeR1NPY8TxefWO9otzseiIOAPE/U6E4bLAveiw==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
