@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-at for node [no issue] ([#182](https://github.com/ornikar/eslint-configs/issues/182)) ([61bc652](https://github.com/ornikar/eslint-configs/commit/61bc6528494aa2af92482d56c2bc06fa94b0dfda))
+
+
+
+
+
 # [15.5.0](https://github.com/ornikar/eslint-configs/compare/v15.4.0...v15.5.0) (2021-11-22)
 
 
