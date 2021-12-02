@@ -1307,10 +1307,10 @@
   dependencies:
     "@commitlint/config-conventional" "^13.0.0"
 
-"@ornikar/lerna-config@3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.1.1.tgz#35a3d2481fc64dae22534e5f67725d2a8f1572c5"
-  integrity sha512-dQXyq2tBo4yDEk7Nc2C7V115TpwgMWsGYETbMDLaq35XbwBPlzGZsud1ntSTdj4M/XsfDrbHuslxATrvYiq7yg==
+"@ornikar/lerna-config@3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.2.tgz#f8cdac2a7e541dec842813b4e12b562237c7c3f7"
+  integrity sha512-/xp4LwPcIBl/b8/7fhHerZg+R/ljusYCCVZLg8IwzsQWKTodTeR1NPY8TxefWO9otzseiIOAPE/U6E4bLAveiw==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
@@ -1319,10 +1319,10 @@
   resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.5.tgz#434f17f28258a251c1599293e67d3c5ee7424703"
   integrity sha512-ZhufCR9Qv/ZP/JBmrYl0OSdVFOQAaJAycJv82yhMms57ixhD86ia3OQr9VPWm65re7P2cC5wPQkDj7lSlP0eEg==
 
-"@ornikar/repo-config@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.1.1.tgz#ef25f8d4d4b4d4ccd387c74debdef6a88424ffb2"
-  integrity sha512-MgmZBuF+nzfmAgLPxdWcHV3Z6wC0YxSIL2MbHHw0OBh2QxntXYqSrci3qdDACXq6TkHSUbiB66DJRGBc96MLaw==
+"@ornikar/repo-config@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.1.4.tgz#bf7052ff191934d4971e8f13b934bca78f06f4ef"
+  integrity sha512-2dK9Gb8ilUp4rLLQe0LxSxO4/P/2zTkWAWwE+YwFZieQWbPsO3VKHz96pj/Zq1lirDjbtqqZr2KBkzODUcn3tA==
   dependencies:
     "@commitlint/cli" "13.2.1"
     "@ornikar/commitlint-config" "^3.3.0"
