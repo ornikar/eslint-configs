@@ -12,8 +12,6 @@ module.exports = {
     '@typescript-eslint/prefer-function-type': 'error',
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
-    '@typescript-eslint/restrict-plus-operands': 'error',
-    '@typescript-eslint/restrict-template-expressions': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
     '@typescript-eslint/consistent-indexed-object-style': 'error',
     '@typescript-eslint/consistent-type-imports': 'error',
