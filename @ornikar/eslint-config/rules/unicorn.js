@@ -234,5 +234,17 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
     'unicorn/prefer-at': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md
+    'unicorn/no-empty-file': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
+    'unicorn/prefer-export-from': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md
+    'unicorn/prefer-code-point': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
+    'unicorn/no-await-expression-member': 'off',
   },
 };
