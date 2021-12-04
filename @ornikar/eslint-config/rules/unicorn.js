@@ -49,8 +49,7 @@ module.exports = {
     'unicorn/prefer-keyboard-event-key': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-flat-map.md
-    // TODO [engine:node@>=14] flatMap only supported from node 11
-    'unicorn/prefer-array-flat-map': 'off',
+    'unicorn/prefer-array-flat-map': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-callback-reference.md
     /* Can cause issues:
