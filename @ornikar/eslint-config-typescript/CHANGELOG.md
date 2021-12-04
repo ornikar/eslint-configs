@@ -3,6 +3,90 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
+# [15.5.0](https://github.com/ornikar/eslint-configs/compare/v15.4.0...v15.5.0) (2021-11-22)
+
+
+### Features
+
+* set unicorn/prefer-at rule to error ([#173](https://github.com/ornikar/eslint-configs/issues/173)) ([1ab6894](https://github.com/ornikar/eslint-configs/commit/1ab6894a486f7bd7f8b6e172eb0ac41fad37f3ed))
+
+
+
+
+
+# [15.4.0](https://github.com/ornikar/eslint-configs/compare/v15.3.0...v15.4.0) (2021-11-15)
+
+
+### Features
+
+* set uprefer-switch rule ([#169](https://github.com/ornikar/eslint-configs/issues/169)) ([878fe2f](https://github.com/ornikar/eslint-configs/commit/878fe2f787c8e21ab55933d5fa71a54a9af1a0ad))
+
+
+
+
+
+# [15.3.0](https://github.com/ornikar/eslint-configs/compare/v15.2.0...v15.3.0) (2021-11-15)
+
+
+### Features
+
+* sort imports and exports [no issue] ([#166](https://github.com/ornikar/eslint-configs/issues/166)) ([b5fa982](https://github.com/ornikar/eslint-configs/commit/b5fa982fab11d623f910dd90a0723480c247b246))
+
+
+
+
+
+# [15.2.0](https://github.com/ornikar/eslint-configs/compare/v15.1.0...v15.2.0) (2021-11-04)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
+# [15.1.0](https://github.com/ornikar/eslint-configs/compare/v15.0.0...v15.1.0) (2021-11-03)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
+# [15.0.0](https://github.com/ornikar/eslint-configs/compare/v14.7.1...v15.0.0) (2021-10-25)
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v37 ([#137](https://github.com/ornikar/eslint-configs/issues/137)) ([3ac2475](https://github.com/ornikar/eslint-configs/commit/3ac2475f6a12df0643abb9a62bd56eefc5f8e95b))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint ^7.32.0 
+
+
+
+
+
+# [14.6.0](https://github.com/ornikar/eslint-configs/compare/v14.5.0...v14.6.0) (2021-10-19)
+
+
+### Features
+
+* add eslint rules for 09-2021 eslint meeting ([#134](https://github.com/ornikar/eslint-configs/issues/134)) ([5bf73bd](https://github.com/ornikar/eslint-configs/commit/5bf73bd74873629b4122d5471baee80b6fb56b24))
+
+
+
+
+
 # [14.5.0](https://github.com/ornikar/eslint-configs/compare/v14.4.0...v14.5.0) (2021-09-21)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "14.5.0",
+  "version": "15.5.1",
   "description": "eslint config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -18,14 +18,15 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^31.0.0"
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unicorn": "^37.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.25.0",
+    "eslint": "^7.32.0",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "prettier": "2.4.1"
+    "prettier": "2.5.0"
   }
 }

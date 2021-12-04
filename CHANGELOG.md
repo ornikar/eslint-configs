@@ -3,6 +3,123 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-at for node [no issue] ([#182](https://github.com/ornikar/eslint-configs/issues/182)) ([61bc652](https://github.com/ornikar/eslint-configs/commit/61bc6528494aa2af92482d56c2bc06fa94b0dfda))
+
+
+
+
+
+# [15.5.0](https://github.com/ornikar/eslint-configs/compare/v15.4.0...v15.5.0) (2021-11-22)
+
+
+### Features
+
+* set unicorn/prefer-at rule to error ([#173](https://github.com/ornikar/eslint-configs/issues/173)) ([1ab6894](https://github.com/ornikar/eslint-configs/commit/1ab6894a486f7bd7f8b6e172eb0ac41fad37f3ed))
+
+
+
+
+
+# [15.4.0](https://github.com/ornikar/eslint-configs/compare/v15.3.0...v15.4.0) (2021-11-15)
+
+
+### Features
+
+* set unicorn/prefer-regexp-test rule to error ([#168](https://github.com/ornikar/eslint-configs/issues/168)) ([14c757b](https://github.com/ornikar/eslint-configs/commit/14c757b8fe4f178c2deddfafbae0c626a4d69c44))
+* set uprefer-switch rule ([#169](https://github.com/ornikar/eslint-configs/issues/169)) ([878fe2f](https://github.com/ornikar/eslint-configs/commit/878fe2f787c8e21ab55933d5fa71a54a9af1a0ad))
+
+
+
+
+
+# [15.3.0](https://github.com/ornikar/eslint-configs/compare/v15.2.0...v15.3.0) (2021-11-15)
+
+
+### Features
+
+* enable prefer-date-now [no issue] ([#167](https://github.com/ornikar/eslint-configs/issues/167)) ([c30ca41](https://github.com/ornikar/eslint-configs/commit/c30ca41fbe247d94cf98512030e5749ae311f9a7))
+* sort imports and exports [no issue] ([#166](https://github.com/ornikar/eslint-configs/issues/166)) ([b5fa982](https://github.com/ornikar/eslint-configs/commit/b5fa982fab11d623f910dd90a0723480c247b246))
+
+
+
+
+
+# [15.2.0](https://github.com/ornikar/eslint-configs/compare/v15.1.0...v15.2.0) (2021-11-04)
+
+
+### Features
+
+* add unicorn/prefer-array-index-of linting rule [no issue] ([#163](https://github.com/ornikar/eslint-configs/issues/163)) ([5e0452f](https://github.com/ornikar/eslint-configs/commit/5e0452f5e8df23c2595023e055ae7437beb75430))
+
+
+
+
+
+# [15.1.0](https://github.com/ornikar/eslint-configs/compare/v15.0.0...v15.1.0) (2021-11-03)
+
+
+### Features
+
+* add unicorn/prefer-array-some linting rule ([#162](https://github.com/ornikar/eslint-configs/issues/162)) ([edfe939](https://github.com/ornikar/eslint-configs/commit/edfe9391f4a9155ec466668a459249410d40d69d))
+
+
+
+
+
+# [15.0.0](https://github.com/ornikar/eslint-configs/compare/v14.7.1...v15.0.0) (2021-10-25)
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v37 ([#137](https://github.com/ornikar/eslint-configs/issues/137)) ([3ac2475](https://github.com/ornikar/eslint-configs/commit/3ac2475f6a12df0643abb9a62bd56eefc5f8e95b))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint ^7.32.0 
+
+
+
+
+
+## [14.7.1](https://github.com/ornikar/eslint-configs/compare/v14.7.0...v14.7.1) (2021-10-22)
+
+
+### Bug Fixes
+
+* camelcase rule ([800f00c](https://github.com/ornikar/eslint-configs/commit/800f00c9053e146495f9b81a83c8481c72458919))
+
+
+
+
+
+# [14.7.0](https://github.com/ornikar/eslint-configs/compare/v14.6.0...v14.7.0) (2021-10-22)
+
+
+### Features
+
+* **eslint-config-typescript-react:** allow unsafe prefix camelcase rule [no issue] ([#138](https://github.com/ornikar/eslint-configs/issues/138)) ([48ce973](https://github.com/ornikar/eslint-configs/commit/48ce9731fd9752f1f89d86ae8c1d8cff0485afb9))
+
+
+
+
+
+# [14.6.0](https://github.com/ornikar/eslint-configs/compare/v14.5.0...v14.6.0) (2021-10-19)
+
+
+### Features
+
+* add eslint rules for 09-2021 eslint meeting ([#134](https://github.com/ornikar/eslint-configs/issues/134)) ([5bf73bd](https://github.com/ornikar/eslint-configs/commit/5bf73bd74873629b4122d5471baee80b6fb56b24))
+
+
+
+
+
 # [14.5.0](https://github.com/ornikar/eslint-configs/compare/v14.4.0...v14.5.0) (2021-09-21)
 
 
