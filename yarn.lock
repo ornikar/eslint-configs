@@ -1307,22 +1307,22 @@
   dependencies:
     "@commitlint/config-conventional" "^13.0.0"
 
-"@ornikar/lerna-config@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.2.tgz#f8cdac2a7e541dec842813b4e12b562237c7c3f7"
-  integrity sha512-/xp4LwPcIBl/b8/7fhHerZg+R/ljusYCCVZLg8IwzsQWKTodTeR1NPY8TxefWO9otzseiIOAPE/U6E4bLAveiw==
+"@ornikar/lerna-config@3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.5.tgz#5f5ca7d06f298148af4ed471d9d686fe1edae10c"
+  integrity sha512-N9kW/OaxE/AZnWYEPXJ12faeqcJVgSyMXnzYzwIRukVawO0RrgVq/bubw+fZffJqBEWAiZbycDxUvETmg1tD1A==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
-"@ornikar/prettier-config@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.5.tgz#434f17f28258a251c1599293e67d3c5ee7424703"
-  integrity sha512-ZhufCR9Qv/ZP/JBmrYl0OSdVFOQAaJAycJv82yhMms57ixhD86ia3OQr9VPWm65re7P2cC5wPQkDj7lSlP0eEg==
+"@ornikar/prettier-config@3.3.6":
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.6.tgz#19c33cd976e004fc6a230a0cb5c2b4abb1485905"
+  integrity sha512-25lvKXP1/g8Tb8RRo94rHIq8C3s2goc/L4BfI3kii6hs7VQqP1Uj33VI18T4uwoSkaKjgH+Iq3WN6pWNB/zI3w==
 
-"@ornikar/repo-config@6.1.4":
-  version "6.1.4"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.1.4.tgz#bf7052ff191934d4971e8f13b934bca78f06f4ef"
-  integrity sha512-2dK9Gb8ilUp4rLLQe0LxSxO4/P/2zTkWAWwE+YwFZieQWbPsO3VKHz96pj/Zq1lirDjbtqqZr2KBkzODUcn3tA==
+"@ornikar/repo-config@6.1.5":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.1.5.tgz#bb12cf22aa81acd3496bce56f719f512dc2b43e0"
+  integrity sha512-Pa1Zh6lPYCzY6rcHBWHlYmTE9iYsAQc22NSXopSZu4is4qfQn9n9P4uFOYopyY7unwI8hYohemGkokQkUrZIXg==
   dependencies:
     "@commitlint/cli" "13.2.1"
     "@ornikar/commitlint-config" "^3.3.0"
@@ -5871,10 +5871,10 @@ type-check@^0.4.0, type-check@~0.4.0:
   dependencies:
     prelude-ls "^1.2.1"
 
-type-fest@1.4.0, type-fest@^1.0.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
-  integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
+type-fest@2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.8.0.tgz#39d7c9f9c508df8d6ce1cf5a966b0e6568dcc50d"
+  integrity sha512-O+V9pAshf9C6loGaH0idwsmugI2LxVNR7DtS40gVo2EXZVYFgz9OuNtOhgHLdHdapOEWNdvz9Ob/eeuaWwwlxA==
 
 type-fest@^0.11.0:
   version "0.11.0"
@@ -5911,6 +5911,11 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
+type-fest@^1.0.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
+  integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
+
 typedarray-to-buffer@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-3.1.5.tgz#a97ee7a9ff42691b9f783ff1bc5112fe3fca9080"
@@ -5923,10 +5928,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.4.4, typescript@^4.0, typescript@^4.4.3:
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
-  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+typescript@4.5.2, typescript@^4.0, typescript@^4.4.3:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
+  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
 
 uglify-js@^3.1.4:
   version "3.7.3"
