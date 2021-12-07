@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 # [15.0.0](https://github.com/ornikar/eslint-configs/compare/v14.7.1...v15.0.0) (2021-10-25)
 
 

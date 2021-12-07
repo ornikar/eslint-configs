@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### Bug Fixes
+
+* **eslint-config:** really disable unicorn/prefer-at for node [no issue] ([#191](https://github.com/ornikar/eslint-configs/issues/191)) ([26733f2](https://github.com/ornikar/eslint-configs/commit/26733f2e5a10fd5b50539e44189da954383cae23))
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5 (major) ([#159](https://github.com/ornikar/eslint-configs/issues/159)) ([a60e2e2](https://github.com/ornikar/eslint-configs/commit/a60e2e2332b5defeac5cb6a39470e2aab5cada98))
+* **eslint-config:** enable unicorn/no-new-array [no issue] ([#196](https://github.com/ornikar/eslint-configs/issues/196)) ([f0c4495](https://github.com/ornikar/eslint-configs/commit/f0c4495142ca5acf9ec6636c0fd4b235ce468aa0))
+* **eslint-config:** enable unicorn/prefer-object-from-entries [no issue] ([#197](https://github.com/ornikar/eslint-configs/issues/197)) ([e10edbf](https://github.com/ornikar/eslint-configs/commit/e10edbf686fd05d0d88a7448242c3184c9fdccc3))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 ## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
 
 
