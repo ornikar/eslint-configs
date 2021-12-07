@@ -85,8 +85,10 @@ workflows:
           filters:
             branches:
               only: main
-      - frontend/lerna-publish:
+      - frontend/monorepo-release:
           cache-version: << pipeline.parameters.cache-version >>
+          npm-publish: true
+          no-private: true
           context: npm-publish
           requires:
             - dependencies
