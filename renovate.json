@@ -4,6 +4,7 @@
     {
       "packagePatterns": ["^@typescript-eslint/", "^eslint-"],
       "packageNames": ["eslint", "typescript"],
+      "matchSourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
       "updateTypes": ["patch", "minor"],
       "labels": [":soon: automerge"],
       "schedule": ["at any time"],
