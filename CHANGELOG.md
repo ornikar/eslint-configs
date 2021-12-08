@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.1](https://github.com/ornikar/eslint-configs/compare/v16.1.0...v16.1.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config-react:** stop overriding react/sort-comp [no issue] ([#199](https://github.com/ornikar/eslint-configs/issues/199)) ([a9899f2](https://github.com/ornikar/eslint-configs/commit/a9899f2e67b409891e767b384cd168a0e3a4a5b5))
+
+
+
+
+
 # [16.1.0](https://github.com/ornikar/eslint-configs/compare/v16.0.1...v16.1.0) (2021-12-08)
 
 

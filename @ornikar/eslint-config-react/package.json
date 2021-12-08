@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-react",
-  "version": "16.0.0",
+  "version": "16.1.1",
   "description": "eslint react config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
