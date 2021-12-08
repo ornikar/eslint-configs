@@ -1300,32 +1300,32 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.2"
 
-"@ornikar/commitlint-config@3.3.0", "@ornikar/commitlint-config@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-3.3.0.tgz#0a2e30df1c24712898826f75dc9d6d5909a6d23f"
-  integrity sha512-Zrudi0fmmBNN1xJvFFHVk7MclsLWeqUwFWIQU5kSO8rk8jmdtsG+muJjkQE25N07m763f5thksZWcxxhNlE19w==
+"@ornikar/commitlint-config@4.0.0", "@ornikar/commitlint-config@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-4.0.0.tgz#dd0cd25c734527dcc12638de78c8e087ac800858"
+  integrity sha512-3bzYBJvCley8bW2VqUMkC0YcAkNiFYA1A8ue8mzTp8f+SrXn1bs+AX7DWNWQv07BrlIPEgONsFnSYvJetTnpvA==
   dependencies:
     "@commitlint/config-conventional" "^13.0.0"
 
-"@ornikar/lerna-config@3.2.5":
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-3.2.5.tgz#5f5ca7d06f298148af4ed471d9d686fe1edae10c"
-  integrity sha512-N9kW/OaxE/AZnWYEPXJ12faeqcJVgSyMXnzYzwIRukVawO0RrgVq/bubw+fZffJqBEWAiZbycDxUvETmg1tD1A==
+"@ornikar/lerna-config@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-5.0.0.tgz#61166d93860cab6206d7f35c4140d49202e1035e"
+  integrity sha512-+Wt9bMy/LyW0tcPsFTlpZcLKwEEsPvxsXyAKy+NNmc2IDw8U2rwc3694WU1L6aX50IlCcN3e3JqALkGGutbqqQ==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
-"@ornikar/prettier-config@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-3.3.6.tgz#19c33cd976e004fc6a230a0cb5c2b4abb1485905"
-  integrity sha512-25lvKXP1/g8Tb8RRo94rHIq8C3s2goc/L4BfI3kii6hs7VQqP1Uj33VI18T4uwoSkaKjgH+Iq3WN6pWNB/zI3w==
+"@ornikar/prettier-config@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.0.tgz#1290b29887c4e3e7803dc529d0c56d572f75f9a9"
+  integrity sha512-YBF0kgvnbU2cm0xlVGK/b+NLMKlZbmk5BToNN/cQulg3oq8+UYECh6a5XKT5OL9W1g2h+uHvzxa9fz8DDuWRGg==
 
-"@ornikar/repo-config@6.1.5":
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-6.1.5.tgz#bb12cf22aa81acd3496bce56f719f512dc2b43e0"
-  integrity sha512-Pa1Zh6lPYCzY6rcHBWHlYmTE9iYsAQc22NSXopSZu4is4qfQn9n9P4uFOYopyY7unwI8hYohemGkokQkUrZIXg==
+"@ornikar/repo-config@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.0.0.tgz#335914e12d2e078c00208c3d564fae4a98a012d0"
+  integrity sha512-YEjCvXDftlt1tkW7dAFTrSGaGHCa3mRxdjwfDnBdjPMGwgEjlLSZ3QpfW52Ndg7quXFPseGLZKKQHF7Kk0nO7w==
   dependencies:
     "@commitlint/cli" "13.2.1"
-    "@ornikar/commitlint-config" "^3.3.0"
+    "@ornikar/commitlint-config" "^4.0.0"
     husky "7.0.4"
     lint-staged "11.2.6"
     semver "^7.3.5"
