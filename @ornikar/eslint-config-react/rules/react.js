@@ -49,56 +49,6 @@ module.exports = {
 
     /* changed rules */
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-    'react/sort-comp': [
-      'error',
-      {
-        order: [
-          'static-variables',
-          'static-methods',
-          'instance-variables',
-          'lifecycle',
-          'getters',
-          'setters',
-          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-          'instance-methods',
-          '/^(on|handle).+$/',
-          'everything-else',
-          'rendering',
-        ],
-        groups: {
-          lifecycle: [
-            'displayName',
-            'propTypes',
-            'contextTypes',
-            'childContextTypes',
-            'mixins',
-            'statics',
-            'defaultProps',
-            'constructor',
-            'getDefaultProps',
-            'getInitialState',
-            'state',
-            'getChildContext',
-            'getDerivedStateFromProps',
-            'componentWillMount',
-            'UNSAFE_componentWillMount',
-            'componentDidMount',
-            'componentWillReceiveProps',
-            'UNSAFE_componentWillReceiveProps',
-            'shouldComponentUpdate',
-            'componentWillUpdate',
-            'UNSAFE_componentWillUpdate',
-            'getSnapshotBeforeUpdate',
-            'componentDidUpdate',
-            'componentDidCatch',
-            'componentWillUnmount',
-          ],
-          rendering: ['/^render.+$/', 'render'],
-        },
-      },
-    ],
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
     'react/forbid-dom-props': [
       'error',
