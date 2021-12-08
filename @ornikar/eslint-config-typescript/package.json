@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript",
-  "version": "16.0.1",
+  "version": "16.1.0",
   "description": "eslint typescript config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@ornikar/eslint-config": "^16.0.0",
-    "@typescript-eslint/eslint-plugin": "5.5.0",
-    "@typescript-eslint/parser": "5.5.0",
+    "@typescript-eslint/eslint-plugin": "5.6.0",
+    "@typescript-eslint/parser": "5.6.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
