@@ -49,7 +49,7 @@ module.exports = {
 
     /* changed rules */
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [
       'error',
       {
@@ -60,6 +60,7 @@ module.exports = {
           'lifecycle',
           'getters',
           'setters',
+          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
           'instance-methods',
           '/^(on|handle).+$/',
           'everything-else',
@@ -67,8 +68,18 @@ module.exports = {
         ],
         groups: {
           lifecycle: [
-            'state',
+            'displayName',
+            'propTypes',
+            'contextTypes',
+            'childContextTypes',
+            'mixins',
+            'statics',
+            'defaultProps',
             'constructor',
+            'getDefaultProps',
+            'getInitialState',
+            'state',
+            'getChildContext',
             'getDerivedStateFromProps',
             'componentWillMount',
             'UNSAFE_componentWillMount',
