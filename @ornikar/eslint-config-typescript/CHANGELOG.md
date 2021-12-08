@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.1](https://github.com/ornikar/eslint-configs/compare/v16.0.0...v16.0.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** no unsafe argument as warn [no issue] ([#198](https://github.com/ornikar/eslint-configs/issues/198)) ([a703377](https://github.com/ornikar/eslint-configs/commit/a7033773f06e952f2fdf6e5d181ad54c520e9085))
+
+
+
+
+
 # [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
 
 
