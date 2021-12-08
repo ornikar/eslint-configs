@@ -63,6 +63,10 @@ module.exports = {
       },
     ],
 
+    /* Warning */
+
+    '@typescript-eslint/no-unsafe-argument': 'warn',
+
     /* Disabled */
 
     // interface can be used for empty props
