@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
+
+
+### Bug Fixes
+
+* downgrade node requirement [no issue] ([#204](https://github.com/ornikar/eslint-configs/issues/204)) ([a2ee3e0](https://github.com/ornikar/eslint-configs/commit/a2ee3e01d6a135520be4730581e540e6b33da5c9))
+
+
+
+
+
 # [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
 
 
