@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.4.0](https://github.com/ornikar/eslint-configs/compare/v16.3.0...v16.4.0) (2021-12-21)
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-useless-length-check [no issue] ([#215](https://github.com/ornikar/eslint-configs/issues/215)) ([05bdd52](https://github.com/ornikar/eslint-configs/commit/05bdd52f80c480e98fe32baa25b09c8f8b09e43f))
+
+
+
+
+
 # [16.3.0](https://github.com/ornikar/eslint-configs/compare/v16.2.0...v16.3.0) (2021-12-21)
 
 
