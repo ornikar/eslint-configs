@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.3.0](https://github.com/ornikar/eslint-configs/compare/v16.2.0...v16.3.0) (2021-12-21)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-at [no issue] ([#211](https://github.com/ornikar/eslint-configs/issues/211)) ([06b88cb](https://github.com/ornikar/eslint-configs/commit/06b88cb15dccfb0d59dfd523f2378ac46b22c54a))
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-useless-spread [no issue] ([#213](https://github.com/ornikar/eslint-configs/issues/213)) ([2d389d0](https://github.com/ornikar/eslint-configs/commit/2d389d053a42941a287a347d58453e40fca8a064))
+
+
+
+
+
 # [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
 
 
