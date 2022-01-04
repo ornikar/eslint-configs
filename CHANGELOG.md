@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.5.0](https://github.com/ornikar/eslint-configs/compare/v16.4.0...v16.5.0) (2022-01-04)
+
+
+### Features
+
+* **eslint-config-typescript:** add prefixed boolean naming-convention ([#216](https://github.com/ornikar/eslint-configs/issues/216)) ([7a11d97](https://github.com/ornikar/eslint-configs/commit/7a11d9793094a67c48cdcab14c9073fe65b9d122))
+* **eslint-config-typescript:** import/no-default-export as error [no issue] ([#218](https://github.com/ornikar/eslint-configs/issues/218)) ([0dbf537](https://github.com/ornikar/eslint-configs/commit/0dbf537b49f6b15a8dcb6fa93df4349a6d252b32))
+
+
+
+
+
 # [16.4.0](https://github.com/ornikar/eslint-configs/compare/v16.3.0...v16.4.0) (2021-12-21)
 
 
