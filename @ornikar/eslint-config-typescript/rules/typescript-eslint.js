@@ -99,7 +99,7 @@ module.exports = {
         selector: 'property',
         types: ['boolean'],
         format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will', '$is', '$should', '$has', '$can', '$did', '$will'],
       },
       {
         selector: 'parameterProperty',
