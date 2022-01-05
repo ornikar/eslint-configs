@@ -5,5 +5,6 @@ export const invalidIsBooleanVariable = false;
 export interface ExampleInterface {
   isBooleanVariable: boolean;
   $isBooleanVariable: boolean;
+  // warning eslint
   invalidIsBooleanVariable: boolean;
 }
