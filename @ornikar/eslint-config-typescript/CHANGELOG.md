@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.5.1](https://github.com/ornikar/eslint-configs/compare/v16.5.0...v16.5.1) (2022-01-05)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** boolean prefix styled-components transient properties [no issue] ([#219](https://github.com/ornikar/eslint-configs/issues/219)) ([2771583](https://github.com/ornikar/eslint-configs/commit/27715832a50ed5cf20e9c425e6a9754aa613c9bd))
+
+
+
+
+
 # [16.5.0](https://github.com/ornikar/eslint-configs/compare/v16.4.0...v16.5.0) (2022-01-04)
 
 
