@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.0.0](https://github.com/ornikar/eslint-configs/compare/v16.5.1...v17.0.0) (2022-01-07)
+
+
+### Features
+
+* use jsx-runtime [no issue] ([#183](https://github.com/ornikar/eslint-configs/issues/183)) ([f580faf](https://github.com/ornikar/eslint-configs/commit/f580faf0c4ab887aa9d7541b88bb2839f386dbbc))
+
+
+### BREAKING CHANGES
+
+* requires to use jsx-runtime first. 
+
+
+
+
+
 # [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
 
 
