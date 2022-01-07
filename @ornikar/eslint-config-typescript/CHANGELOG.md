@@ -3,6 +3,102 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.5.1](https://github.com/ornikar/eslint-configs/compare/v16.5.0...v16.5.1) (2022-01-05)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** boolean prefix styled-components transient properties [no issue] ([#219](https://github.com/ornikar/eslint-configs/issues/219)) ([2771583](https://github.com/ornikar/eslint-configs/commit/27715832a50ed5cf20e9c425e6a9754aa613c9bd))
+
+
+
+
+
+# [16.5.0](https://github.com/ornikar/eslint-configs/compare/v16.4.0...v16.5.0) (2022-01-04)
+
+
+### Features
+
+* **eslint-config-typescript:** add prefixed boolean naming-convention ([#216](https://github.com/ornikar/eslint-configs/issues/216)) ([7a11d97](https://github.com/ornikar/eslint-configs/commit/7a11d9793094a67c48cdcab14c9073fe65b9d122))
+* **eslint-config-typescript:** import/no-default-export as error [no issue] ([#218](https://github.com/ornikar/eslint-configs/issues/218)) ([0dbf537](https://github.com/ornikar/eslint-configs/commit/0dbf537b49f6b15a8dcb6fa93df4349a6d252b32))
+
+
+
+
+
+# [16.4.0](https://github.com/ornikar/eslint-configs/compare/v16.3.0...v16.4.0) (2021-12-21)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
+# [16.3.0](https://github.com/ornikar/eslint-configs/compare/v16.2.0...v16.3.0) (2021-12-21)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-at [no issue] ([#211](https://github.com/ornikar/eslint-configs/issues/211)) ([06b88cb](https://github.com/ornikar/eslint-configs/commit/06b88cb15dccfb0d59dfd523f2378ac46b22c54a))
+
+
+
+
+
+# [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
+
+
+### Bug Fixes
+
+* downgrade node requirement [no issue] ([#204](https://github.com/ornikar/eslint-configs/issues/204)) ([a2ee3e0](https://github.com/ornikar/eslint-configs/commit/a2ee3e01d6a135520be4730581e540e6b33da5c9))
+
+
+
+
+
+# [16.1.0](https://github.com/ornikar/eslint-configs/compare/v16.0.1...v16.1.0) (2021-12-08)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.6.0 ([#200](https://github.com/ornikar/eslint-configs/issues/200)) ([dd1ea3d](https://github.com/ornikar/eslint-configs/commit/dd1ea3d168fbd066358f3430410f19175d39a461))
+
+
+
+
+
+## [16.0.1](https://github.com/ornikar/eslint-configs/compare/v16.0.0...v16.0.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config-typescript:** no unsafe argument as warn [no issue] ([#198](https://github.com/ornikar/eslint-configs/issues/198)) ([a703377](https://github.com/ornikar/eslint-configs/commit/a7033773f06e952f2fdf6e5d181ad54c520e9085))
+
+
+
+
+
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5 (major) ([#159](https://github.com/ornikar/eslint-configs/issues/159)) ([a60e2e2](https://github.com/ornikar/eslint-configs/commit/a60e2e2332b5defeac5cb6a39470e2aab5cada98))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 ## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript

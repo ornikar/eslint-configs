@@ -27,6 +27,6 @@ module.exports = {
     ],
 
     // TODO [engine:node@>=16.6] .at only supported from node 16.6
-    'unicorn/prefer-at': 'error',
+    'unicorn/prefer-at': 'off',
   },
 };

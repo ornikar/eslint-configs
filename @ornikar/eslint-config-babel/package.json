@@ -1,18 +1,18 @@
 {
   "name": "@ornikar/eslint-config-babel",
-  "version": "15.5.1",
+  "version": "16.4.0",
   "description": "eslint babel config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=14.17.5"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "^15.5.1",
+    "@ornikar/eslint-config": "^16.4.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-babel": "^5.3.0",

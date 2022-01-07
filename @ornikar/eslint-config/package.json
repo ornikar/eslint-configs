@@ -1,12 +1,12 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "15.5.1",
+  "version": "16.4.0",
   "description": "eslint config files",
   "repository": "ornikar/eslint-configs",
   "main": "index.js",
   "license": "ISC",
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=14.17.5"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-unicorn": "^37.0.0"
+    "eslint-plugin-unicorn": "^39.0.0"
   },
   "peerDependencies": {
     "eslint": "^7.32.0",
@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "prettier": "2.5.0"
+    "prettier": "2.5.1"
   }
 }

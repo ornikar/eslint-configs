@@ -51,45 +51,6 @@ module.exports = {
 
     /* changed rules */
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
-    'react/sort-comp': [
-      'error',
-      {
-        order: [
-          'static-variables',
-          'static-methods',
-          'instance-variables',
-          'lifecycle',
-          'getters',
-          'setters',
-          'instance-methods',
-          '/^(on|handle).+$/',
-          'everything-else',
-          'rendering',
-        ],
-        groups: {
-          lifecycle: [
-            'state',
-            'constructor',
-            'getDerivedStateFromProps',
-            'componentWillMount',
-            'UNSAFE_componentWillMount',
-            'componentDidMount',
-            'componentWillReceiveProps',
-            'UNSAFE_componentWillReceiveProps',
-            'shouldComponentUpdate',
-            'componentWillUpdate',
-            'UNSAFE_componentWillUpdate',
-            'getSnapshotBeforeUpdate',
-            'componentDidUpdate',
-            'componentDidCatch',
-            'componentWillUnmount',
-          ],
-          rendering: ['/^render.+$/', 'render'],
-        },
-      },
-    ],
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
     'react/forbid-dom-props': [
       'error',

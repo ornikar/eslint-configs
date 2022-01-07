@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
+
+
+### Bug Fixes
+
+* downgrade node requirement [no issue] ([#204](https://github.com/ornikar/eslint-configs/issues/204)) ([a2ee3e0](https://github.com/ornikar/eslint-configs/commit/a2ee3e01d6a135520be4730581e540e6b33da5c9))
+
+
+### Features
+
+* add stories-override [no issue] ([#202](https://github.com/ornikar/eslint-configs/issues/202)) ([a97cd3f](https://github.com/ornikar/eslint-configs/commit/a97cd3f1b55850aaa85fda3b238ef2dfa6bcafb6))
+
+
+
+
+
+## [16.1.1](https://github.com/ornikar/eslint-configs/compare/v16.1.0...v16.1.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* **eslint-config-react:** stop overriding react/sort-comp [no issue] ([#199](https://github.com/ornikar/eslint-configs/issues/199)) ([a9899f2](https://github.com/ornikar/eslint-configs/commit/a9899f2e67b409891e767b384cd168a0e3a4a5b5))
+
+
+
+
+
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 # [15.0.0](https://github.com/ornikar/eslint-configs/compare/v14.7.1...v15.0.0) (2021-10-25)
 
 

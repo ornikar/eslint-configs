@@ -3,6 +3,94 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.5.1](https://github.com/ornikar/eslint-configs/compare/v16.5.0...v16.5.1) (2022-01-05)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.5.0](https://github.com/ornikar/eslint-configs/compare/v16.4.0...v16.5.0) (2022-01-04)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.4.0](https://github.com/ornikar/eslint-configs/compare/v16.3.0...v16.4.0) (2021-12-21)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.3.0](https://github.com/ornikar/eslint-configs/compare/v16.2.0...v16.3.0) (2021-12-21)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
+
+
+### Bug Fixes
+
+* downgrade node requirement [no issue] ([#204](https://github.com/ornikar/eslint-configs/issues/204)) ([a2ee3e0](https://github.com/ornikar/eslint-configs/commit/a2ee3e01d6a135520be4730581e540e6b33da5c9))
+
+
+### Features
+
+* add stories-override [no issue] ([#202](https://github.com/ornikar/eslint-configs/issues/202)) ([a97cd3f](https://github.com/ornikar/eslint-configs/commit/a97cd3f1b55850aaa85fda3b238ef2dfa6bcafb6))
+
+
+
+
+
+## [16.1.1](https://github.com/ornikar/eslint-configs/compare/v16.1.0...v16.1.1) (2021-12-08)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.1.0](https://github.com/ornikar/eslint-configs/compare/v16.0.1...v16.1.0) (2021-12-08)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+## [16.0.1](https://github.com/ornikar/eslint-configs/compare/v16.0.0...v16.0.1) (2021-12-08)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 ## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript-react

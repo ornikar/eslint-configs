@@ -3,6 +3,71 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.4.0](https://github.com/ornikar/eslint-configs/compare/v16.3.0...v16.4.0) (2021-12-21)
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-useless-length-check [no issue] ([#215](https://github.com/ornikar/eslint-configs/issues/215)) ([05bdd52](https://github.com/ornikar/eslint-configs/commit/05bdd52f80c480e98fe32baa25b09c8f8b09e43f))
+
+
+
+
+
+# [16.3.0](https://github.com/ornikar/eslint-configs/compare/v16.2.0...v16.3.0) (2021-12-21)
+
+
+### Bug Fixes
+
+* disable unicorn/prefer-at [no issue] ([#211](https://github.com/ornikar/eslint-configs/issues/211)) ([06b88cb](https://github.com/ornikar/eslint-configs/commit/06b88cb15dccfb0d59dfd523f2378ac46b22c54a))
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-useless-spread [no issue] ([#213](https://github.com/ornikar/eslint-configs/issues/213)) ([2d389d0](https://github.com/ornikar/eslint-configs/commit/2d389d053a42941a287a347d58453e40fca8a064))
+
+
+
+
+
+# [16.2.0](https://github.com/ornikar/eslint-configs/compare/v16.1.1...v16.2.0) (2021-12-09)
+
+
+### Bug Fixes
+
+* downgrade node requirement [no issue] ([#204](https://github.com/ornikar/eslint-configs/issues/204)) ([a2ee3e0](https://github.com/ornikar/eslint-configs/commit/a2ee3e01d6a135520be4730581e540e6b33da5c9))
+
+
+
+
+
+# [16.0.0](https://github.com/ornikar/eslint-configs/compare/v15.5.1...v16.0.0) (2021-12-07)
+
+
+### Bug Fixes
+
+* **eslint-config:** really disable unicorn/prefer-at for node [no issue] ([#191](https://github.com/ornikar/eslint-configs/issues/191)) ([26733f2](https://github.com/ornikar/eslint-configs/commit/26733f2e5a10fd5b50539e44189da954383cae23))
+
+
+### chore
+
+* **deps:** update frontend orb to v4 ([#127](https://github.com/ornikar/eslint-configs/issues/127)) ([786c9bb](https://github.com/ornikar/eslint-configs/commit/786c9bbe02613864b5f87e7295a8fdaf42c8b8d7))
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-new-array [no issue] ([#196](https://github.com/ornikar/eslint-configs/issues/196)) ([f0c4495](https://github.com/ornikar/eslint-configs/commit/f0c4495142ca5acf9ec6636c0fd4b235ce468aa0))
+* **eslint-config:** enable unicorn/prefer-object-from-entries [no issue] ([#197](https://github.com/ornikar/eslint-configs/issues/197)) ([e10edbf](https://github.com/ornikar/eslint-configs/commit/e10edbf686fd05d0d88a7448242c3184c9fdccc3))
+
+
+### BREAKING CHANGES
+
+* **deps:** unicorn/prefer-array-flat-map is enabled. Make sure you have the right polyfills if needed ; requires node >= 14.17.6 ; ; #
+
+
+
+
+
 ## [15.5.1](https://github.com/ornikar/eslint-configs/compare/v15.5.0...v15.5.1) (2021-12-02)
 
 

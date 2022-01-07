@@ -33,7 +33,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'off',
 
-    /* Avoid default exports: https://docs.google.com/presentation/d/1dNwYuXio0f4AcqMNdGqgkvfd_LxFoEnHTQemJD6L_S8/edit#slide=id.gbb0b5a8f06_0_1661 */
-    'import/no-default-export': ['warn'],
+    /* Avoid default exports: https://ornikar.atlassian.net/wiki/spaces/TECH/pages/2670330094/Avoid+default+export */
+    'import/no-default-export': 'error',
   },
 };
