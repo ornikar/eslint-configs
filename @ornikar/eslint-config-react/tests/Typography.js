@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import React from 'react';
 
 // covers this issue: https://github.com/yannickcr/eslint-plugin-react/issues/1334
 

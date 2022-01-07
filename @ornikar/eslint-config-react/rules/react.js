@@ -9,6 +9,8 @@ const forbidDomAndComponentsProps = [
 ];
 
 module.exports = {
+  extends: ['plugin:react/jsx-runtime'],
+
   rules: {
     /* added rules */
 
