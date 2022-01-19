@@ -8,3 +8,9 @@ export interface ExampleInterface {
   // warning eslint
   invalidIsBooleanVariable: boolean;
 }
+
+export function exampleFunction(
+  isValidBooleanParameter: boolean,
+  // warning eslint
+  invalidBooleanParameter: boolean,
+): void {}

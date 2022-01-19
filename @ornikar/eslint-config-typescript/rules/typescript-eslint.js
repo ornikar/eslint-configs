@@ -107,6 +107,12 @@ module.exports = {
         format: ['PascalCase'],
         prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
       },
+      {
+        selector: 'parameter',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
     ],
   },
 };
