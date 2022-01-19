@@ -12,5 +12,5 @@ export interface ExampleInterface {
 export function exampleFunction(
   isValidBooleanParameter: boolean,
   // warning eslint
-  invalidBooleanParameter: boolean) {
-}
+  invalidBooleanParameter: boolean,
+): void {}
