@@ -1320,10 +1320,10 @@
   dependencies:
     "@commitlint/config-conventional" "^16.0.0"
 
-"@ornikar/lerna-config@6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-6.1.0.tgz#799d30b8ca5d41bbf45cdab3f7afd899115a1380"
-  integrity sha512-B4MKYEJHYP/ML+Dp1WKd1fE3TeuDz5Z97+UWTTvFz14hn4Ha4KC6/vtRTvzGlS3XBx5Rnf0/4NlKqnjR95zhGQ==
+"@ornikar/lerna-config@6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-6.1.1.tgz#26bda735cd63dffa40f98e40035c18166f98fcad"
+  integrity sha512-L1rT00KMz9NglCT2kM0ESQntT9veff7eBaUFXLUa7y82WhQuxeJom77/wupGj5chsw/KdkZVXt+x4/AaNXJJGQ==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
