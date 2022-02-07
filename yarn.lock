@@ -1313,34 +1313,34 @@
   dependencies:
     "@octokit/openapi-types" "^5.3.2"
 
-"@ornikar/commitlint-config@4.0.2", "@ornikar/commitlint-config@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-4.0.2.tgz#b09d6c6f3c6a4951bc639971c5050e59dd6bba1b"
-  integrity sha512-Hc7KnMd7aiOPcfif2CGjNS5yue/Mvf/oOMnn7lN/9pw/K74wL/UGZ14ula2Sz0GJO7R5G+ocR/PrGNVQcAqkYg==
+"@ornikar/commitlint-config@4.0.3", "@ornikar/commitlint-config@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@ornikar/commitlint-config/-/commitlint-config-4.0.3.tgz#d3b9c7f70e5517c788b6fd0e3d29bee1b41c1dbb"
+  integrity sha512-v8hfMlwL+2Zu5JwVwR5P+6SqchKUvLDjRFHo4hZfujltpfhYXZRUAQ8rQvo3iz40Mb+P7wntgR14+FcC9ic1kA==
   dependencies:
     "@commitlint/config-conventional" "^16.0.0"
 
-"@ornikar/lerna-config@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-6.1.1.tgz#26bda735cd63dffa40f98e40035c18166f98fcad"
-  integrity sha512-L1rT00KMz9NglCT2kM0ESQntT9veff7eBaUFXLUa7y82WhQuxeJom77/wupGj5chsw/KdkZVXt+x4/AaNXJJGQ==
+"@ornikar/lerna-config@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/lerna-config/-/lerna-config-6.1.2.tgz#966cbad776e6ce9935c791996addc469be6a0f50"
+  integrity sha512-t/BSmC/L2/5wQ5B0Gcjl//iR2SvnyIwf/C/Q26zMkp62qNHDI0TLC0bMqA/dEGGR4IAYxBigJ4vq/KkAZnyFGg==
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
-"@ornikar/prettier-config@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.1.tgz#cf71faa20f8c149612dd3631b0e8b401dd81f3f4"
-  integrity sha512-fBT0bb+/DZE83LQmX1xtoMAfX4r2VfHgxg9LLb0RdPJbFYcuSjjSlY71k6cVg1FTkQUzsusf/pDBQ5iFEXb9DQ==
+"@ornikar/prettier-config@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.2.tgz#97611cd09f6e2ba69b5f03e355de4cb5015b3f20"
+  integrity sha512-R6vnUiHhgzGvKS6mAkdwO/FiHUTu98frH51ei2PlX+gOQL1tHPsjrVOzj/Rz+Fy4IRPPnBKCc7g88DVNSkjZtw==
 
-"@ornikar/repo-config@7.2.1":
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.2.1.tgz#ce64ff218d5ca3fcab1c98b7cf436faa985236a0"
-  integrity sha512-ZSdWIIoQJ4sKVrqPTcDCyF5uOSu5JhAPCw7E6lLJugd7U3NX5yxUrV9W6r5p5WuIFfbUxXyPsyanNq9joKQXHg==
+"@ornikar/repo-config@7.2.2":
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.2.2.tgz#ed88273b4ef101a558b8ce55af97d1b78eddc3a6"
+  integrity sha512-NyHcOjxxU5Kwxw/gfVkHYDUmvgFsk11qiV7qBAyL3BfJ56Jtl6zZ+fM5mCMjtglTuEi96AiBNGdd8E2IA4WY1Q==
   dependencies:
     "@commitlint/cli" "16.1.0"
-    "@ornikar/commitlint-config" "^4.0.2"
+    "@ornikar/commitlint-config" "^4.0.3"
     husky "7.0.4"
-    lint-staged "12.3.1"
+    lint-staged "12.3.3"
     prettier-plugin-properties "0.1.0"
     semver "^7.3.5"
     which-pm-runs "^1.0.0"
@@ -3995,10 +3995,10 @@ linguist-languages@^7.9.0:
   resolved "https://registry.yarnpkg.com/linguist-languages/-/linguist-languages-7.15.0.tgz#a93bed6b93015d8133622cb05da6296890862bfa"
   integrity sha512-qkSSNDjDDycZ2Wcw+GziNBB3nNo3ddYUInM/PL8Amgwbd9RQ/BKGj2/1d6mdxKgBFnUqZuaDbkIwkE4KUwwmtQ==
 
-lint-staged@12.3.1:
-  version "12.3.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.1.tgz#d475b0c0d0a12d91dde58a429ac6268dea485f06"
-  integrity sha512-Ocht/eT+4/siWOZDJpNUKcKX2UeWW/pDbohJ4gRsrafAjBi79JK8kiNVk2ciIVNKdw0Q4ABptl2nr6uQAlRImw==
+lint-staged@12.3.3:
+  version "12.3.3"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.3.tgz#0a465962fe53baa2b4b9da50801ead49a910e03b"
+  integrity sha512-OqcLsqcPOqzvsfkxjeBpZylgJ3SRG1RYqc9LxC6tkt6tNsq1bNVkAixBwX09f6CobcHswzqVOCBpFR1Fck0+ag==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
