@@ -9,7 +9,7 @@ interface AppIntlProviderProps {
 }
 
 function AppIntlProvider({ locale, children, onClick }: AppIntlProviderProps): ReactElement {
-  return <>{children}</>;
+  return <>Content - {children}</>;
 }
 
 export const renderWithIntl = (ui: ReactElement, locale = 'fr-FR'): FC => {
