@@ -15,10 +15,15 @@
     "eslint-plugin-formatjs": "^2.14.6"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0",
+    "eslint": "^8.9.0",
     "eslint-plugin-formatjs": "^2.14.6"
   },
+  "peerDependenciesMeta": {
+    "eslint-plugin-formatjs": {
+      "optional": true
+    }
+  },
   "devDependencies": {
-    "eslint": "7.32.0"
+    "eslint": "8.9.0"
   }
 }
