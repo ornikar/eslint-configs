@@ -97,5 +97,8 @@ module.exports = {
 
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',
+
+    // allow react-intl
+    'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
   },
 };
