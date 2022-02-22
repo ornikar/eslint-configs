@@ -1,5 +1,7 @@
 'use strict';
 
+const { enableIfVSCode } = require('@ornikar/eslint-config/utils');
+
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
 
@@ -87,7 +89,7 @@ module.exports = {
 
     /* Naming convention */
     '@typescript-eslint/naming-convention': [
-      'warn',
+      enableIfVSCode('warn'),
       // enforce that boolean are prefixed with an allowed verb
       {
         selector: 'variable',
