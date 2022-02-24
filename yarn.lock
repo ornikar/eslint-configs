@@ -1336,10 +1336,10 @@
   resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.2.tgz#97611cd09f6e2ba69b5f03e355de4cb5015b3f20"
   integrity sha512-R6vnUiHhgzGvKS6mAkdwO/FiHUTu98frH51ei2PlX+gOQL1tHPsjrVOzj/Rz+Fy4IRPPnBKCc7g88DVNSkjZtw==
 
-"@ornikar/repo-config@7.2.5":
-  version "7.2.5"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.2.5.tgz#4a47629e0b62127d59deba1623147e774a899bc5"
-  integrity sha512-Cs+g3Xg/17qR3h9MfZWkRGuE/NqEpo8UkNK6SPTK7AVCHee2PCE18/kMBFOg7wmp7qFxwvLKjm+8Lbxpzp6kow==
+"@ornikar/repo-config@7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.3.0.tgz#51802139fb1416f2c9ec1d8b72d7aafbcf667b30"
+  integrity sha512-c1Z/qDERdrZhGngeLfeKXt2bfBcyXGEKyg9d8mzxSG0swL6aecycKTWLN6Nh0quVXSzTnchkukosxyGWZOI7Cw==
   dependencies:
     "@commitlint/cli" "16.2.1"
     "@ornikar/commitlint-config" "^4.0.3"
