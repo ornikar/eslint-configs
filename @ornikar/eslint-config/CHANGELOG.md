@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/ornikar/eslint-configs/compare/v17.0.0...v18.0.0) (2022-03-01)
+
+
+### chore
+
+* **deps:** update dependency eslint to v8 ([#243](https://github.com/ornikar/eslint-configs/issues/243)) ([0789aee](https://github.com/ornikar/eslint-configs/commit/0789aee18b6a74673d187b3348faef8a792edae9))
+
+
+### Features
+
+* **deps:** update dependency eslint-config-airbnb to v19 ([#208](https://github.com/ornikar/eslint-configs/issues/208)) ([89d1da2](https://github.com/ornikar/eslint-configs/commit/89d1da243d6c6e99a836e4164fed38be771536a4))
+* disable naming convention when eslint is not ran from vscode extension [no issue] ([#247](https://github.com/ornikar/eslint-configs/issues/247)) ([b667a47](https://github.com/ornikar/eslint-configs/commit/b667a4778af7645b6d2e4d8f2fabcc375aff3e1a))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint 8 
+* **deps:** new rules added by the update of plugins and configs 
+
+
+
+
+
 # [17.0.0](https://github.com/ornikar/eslint-configs/compare/v16.5.1...v17.0.0) (2022-01-07)
 
 **Note:** Version bump only for package @ornikar/eslint-config
