@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.1.0](https://github.com/ornikar/eslint-configs/compare/v18.0.0...v18.1.0) (2022-03-15)
+
+
+### Features
+
+* **eslint-config:** enable unicorn/no-useless-fallback-in-spread [no issue] ([#251](https://github.com/ornikar/eslint-configs/issues/251)) ([0ed54ca](https://github.com/ornikar/eslint-configs/commit/0ed54ca201f1de83d69b03472c2b690f4a0e3f7d))
+* prefer-array-some is now in error mode ([#254](https://github.com/ornikar/eslint-configs/issues/254)) ([8596e75](https://github.com/ornikar/eslint-configs/commit/8596e7561b421f9f61464ce0a2249d1131e23423))
+
+
+
+
+
 # [18.0.0](https://github.com/ornikar/eslint-configs/compare/v17.0.0...v18.0.0) (2022-03-01)
 
 
