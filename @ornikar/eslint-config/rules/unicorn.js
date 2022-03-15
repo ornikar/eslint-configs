@@ -191,7 +191,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-date-now': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-array-some.md
-    'unicorn/prefer-array-some': 'warn',
+    'unicorn/prefer-array-some': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-default-parameters.md
     'unicorn/prefer-default-parameters': 'error',
