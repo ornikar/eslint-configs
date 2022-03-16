@@ -27,7 +27,7 @@
     "@ornikar/lerna-config": "6.3.4",
     "@ornikar/prettier-config": "4.0.2",
     "@ornikar/repo-config": "7.3.3",
-    "check-package-dependencies": "3.2.0",
+    "check-package-dependencies": "3.5.2",
     "eslint": "8.11.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
