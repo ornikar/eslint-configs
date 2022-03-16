@@ -9,5 +9,14 @@ module.exports = {
         devDependencies: true,
       },
     ],
+
+    // Allow arrow functions in stories
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: ['function-declaration', 'arrow-function'],
+        unnamedComponents: ['function-expression', 'arrow-function'],
+      },
+    ],
   },
 };
