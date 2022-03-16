@@ -1970,10 +1970,10 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-check-package-dependencies@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/check-package-dependencies/-/check-package-dependencies-3.2.0.tgz#eda8d7c721c9a3fc9d570b3b943f584918b75819"
-  integrity sha512-DaXZLjp0XNbCCE1SJKcWIyU9ZIBe2gZtWI8FCzRL0mBDLJxwQ/7wxc4Xiuq/9zFUNIK5cm3dionJfwMvw4Fj/Q==
+check-package-dependencies@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/check-package-dependencies/-/check-package-dependencies-3.5.2.tgz#94e767d8cd25c11cbcba5ba612a1908f72ea0f9c"
+  integrity sha512-I8VNFqNa+su2xaLA9kN04HFiENRDq8FU+NjmNhgFG06ISKbKADtDnowB4+nam0ZVgjDDsL+BkofDv3jvNRg8BA==
   dependencies:
     chalk "^4.1.0"
     glob "^7.1.6"
