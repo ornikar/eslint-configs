@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.2.1](https://github.com/ornikar/eslint-configs/compare/v18.2.0...v18.2.1) (2022-03-21)
+
+
+### Bug Fixes
+
+* add tests-override in typescript and typescript-react ([5c11ac4](https://github.com/ornikar/eslint-configs/commit/5c11ac4a0d27044cda7e34b2a650f61c87a3eca0))
+
+
+
+
+
 # [18.2.0](https://github.com/ornikar/eslint-configs/compare/v18.1.0...v18.2.0) (2022-03-17)
 
 
