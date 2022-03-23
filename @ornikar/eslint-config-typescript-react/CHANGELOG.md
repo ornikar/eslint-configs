@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.3.0](https://github.com/ornikar/eslint-configs/compare/v18.2.1...v18.3.0) (2022-03-23)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript-react
+
+
+
+
+
 ## [18.2.1](https://github.com/ornikar/eslint-configs/compare/v18.2.0...v18.2.1) (2022-03-21)
 
 

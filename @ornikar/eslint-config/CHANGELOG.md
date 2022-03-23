@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.3.0](https://github.com/ornikar/eslint-configs/compare/v18.2.1...v18.3.0) (2022-03-23)
+
+
+### Features
+
+* **eslint-config:** require array join separator [no issue] ([#266](https://github.com/ornikar/eslint-configs/issues/266)) ([a7020a9](https://github.com/ornikar/eslint-configs/commit/a7020a9711c9c925e14f37abf6df3c4083eab761))
+
+
+
+
+
 # [18.2.0](https://github.com/ornikar/eslint-configs/compare/v18.1.0...v18.2.0) (2022-03-17)
 
 
