@@ -1336,15 +1336,15 @@
   resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.3.tgz#b2ef9833361b257e7e89853b82e40739354d3341"
   integrity sha512-n+4L8UH1+dQ4gpsIRw5MnYIEBBY6W6igNDfCUY6Sw7mqpH8ivDw6JM9gf0xf/tYhiissbrJyR7dOylbEWEBx2A==
 
-"@ornikar/repo-config@7.3.5":
-  version "7.3.5"
-  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.3.5.tgz#27ff80f4e3d8fa9d1886799079965ae68f4d930a"
-  integrity sha512-701jx1u4+dx77pQns6s+AC1lzakXli+bQeyjxrSyGC5I1NBdMnsf1N+HGyWtvBaTuYZnzcaQH6m5uln05HwY0g==
+"@ornikar/repo-config@7.3.6":
+  version "7.3.6"
+  resolved "https://registry.yarnpkg.com/@ornikar/repo-config/-/repo-config-7.3.6.tgz#7f6a452a5b7b770327c6df30353aac1d2147de99"
+  integrity sha512-Y/27cGSWSZos6CXqS0EW3pDhyQ3Z4Beyyt7dax+Xj3+R5Ihf+mKqUlq1vCIJ7NW8XNehg8u2TB1XDIzrEvPQSA==
   dependencies:
     "@commitlint/cli" "16.2.3"
     "@ornikar/commitlint-config" "^4.0.3"
     husky "7.0.4"
-    lint-staged "12.3.5"
+    lint-staged "12.3.7"
     prettier-plugin-properties "0.1.0"
     semver "^7.3.5"
     which-pm-runs "^1.0.0"
@@ -3946,10 +3946,10 @@ linguist-languages@^7.9.0:
   resolved "https://registry.yarnpkg.com/linguist-languages/-/linguist-languages-7.15.0.tgz#a93bed6b93015d8133622cb05da6296890862bfa"
   integrity sha512-qkSSNDjDDycZ2Wcw+GziNBB3nNo3ddYUInM/PL8Amgwbd9RQ/BKGj2/1d6mdxKgBFnUqZuaDbkIwkE4KUwwmtQ==
 
-lint-staged@12.3.5:
-  version "12.3.5"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.5.tgz#8048ce048c3cac12f57200a06344a54dc91c8fa9"
-  integrity sha512-oOH36RUs1It7b9U/C7Nl/a0sLfoIBcMB8ramiB3nuJ6brBqzsWiUAFSR5DQ3yyP/OR7XKMpijtgKl2DV1lQ3lA==
+lint-staged@12.3.7:
+  version "12.3.7"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.3.7.tgz#ad0e2014302f704f9cf2c0ebdb97ac63d0f17be0"
+  integrity sha512-/S4D726e2GIsDVWIk1XGvheCaDm1SJRQp8efamZFWJxQMVEbOwSysp7xb49Oo73KYCdy97mIWinhlxcoNqIfIQ==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -3961,6 +3961,7 @@ lint-staged@12.3.5:
     micromatch "^4.0.4"
     normalize-path "^3.0.0"
     object-inspect "^1.12.0"
+    pidtree "^0.5.0"
     string-argv "^0.3.1"
     supports-color "^9.2.1"
     yaml "^1.10.2"
@@ -4882,6 +4883,11 @@ picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
+
+pidtree@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/pidtree/-/pidtree-0.5.0.tgz#ad5fbc1de78b8a5f99d6fbdd4f6e4eee21d1aca1"
+  integrity sha512-9nxspIM7OpZuhBxPg73Zvyq7j1QMPMPsGKTqRc2XOaFQauDvoNz9fM1Wdkjmeo7l9GXOZiRs97sPkuayl39wjA==
 
 pify@^2.3.0:
   version "2.3.0"
