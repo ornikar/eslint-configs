@@ -1331,10 +1331,10 @@
   dependencies:
     "@pob/pretty-eslint-config" "^1.0.1"
 
-"@ornikar/prettier-config@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.3.tgz#b2ef9833361b257e7e89853b82e40739354d3341"
-  integrity sha512-n+4L8UH1+dQ4gpsIRw5MnYIEBBY6W6igNDfCUY6Sw7mqpH8ivDw6JM9gf0xf/tYhiissbrJyR7dOylbEWEBx2A==
+"@ornikar/prettier-config@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@ornikar/prettier-config/-/prettier-config-4.0.4.tgz#72dfa4d2ca5e1e02d4bda8b0eb9fccc8b2e1165a"
+  integrity sha512-IW+9EotFtXa68EjwpQTgTz4R6irKFv0fY2hKvUJ8SSKrmv1FRYVxXI3DQsnMMmzrixhXPzM6PAx0V9fFAoz3xw==
 
 "@ornikar/repo-config@7.3.6":
   version "7.3.6"
