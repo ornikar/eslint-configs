@@ -1,0 +1,77 @@
+{
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "ms-vsliveshare.vsliveshare-pack"
+    ],
+    "unwantedRecommendations": []
+  },
+  "settings": {
+    "npm.packageManager": "yarn",
+    "search.exclude": {
+      "**/.yarn": true,
+      "**/yarn-error.log": true,
+      "**/yarn.lock": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": false
+    },
+    "jest.autoRun": {
+      "watch": false,
+      "onStartup": []
+    },
+    "eslint.workingDirectories": ["."],
+    "eslint.useESLintClass": true,
+    "eslint.options": {
+      "resolvePluginsRelativeTo": ".",
+      "reportUnusedDisableDirectives": "error"
+    },
+    "eslint.lintTask.enable": true,
+    "eslint.format.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "jest.disabledWorkspaceFolders": [
+      "✨ root",
+      "eslint-config",
+      "eslint-config-babel",
+      "eslint-config-formatjs",
+      "eslint-config-react",
+      "eslint-config-typescript",
+      "eslint-config-typescript-react"
+    ]
+  },
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": ".."
+    },
+    {
+      "name": "eslint-config",
+      "path": "../@ornikar/eslint-config"
+    },
+    {
+      "name": "eslint-config-babel",
+      "path": "../@ornikar/eslint-config-babel"
+    },
+    {
+      "name": "eslint-config-formatjs",
+      "path": "../@ornikar/eslint-config-formatjs"
+    },
+    {
+      "name": "eslint-config-react",
+      "path": "../@ornikar/eslint-config-react"
+    },
+    {
+      "name": "eslint-config-typescript",
+      "path": "../@ornikar/eslint-config-typescript"
+    },
+    {
+      "name": "eslint-config-typescript-react",
+      "path": "../@ornikar/eslint-config-typescript-react"
+    }
+  ]
+}
