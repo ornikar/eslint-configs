@@ -3,6 +3,7 @@
   "private": true,
   "repository": "ornikar/eslint-configs",
   "scripts": {
+    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock",
     "postinstall": "ornikar-repo-config-postinstall",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:prettier": "prettier --check .",
@@ -34,5 +35,6 @@
     "eslint-plugin-unicorn": "39.0.0",
     "lerna": "4.0.0",
     "prettier": "2.6.1"
-  }
+  },
+  "packageManager": "yarn@3.2.0"
 }

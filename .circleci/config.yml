@@ -38,6 +38,7 @@ jobs:
     steps:
       - checkout
       - frontend/dependencies:
+          berry: true
           before-install:
             - frontend/restore-cache: *restore-cache-params
           after-install:
