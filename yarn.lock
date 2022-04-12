@@ -1728,7 +1728,7 @@ __metadata:
   dependencies:
     "@ornikar/commitlint-config": 4.0.3
     "@ornikar/lerna-config": 6.3.4
-    "@ornikar/prettier-config": 4.0.4
+    "@ornikar/prettier-config": 4.0.5
     "@ornikar/repo-config": 8.2.0
     check-package-dependencies: 3.5.2
     eslint: 8.13.0
@@ -1754,12 +1754,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/prettier-config@npm:4.0.4":
-  version: 4.0.4
-  resolution: "@ornikar/prettier-config@npm:4.0.4"
+"@ornikar/prettier-config@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@ornikar/prettier-config@npm:4.0.5"
   peerDependencies:
     prettier: ^2.0.4
-  checksum: 36ba8771f4ddc144a24af99ccf30b9118ab45ccdcbff5659e249998185bb93fb3b0919b7adba36f5b2558b5368d8bce4ad3f09e398c30e5859cc224e4de25397
+  checksum: b846f7357ad40e5604f93163c27d7f2c6fe6d060c74ff7fac224ab71eceab6345b2654dbe6c10bb474857bd2763cf07746063656eaea332e7edcbc9acb393059
   languageName: node
   linkType: hard
 
