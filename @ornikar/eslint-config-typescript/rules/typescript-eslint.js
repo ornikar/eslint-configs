@@ -27,6 +27,7 @@ module.exports = {
     '@typescript-eslint/no-meaningless-void-operator': 'error',
     '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-regexp-exec': 'error',
+    '@typescript-eslint/prefer-literal-enum-member': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
