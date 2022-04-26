@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.5.0](https://github.com/ornikar/eslint-configs/compare/v18.4.0...v18.5.0) (2022-04-26)
+
+
+### Features
+
+* add prefer-literal-enum-member rule ([#296](https://github.com/ornikar/eslint-configs/issues/296)) ([d4ed5b9](https://github.com/ornikar/eslint-configs/commit/d4ed5b93558e816075fac7e0950613bfe0f75ae6))
+* **eslint-config:** configure ecmaVersion ([e72397c](https://github.com/ornikar/eslint-configs/commit/e72397c55e328216119048c192fac316ece7c6e8))
+* no invalid void type rule ([#295](https://github.com/ornikar/eslint-configs/issues/295)) ([0b8e700](https://github.com/ornikar/eslint-configs/commit/0b8e700a48faad31397039d87d1a3642408d509b))
+
+
+
+
+
 # [18.4.0](https://github.com/ornikar/eslint-configs/compare/v18.3.0...v18.4.0) (2022-04-22)
 
 
