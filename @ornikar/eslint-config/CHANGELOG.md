@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.6.0](https://github.com/ornikar/eslint-configs/compare/v18.5.0...v18.6.0) (2022-04-26)
+
+
+### Features
+
+* **eslint-config-typescript:** disable node/no-unsupported-features for typescript ([481cf34](https://github.com/ornikar/eslint-configs/commit/481cf34f221138b5c6691dc9031571c34f703651))
+
+
+
+
+
 # [18.5.0](https://github.com/ornikar/eslint-configs/compare/v18.4.0...v18.5.0) (2022-04-26)
 
 

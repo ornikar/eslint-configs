@@ -1484,7 +1484,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-babel@workspace:@ornikar/eslint-config-babel"
   dependencies:
-    "@ornikar/eslint-config": ^18.5.0
+    "@ornikar/eslint-config": ^18.6.0
     babel-eslint: ^10.0.1
     eslint: 8.13.0
     eslint-config-airbnb-base: ^15.0.0
@@ -1533,7 +1533,7 @@ __metadata:
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
   dependencies:
     "@ornikar/eslint-config-react": ^18.4.0
-    "@ornikar/eslint-config-typescript": ^18.5.0
+    "@ornikar/eslint-config-typescript": ^18.6.0
     "@types/react": 17.0.44
     eslint: 8.13.0
     react: 17.0.2
@@ -1544,11 +1544,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript@^18.5.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
+"@ornikar/eslint-config-typescript@^18.6.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript"
   dependencies:
-    "@ornikar/eslint-config": ^18.5.0
+    "@ornikar/eslint-config": ^18.6.0
     "@typescript-eslint/eslint-plugin": 5.20.0
     "@typescript-eslint/parser": 5.20.0
     eslint: 8.13.0
@@ -1563,7 +1563,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config@^18.5.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
+"@ornikar/eslint-config@^18.6.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config@workspace:@ornikar/eslint-config"
   dependencies:
