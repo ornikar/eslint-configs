@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/prefer-explicit-assert */
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */

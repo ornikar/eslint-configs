@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/no-wait-for-side-effects */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 
