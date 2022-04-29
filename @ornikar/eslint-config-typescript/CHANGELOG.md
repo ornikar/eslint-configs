@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.7.0](https://github.com/ornikar/eslint-configs/compare/v18.6.0...v18.7.0) (2022-04-29)
+
+
+### Features
+
+* **eslint-config-typescript:** add @typescript-eslint/no-unnecessary-type-constraint [no issue] ([#302](https://github.com/ornikar/eslint-configs/issues/302)) ([03a2a44](https://github.com/ornikar/eslint-configs/commit/03a2a44ad0f019a76fd6a5b01f6d2c79ae019ec5))
+
+
+
+
+
 # [18.6.0](https://github.com/ornikar/eslint-configs/compare/v18.5.0...v18.6.0) (2022-04-26)
 
 
