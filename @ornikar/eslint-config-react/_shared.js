@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['./rules/react'].map(require.resolve),
+  extends: ['./rules/react', './rules/security'].map(require.resolve),
 
   settings: {
     'import/resolver': {
