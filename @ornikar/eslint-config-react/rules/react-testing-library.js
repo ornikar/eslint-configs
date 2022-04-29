@@ -14,5 +14,6 @@ module.exports = {
     'testing-library/no-render-in-setup': 'error',
     'testing-library/no-unnecessary-act': 'error',
     'testing-library/no-wait-for-multiple-assertions': 'error',
+    'testing-library/prefer-explicit-assert': 'error',
   },
 };
