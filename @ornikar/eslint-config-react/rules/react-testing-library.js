@@ -8,5 +8,6 @@ module.exports = {
     'testing-library/no-container': 'error',
     'testing-library/no-await-sync-query': 'error',
     'testing-library/no-await-sync-events': 'error',
+    'testing-library/no-debugging-utils': 'error',
   },
 };
