@@ -5,6 +5,8 @@ module.exports = {
     jest: true,
   },
 
+  extends: ['.', './rules/jest'].map(require.resolve),
+
   rules: {
     // Allow to use devDependencies
     'import/no-extraneous-dependencies': [
