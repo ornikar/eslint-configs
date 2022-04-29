@@ -10,5 +10,6 @@ module.exports = {
     'testing-library/no-await-sync-events': 'error',
     'testing-library/no-debugging-utils': 'error',
     'testing-library/await-async-utils': 'error',
+    'testing-library/no-promise-in-fire-event': 'error',
   },
 };
