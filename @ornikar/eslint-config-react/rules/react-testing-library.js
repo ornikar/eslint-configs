@@ -12,5 +12,6 @@ module.exports = {
     'testing-library/await-async-utils': 'error',
     'testing-library/no-promise-in-fire-event': 'error',
     'testing-library/no-render-in-setup': 'error',
+    'testing-library/no-unnecessary-act': 'error',
   },
 };
