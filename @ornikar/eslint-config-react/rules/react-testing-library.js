@@ -4,5 +4,6 @@ module.exports = {
   plugins: ['testing-library'],
   rules: {
     'testing-library/await-async-query': 'error',
+    'testing-library/no-manual-cleanup': 'error',
   },
 };
