@@ -2,5 +2,7 @@
 
 module.exports = {
   plugins: ['testing-library'],
-  rules: {},
+  rules: {
+    'testing-library/await-async-query': 'error',
+  },
 };
