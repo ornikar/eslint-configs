@@ -1,17 +1,17 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars  */
 // ❌ Incorrect uses
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-constraint
-interface FooAny<T extends any> { }
+interface FooAny<T extends any> {}
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-constraint
-interface FooUnknown<T extends unknown> { }
+interface FooUnknown<T extends unknown> {}
 
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-constraint
-const QuuxAny = <T extends any>(): void => { };
+const QuuxAny = <T extends any>(): void => {};
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-constraint
-const QuuxUnknown = <T extends unknown>(): void => { };
-
+const QuuxUnknown = <T extends unknown>(): void => {};
 
 // ✅ Correct uses
-interface Foo<T> { }
+interface Foo<T> {}
 
-const Quux = <T>(): void => { };
+const Quux = <T>(): void => {};
