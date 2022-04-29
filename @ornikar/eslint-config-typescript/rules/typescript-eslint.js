@@ -29,6 +29,7 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-literal-enum-member': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
