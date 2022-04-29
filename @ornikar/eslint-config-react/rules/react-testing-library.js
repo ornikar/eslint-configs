@@ -5,5 +5,6 @@ module.exports = {
   rules: {
     'testing-library/await-async-query': 'error',
     'testing-library/no-manual-cleanup': 'error',
+    'testing-library/no-container': 'error',
   },
 };
