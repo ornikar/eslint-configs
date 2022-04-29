@@ -4,5 +4,6 @@ module.exports = {
   plugins: ['jest'],
   rules: {
     'jest/no-disabled-tests': 'error',
+    'jest/no-focused-tests': 'error',
   },
 };
