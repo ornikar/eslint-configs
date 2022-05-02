@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.8.0](https://github.com/ornikar/eslint-configs/compare/v18.7.0...v18.8.0) (2022-05-02)
+
+
+### Features
+
+* **eslint-config-react:** add testing library rules [no issue] ([#304](https://github.com/ornikar/eslint-configs/issues/304)) ([9a818e0](https://github.com/ornikar/eslint-configs/commit/9a818e031697a4a56389bf1a96f073ba0194ca0f))
+
+
+
+
+
 # [18.7.0](https://github.com/ornikar/eslint-configs/compare/v18.6.0...v18.7.0) (2022-04-29)
 
 

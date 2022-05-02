@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.8.0](https://github.com/ornikar/eslint-configs/compare/v18.7.0...v18.8.0) (2022-05-02)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.21.0 ([#306](https://github.com/ornikar/eslint-configs/issues/306)) ([45a8a6b](https://github.com/ornikar/eslint-configs/commit/45a8a6b6addf3b072b895d656069a47f91c9c415))
+* **eslint-config-react:** add testing library rules [no issue] ([#304](https://github.com/ornikar/eslint-configs/issues/304)) ([9a818e0](https://github.com/ornikar/eslint-configs/commit/9a818e031697a4a56389bf1a96f073ba0194ca0f))
+* **eslint-config:** add jest rules [no issue] ([#303](https://github.com/ornikar/eslint-configs/issues/303)) ([de715cb](https://github.com/ornikar/eslint-configs/commit/de715cbfff5d22cc7d5fc3df140ec1c9c95685ad))
+
+
+
+
+
 # [18.7.0](https://github.com/ornikar/eslint-configs/compare/v18.6.0...v18.7.0) (2022-04-29)
 
 
