@@ -287,6 +287,6 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-unreadable-iife': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md
-    'unicorn/prefer-native-coercion-functions': 'off',
+    'unicorn/prefer-native-coercion-functions': 'error',
   },
 };
