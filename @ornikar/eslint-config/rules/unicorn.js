@@ -116,8 +116,8 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
       {
         allowWarningComments: false,
         ignoreDatesOnPullRequests: true,
-        ignore: [/https:\/\/ornikar\.atlassian\.net\/browse\/[A-Z]+-\d+/i], // JIRA issue format (ex: https://ornikar.atlassian.net/browse/DR-123)
-        date: '2000-01-01', // ignores expiring dates >2000-01-01
+        ignore: [/(\[https:\/\/ornikar.atlassian.net\/browse\/[A-Z]+-\d+])/i], // JIRA issue format (ex: https://ornikar.atlassian.net/browse/DR-123)
+        date: '9999-12-31', // invalidates all expiring dates <9999-12-31
       },
     ],
 
