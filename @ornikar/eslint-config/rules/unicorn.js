@@ -112,9 +112,12 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md
     'unicorn/expiring-todo-comments': [
-      'error',
+      'warn',
       {
         allowWarningComments: false,
+        ignoreDatesOnPullRequests: true,
+        ignore: [/(\[https:\/\/ornikar.atlassian.net\/browse\/[A-Z]+-\d+])/i], // JIRA issue format (ex: https://ornikar.atlassian.net/browse/DR-123)
+        date: '9999-12-31', // invalidates all expiring dates <9999-12-31
       },
     ],
 
