@@ -112,7 +112,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md
     'unicorn/expiring-todo-comments': [
-      'error',
+      'warn',
       {
         allowWarningComments: false,
         ignoreDatesOnPullRequests: true,
