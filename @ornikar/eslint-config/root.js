@@ -11,5 +11,9 @@ module.exports = {
         devDependencies: true,
       },
     ],
+
+    // Allow non-literal fs filename for dev scripts
+    'security/detect-non-literal-fs-filename': 'off',
+    'security/detect-non-literal-require': 'off',
   },
 };
