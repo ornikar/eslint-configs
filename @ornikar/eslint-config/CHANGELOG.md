@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.10.0](https://github.com/ornikar/eslint-configs/compare/v18.9.0...v18.10.0) (2022-05-31)
+
+
+### Bug Fixes
+
+* **eslint-config:** allow non-linteral fs filename for tests ([31cc2f3](https://github.com/ornikar/eslint-configs/commit/31cc2f3d98a415956122a315ec742ed30120865e))
+
+
+### Features
+
+* **eslint-config:** prefer-native-coercion-functions ([#311](https://github.com/ornikar/eslint-configs/issues/311)) ([ecb42c7](https://github.com/ornikar/eslint-configs/commit/ecb42c7146cee49d705357bfe29e68d7438c1859))
+
+
+
+
+
 # [18.9.0](https://github.com/ornikar/eslint-configs/compare/v18.8.0...v18.9.0) (2022-05-31)
 
 
