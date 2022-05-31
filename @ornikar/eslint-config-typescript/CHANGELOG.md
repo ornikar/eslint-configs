@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.9.0](https://github.com/ornikar/eslint-configs/compare/v18.8.0...v18.9.0) (2022-05-31)
+
+
+### Features
+
+* **eslint-config:** enable typescript-eslint/prefer-reduce-type-parameter [no issue] ([#307](https://github.com/ornikar/eslint-configs/issues/307)) ([0e9e9eb](https://github.com/ornikar/eslint-configs/commit/0e9e9eb864973c300c328813eb0650a50d416703))
+* replace eslint-plugin-node by eslint-plugin-n [no issue] ([#310](https://github.com/ornikar/eslint-configs/issues/310)) ([8fd3c19](https://github.com/ornikar/eslint-configs/commit/8fd3c19df11d15cff679e0880f20e8b032c73e5c))
+
+
+
+
+
 # [18.8.0](https://github.com/ornikar/eslint-configs/compare/v18.7.0...v18.8.0) (2022-05-02)
 
 

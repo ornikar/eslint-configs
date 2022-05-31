@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.9.0](https://github.com/ornikar/eslint-configs/compare/v18.8.0...v18.9.0) (2022-05-31)
+
+
+### Bug Fixes
+
+* **eslint-config:** allow non-linteral fs filename for dev scripts ([9a28882](https://github.com/ornikar/eslint-configs/commit/9a288820bc48fe2e428235b4b0d5c629c5d8367e))
+
+
+### Features
+
+* **eslint-config:** enable typescript-eslint/prefer-reduce-type-parameter [no issue] ([#307](https://github.com/ornikar/eslint-configs/issues/307)) ([0e9e9eb](https://github.com/ornikar/eslint-configs/commit/0e9e9eb864973c300c328813eb0650a50d416703))
+* **eslint-config:** enable unicorn/prefer-modern-math-apis [no issue] ([#309](https://github.com/ornikar/eslint-configs/issues/309)) ([1e2d294](https://github.com/ornikar/eslint-configs/commit/1e2d294030c4604afdf0cbcf9406302113cac64b))
+* replace eslint-plugin-node by eslint-plugin-n [no issue] ([#310](https://github.com/ornikar/eslint-configs/issues/310)) ([8fd3c19](https://github.com/ornikar/eslint-configs/commit/8fd3c19df11d15cff679e0880f20e8b032c73e5c))
+* update expiring todo comments [no issue] ([#297](https://github.com/ornikar/eslint-configs/issues/297)) ([0cc2e08](https://github.com/ornikar/eslint-configs/commit/0cc2e0835a1f5fb7fbe3ed76bea5d1242b02c479))
+
+
+
+
+
 # [18.8.0](https://github.com/ornikar/eslint-configs/compare/v18.7.0...v18.8.0) (2022-05-02)
 
 
