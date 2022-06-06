@@ -36,5 +36,5 @@
     "lerna": "4.0.0",
     "prettier": "2.6.2"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.1"
 }
