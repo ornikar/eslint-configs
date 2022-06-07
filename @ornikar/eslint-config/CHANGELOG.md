@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.11.0](https://github.com/ornikar/eslint-configs/compare/v18.10.0...v18.11.0) (2022-06-07)
+
+
+### Features
+
+* disable no-process-exit rule from eslint-plugin-node [no issue] ([#322](https://github.com/ornikar/eslint-configs/issues/322)) ([f51fd2c](https://github.com/ornikar/eslint-configs/commit/f51fd2c5deecdda56d8746c1e8ab951ca5e9e0dc))
+
+
+
+
+
 # [18.10.0](https://github.com/ornikar/eslint-configs/compare/v18.9.0...v18.10.0) (2022-05-31)
 
 

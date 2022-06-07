@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.11.0](https://github.com/ornikar/eslint-configs/compare/v18.10.0...v18.11.0) (2022-06-07)
+
+
+### Features
+
+* **naming:** add "with" and "without" prefixes for booleans [no issue] ([#316](https://github.com/ornikar/eslint-configs/issues/316)) ([ffaa8f8](https://github.com/ornikar/eslint-configs/commit/ffaa8f80ce4302b3055db782ca8f8d56b223e6a9))
+* **naming:** allow non prefixed destructured booleans and snake case… [no issue] ([#323](https://github.com/ornikar/eslint-configs/issues/323)) ([7b58b1b](https://github.com/ornikar/eslint-configs/commit/7b58b1b986f6831ad95b93993282a758335c0dc4))
+
+
+
+
+
 # [18.10.0](https://github.com/ornikar/eslint-configs/compare/v18.9.0...v18.10.0) (2022-05-31)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript
