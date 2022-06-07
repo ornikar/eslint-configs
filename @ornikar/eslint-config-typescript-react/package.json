@@ -2,7 +2,11 @@
   "name": "@ornikar/eslint-config-typescript-react",
   "version": "18.10.0",
   "description": "eslint typescript react config files",
-  "repository": "ornikar/eslint-configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ornikar/eslint-configs.git",
+    "directory": "@ornikar/eslint-config-typescript-react"
+  },
   "main": "index.js",
   "license": "ISC",
   "engines": {

@@ -1,6 +1,7 @@
 {
   "extensions": {
     "recommendations": [
+      "ornikar.vscode-ornikar-extension",
       "EditorConfig.EditorConfig",
       "esbenp.prettier-vscode",
       "dbaeumer.vscode-eslint",
