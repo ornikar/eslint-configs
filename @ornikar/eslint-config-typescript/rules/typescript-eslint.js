@@ -106,7 +106,7 @@ module.exports = {
         types: ['boolean'],
         format: ['PascalCase'],
         filter: {
-          regex: '[a-z]?[_][a-z]?.*',
+          regex: '_',
           match: false,
         },
         prefix: [
