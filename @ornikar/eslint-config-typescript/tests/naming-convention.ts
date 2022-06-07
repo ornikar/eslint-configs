@@ -25,6 +25,9 @@ export function exampleFunction(
   invalidBooleanParameter: boolean,
 ): void {}
 
-export const validSnakeCaseObject = { is_valid_variable: true, can_be_valid: true };
-// warning eslint
-export const invalidSnakeCaseObject = { isinvalid_variable: true, invalid_variable: true };
+export const validSnakeCaseObject = {
+  is_valid_variable: true,
+  can_be_valid: true,
+  isvalid_variable: true,
+  valid_variable: true,
+};
