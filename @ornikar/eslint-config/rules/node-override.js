@@ -15,8 +15,9 @@ module.exports = {
     // Use for-of instead of for
     'unicorn/no-for-loop': 'error',
 
-    // allow process.exit
+    // allow process.exit, disallowed when not used in script via https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-process-exit.md
     'no-process-exit': 'off',
+    'n/no-process-exit': 'off',
 
     // Allow for-of, now supported by node 6
     'no-restricted-syntax': [
