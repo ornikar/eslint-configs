@@ -215,7 +215,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-array-for-each': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md
-    'unicorn/no-array-push-push': 'off',
+    'unicorn/no-array-push-push': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
     'unicorn/no-this-assignment': 'off',
