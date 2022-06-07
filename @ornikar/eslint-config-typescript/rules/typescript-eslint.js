@@ -106,7 +106,7 @@ module.exports = {
         types: ['boolean'],
         format: ['PascalCase'],
         filter: {
-          regex: '[_]',
+          regex: '[a-z]?[_][a-z]?.*',
           match: false,
         },
         prefix: [
@@ -127,16 +127,6 @@ module.exports = {
           'with',
           'without',
         ],
-      },
-      {
-        selector: 'property',
-        types: ['boolean'],
-        format: ['snake_case'],
-        filter: {
-          regex: '[_]',
-          match: true,
-        },
-        prefix: ['is_', 'should_', 'has_', 'can_', 'did_', 'will_', 'with_', 'without_'],
       },
       {
         selector: 'parameterProperty',
