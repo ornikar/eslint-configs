@@ -2,6 +2,15 @@ export const isBooleanVariable = false;
 // warning eslint
 export const invalidIsBooleanVariable = false;
 
+export const validObject = { isLoading: true };
+// warning eslint
+const invalidObject = { loading: true };
+
+export const { loading } = invalidObject;
+export const { loading: isLoading } = invalidObject;
+// warning eslint
+export const { loading: invalidIsLoading } = invalidObject;
+
 export interface ExampleInterface {
   isBooleanVariable: boolean;
   $isBooleanVariable: boolean;
@@ -11,6 +20,11 @@ export interface ExampleInterface {
 
 export function exampleFunction(
   isValidBooleanParameter: boolean,
+  $isValidBooleanParameter: boolean,
   // warning eslint
   invalidBooleanParameter: boolean,
 ): void {}
+
+export const validSnakeCaseObject = { is_valid_variable: true, can_be_valid: true };
+// warning eslint
+export const invalidSnakeCaseObject = { isinvalid_variable: true, invalid_variable: true };
