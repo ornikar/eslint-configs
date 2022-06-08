@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.12.0](https://github.com/ornikar/eslint-configs/compare/v18.11.0...v18.12.0) (2022-06-08)
+
+
+### Bug Fixes
+
+* tests override extends from parent configs [no issue] ([#325](https://github.com/ornikar/eslint-configs/issues/325)) ([5364d72](https://github.com/ornikar/eslint-configs/commit/5364d72b10b105d6d6c1f8925578821a15db516c))
+
+
+### Features
+
+* **eslint-config:** no-array-push-push [no issue] ([#324](https://github.com/ornikar/eslint-configs/issues/324)) ([88bc3d9](https://github.com/ornikar/eslint-configs/commit/88bc3d93c8ff2ff139ff7cb6f9c7adea8fb0390c))
+
+
+
+
+
 # [18.11.0](https://github.com/ornikar/eslint-configs/compare/v18.10.0...v18.11.0) (2022-06-07)
 
 

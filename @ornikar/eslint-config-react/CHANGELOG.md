@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.12.0](https://github.com/ornikar/eslint-configs/compare/v18.11.0...v18.12.0) (2022-06-08)
+
+
+### Bug Fixes
+
+* tests override extends from parent configs [no issue] ([#325](https://github.com/ornikar/eslint-configs/issues/325)) ([5364d72](https://github.com/ornikar/eslint-configs/commit/5364d72b10b105d6d6c1f8925578821a15db516c))
+
+
+
+
+
 # [18.11.0](https://github.com/ornikar/eslint-configs/compare/v18.10.0...v18.11.0) (2022-06-07)
 
 **Note:** Version bump only for package @ornikar/eslint-config-react
