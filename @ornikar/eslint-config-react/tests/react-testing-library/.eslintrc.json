@@ -1,7 +1,4 @@
 {
   "root": true,
-  "extends": ["../../tests-override.js"],
-  "rules": {
-    "import/no-extraneous-dependencies": "off"
-  }
+  "extends": ["../../", "../../tests-override.js"]
 }
