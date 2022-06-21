@@ -27,6 +27,6 @@
     "@types/react": "17.0.45",
     "eslint": "8.16.0",
     "react": "17.0.2",
-    "type-fest": "2.13.0"
+    "type-fest": "2.13.1"
   }
 }
