@@ -9,5 +9,5 @@ ComponentWithTestId.propTypes = {
 };
 
 export function ComponentUsingComponentWithTestId() {
-  return <ComponentUsingComponentWithTestId data-testid="testid" />;
+  return <ComponentUsingComponentWithTestId data-testid="tests.ComponentWithTestId.unique" />;
 }
