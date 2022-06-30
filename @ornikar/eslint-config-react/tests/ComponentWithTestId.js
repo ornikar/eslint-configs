@@ -9,5 +9,17 @@ ComponentWithTestId.propTypes = {
 };
 
 export function ComponentUsingComponentWithTestId() {
-  return <ComponentUsingComponentWithTestId data-testid="testid" />;
+  return (
+    <>
+      {/* eslint-disable-next-line react/forbid-component-props */}
+      <ComponentUsingComponentWithTestId data-test="tests.ComponentWithTestId.unique" />
+      {/* eslint-disable-next-line react/forbid-component-props */}
+      <ComponentUsingComponentWithTestId data-test-id="tests.ComponentWithTestId.unique" />
+      {/* eslint-disable-next-line react/forbid-component-props */}
+      <ComponentUsingComponentWithTestId data-test-class="tests.ComponentWithTestId.unique" />
+
+      <ComponentUsingComponentWithTestId data-testid="tests.ComponentWithTestId.unique" />
+      <ComponentUsingComponentWithTestId testID="tests.ComponentWithTestId.unique" />
+    </>
+  );
 }
