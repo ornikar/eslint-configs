@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.13.0](https://github.com/ornikar/eslint-configs/compare/v18.12.0...v18.13.0) (2022-07-01)
+
+
+### Features
+
+* **eslint-config-react:** add testing-library/consistent-data-testid rule [no issue] ([#336](https://github.com/ornikar/eslint-configs/issues/336)) ([090a674](https://github.com/ornikar/eslint-configs/commit/090a6744d96060223f22c5f8692c3f2487922af2))
+
+
+
+
+
 # [18.12.0](https://github.com/ornikar/eslint-configs/compare/v18.11.0...v18.12.0) (2022-06-08)
 
 
