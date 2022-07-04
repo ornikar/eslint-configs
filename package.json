@@ -33,7 +33,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-n": "15.2.3",
     "eslint-plugin-unicorn": "42.0.0",
-    "lerna": "5.1.4",
+    "lerna": "5.1.6",
     "prettier": "2.7.1"
   },
   "packageManager": "yarn@3.2.1"
