@@ -2,8 +2,7 @@
 
 // ❌ Incorrect uses with this rule
 
-// eslint-disable-next-line unicorn/expiring-todo-comments
-// TODO [2000-01-01]: Do not use dates
+// renable when circleci date bug removed [2000-01-01]: Do not use dates
 
 // eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
