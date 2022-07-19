@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.0.0](https://github.com/ornikar/eslint-configs/compare/v18.13.0...v19.0.0) (2022-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.30.6 ([#351](https://github.com/ornikar/eslint-configs/issues/351)) ([a885dde](https://github.com/ornikar/eslint-configs/commit/a885ddeb742f95b950edc86ea73b2eb761438cfc))
+* **deps:** update typescript-eslint monorepo to v5.30.7 ([#353](https://github.com/ornikar/eslint-configs/issues/353)) ([75cfe2c](https://github.com/ornikar/eslint-configs/commit/75cfe2ccfdbfdb2202df15815f6441795928849a))
+* unicorn/expiring-todo-comments as error ([f56d1e7](https://github.com/ornikar/eslint-configs/commit/f56d1e748388e8168b2851177869a4c551e761b3))
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([#344](https://github.com/ornikar/eslint-configs/issues/344)) ([dc66d53](https://github.com/ornikar/eslint-configs/commit/dc66d533caf6d79b5e332b8ce8e2f8c37dec962d))
+* **deps:** update frontend orb to v5 ([#340](https://github.com/ornikar/eslint-configs/issues/340)) ([82a0a41](https://github.com/ornikar/eslint-configs/commit/82a0a41861001c2a3bc2927e21cc75c85094814e))
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.30.5 ([#330](https://github.com/ornikar/eslint-configs/issues/330)) ([638dac2](https://github.com/ornikar/eslint-configs/commit/638dac207a9d289239daac659a66a0e678071fbd))
+* **eslint-config-react:** disable consistent-data-testid on tests [no issue] ([#354](https://github.com/ornikar/eslint-configs/issues/354)) ([37d448c](https://github.com/ornikar/eslint-configs/commit/37d448cf77038b615af4cd540913a706853d6a9c))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint 8.18 
+* **deps:** requires node 16 
+
+
+
+
+
 # [18.13.0](https://github.com/ornikar/eslint-configs/compare/v18.12.0...v18.13.0) (2022-07-01)
 
 

@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.0.0](https://github.com/ornikar/eslint-configs/compare/v18.13.0...v19.0.0) (2022-07-19)
+
+
+### Bug Fixes
+
+* unicorn/expiring-todo-comments as error ([f56d1e7](https://github.com/ornikar/eslint-configs/commit/f56d1e748388e8168b2851177869a4c551e761b3))
+
+
+### chore
+
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([#344](https://github.com/ornikar/eslint-configs/issues/344)) ([dc66d53](https://github.com/ornikar/eslint-configs/commit/dc66d533caf6d79b5e332b8ce8e2f8c37dec962d))
+* **deps:** update frontend orb to v5 ([#340](https://github.com/ornikar/eslint-configs/issues/340)) ([82a0a41](https://github.com/ornikar/eslint-configs/commit/82a0a41861001c2a3bc2927e21cc75c85094814e))
+
+
+### BREAKING CHANGES
+
+* **deps:** requires eslint 8.18 
+* **deps:** requires node 16 
+
+
+
+
+
 # [18.13.0](https://github.com/ornikar/eslint-configs/compare/v18.12.0...v18.13.0) (2022-07-01)
 
 **Note:** Version bump only for package @ornikar/eslint-config
