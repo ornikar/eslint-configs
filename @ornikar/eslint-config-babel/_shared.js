@@ -5,10 +5,9 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'module',
+    // as we use babel, we can use latest ecma features
+    ecmaVersion: 2022,
   },
-
-  plugins: ['babel'],
-  parser: 'babel-eslint',
 
   rules: {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
