@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
+
+
+### Features
+
+* **eslint-config-babel:** drop legacy babel-eslint parser [no issue] ([#356](https://github.com/ornikar/eslint-configs/issues/356)) ([081fa89](https://github.com/ornikar/eslint-configs/commit/081fa89c980365113df5b64d3727a0723644edac))
+
+
+
+
+
 # [19.0.0](https://github.com/ornikar/eslint-configs/compare/v18.13.0...v19.0.0) (2022-07-19)
 
 
