@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-plugin-formatjs": "^3.0.0"
+    "eslint-plugin-formatjs": "^4.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.18.0",
