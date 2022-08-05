@@ -24,10 +24,10 @@
     "@ornikar/*"
   ],
   "devDependencies": {
-    "@ornikar/commitlint-config": "4.0.4",
-    "@ornikar/lerna-config": "6.3.6",
+    "@ornikar/commitlint-config": "4.0.5",
+    "@ornikar/lerna-config": "6.4.0",
     "@ornikar/prettier-config": "4.0.7",
-    "@ornikar/repo-config": "8.5.1",
+    "@ornikar/repo-config": "8.6.0",
     "check-package-dependencies": "3.9.2",
     "eslint": "8.20.0",
     "eslint-plugin-import": "2.26.0",
