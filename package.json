@@ -25,7 +25,7 @@
   ],
   "devDependencies": {
     "@ornikar/commitlint-config": "4.0.5",
-    "@ornikar/lerna-config": "6.4.0",
+    "@ornikar/lerna-config": "6.4.1",
     "@ornikar/prettier-config": "4.0.7",
     "@ornikar/repo-config": "8.6.0",
     "check-package-dependencies": "3.9.2",
