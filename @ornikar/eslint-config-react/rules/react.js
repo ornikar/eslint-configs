@@ -88,9 +88,6 @@ module.exports = {
     // project should use babel-plugin-transform-react-remove-prop-types
     'react/forbid-foreign-prop-types': 'off',
 
-    // autofix handles quotes incorrectly
-    'react/jsx-curly-brace-presence': 'off',
-
     // disable enforcing state in constructor
     'react/state-in-constructor': 'off',
 
