@@ -15,6 +15,7 @@ module.exports = {
     '@typescript-eslint/prefer-readonly': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
+    '@typescript-eslint/consistent-generic-constructors': 'error',
     '@typescript-eslint/consistent-indexed-object-style': 'error',
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
