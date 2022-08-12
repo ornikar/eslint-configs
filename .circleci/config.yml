@@ -1,57 +1,11 @@
 version: 2.1
 
 # -------------------------------------------------------------------------------------------------
-# PIPELINE PARAMS
-# -------------------------------------------------------------------------------------------------
-
-parameters:
-  cache-version:
-    type: string
-    default: v2
-
-# -------------------------------------------------------------------------------------------------
 # ORBS
 # -------------------------------------------------------------------------------------------------
 
 orbs:
   frontend: ornikar/frontend-orb@7.2.0
-
-# -------------------------------------------------------------------------------------------------
-# COMMANDS
-# -------------------------------------------------------------------------------------------------
-
-commands:
-  checkout-and-restore-cache:
-    steps:
-      - checkout
-      - frontend/restore-cache: &restore-cache-params
-          version: << pipeline.parameters.cache-version >>
-          cache-name: dependencies
-
-# -------------------------------------------------------------------------------------------------
-# JOBS
-# -------------------------------------------------------------------------------------------------
-
-jobs:
-  dependencies:
-    executor: frontend/node
-    steps:
-      - checkout
-      - frontend/dependencies:
-          berry: true
-          before-install:
-            - frontend/restore-cache: *restore-cache-params
-          after-install:
-            - save_cache:
-                key: << pipeline.parameters.cache-version >>-node16-dependencies-{{ arch }}-{{ checksum "yarn.lock" }}
-                paths:
-                  - node_modules
-                  - '@ornikar/eslint-config/node_modules'
-                  - '@ornikar/eslint-config-babel/node_modules'
-                  - '@ornikar/eslint-config-formatjs/node_modules'
-                  - '@ornikar/eslint-config-react/node_modules'
-                  - '@ornikar/eslint-config-typescript/node_modules'
-                  - '@ornikar/eslint-config-typescript-react/node_modules'
 
 # -------------------------------------------------------------------------------------------------
 # WORKFLOWS
@@ -62,22 +16,15 @@ workflows:
 
   main-workflow:
     jobs:
-      - dependencies
-
       - frontend/checks:
-          cache-version: << pipeline.parameters.cache-version >>
-          requires:
-            - dependencies
+          name: checks
 
-      - frontend/lint-prettier:
-          cache-version: << pipeline.parameters.cache-version >>
-          requires:
-            - dependencies
-
-      - frontend/lint-eslint:
-          cache-version: << pipeline.parameters.cache-version >>
-          requires:
-            - dependencies
+      - frontend/lint-src:
+          name: lint
+          use-cache: false
+          cache-version: none
+          run-tsc: false
+          run-stylelint: false
 
       # release
       - hold-release:
@@ -85,16 +32,14 @@ workflows:
           filters:
             branches:
               only: main
+
       - frontend/monorepo-release:
-          cache-version: << pipeline.parameters.cache-version >>
           npm-publish: true
           no-private: true
           context: npm-publish
           requires:
-            - dependencies
-            - frontend/checks
-            - frontend/lint-prettier
-            - frontend/lint-eslint
+            - checks
+            - lint
             - hold-release
           filters:
             branches:
