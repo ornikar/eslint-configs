@@ -71,12 +71,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.0.0":
+"@commitlint/config-conventional@npm:^17.0.3":
   version: 17.0.3
   resolution: "@commitlint/config-conventional@npm:17.0.3"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
   checksum: 1cd30d827cf43bc7b08604398d4104bc031a69c8b45777886572aff12de25f40761dfbe5ffc6cd1f0d5b05de850e6d3e22dee6d799288e9cdd80bf575d036d46
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-lerna-scopes@npm:^17.0.2":
+  version: 17.0.2
+  resolution: "@commitlint/config-lerna-scopes@npm:17.0.2"
+  dependencies:
+    globby: ^11.0.1
+    import-from: 4.0.0
+    resolve-pkg: 2.0.0
+    semver: 7.3.7
+  peerDependencies:
+    lerna: ^5.0.0
+  peerDependenciesMeta:
+    lerna:
+      optional: true
+  checksum: 7ec3c40c0cbe3954b836f38194339a62bccefd72a8d05170d378356a39ed70977cbdcf50817456a387040645b99fcd6aee71582fe18ad87faf5d9611ff25bebe
   languageName: node
   linkType: hard
 
@@ -1552,12 +1569,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/commitlint-config@npm:4.0.5, @ornikar/commitlint-config@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "@ornikar/commitlint-config@npm:4.0.5"
+"@ornikar/commitlint-config@npm:4.1.0, @ornikar/commitlint-config@npm:^4.0.5":
+  version: 4.1.0
+  resolution: "@ornikar/commitlint-config@npm:4.1.0"
   dependencies:
-    "@commitlint/config-conventional": ^17.0.0
-  checksum: 7518617a56c4483961b2880ce30b1d01ebba62fcdce84a20f5fcf7101f562c577bf8b2da0dcb387cb92783441056485056c7822836ccabd5d78006f396d5495d
+    "@commitlint/config-conventional": ^17.0.3
+    "@commitlint/config-lerna-scopes": ^17.0.2
+  checksum: abce40f1ebcb11231bc9ea26d41cb19f0fcedb3b3ab1de2638d75e13724375246cc3f6b82caa1f0dc3e55d29c07861248ed7025840f50f785e4be74da53d4cd3
   languageName: node
   linkType: hard
 
@@ -1669,7 +1687,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-configs@workspace:."
   dependencies:
-    "@ornikar/commitlint-config": 4.0.5
+    "@ornikar/commitlint-config": 4.1.0
     "@ornikar/lerna-config": 6.4.1
     "@ornikar/prettier-config": 4.0.7
     "@ornikar/repo-config": 8.6.0
@@ -4216,7 +4234,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.2, globby@npm:^11.1.0":
+"globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -4468,6 +4486,13 @@ __metadata:
     parent-module: ^1.0.0
     resolve-from: ^4.0.0
   checksum: caef42418a087c3951fb676943a7f21ba8971aa07f9b622dff4af7edcef4160e1b172dccd85a88d7eb109cf41406a4592f70259e6b3b33aeafd042bb61f81d96
+  languageName: node
+  linkType: hard
+
+"import-from@npm:4.0.0":
+  version: 4.0.0
+  resolution: "import-from@npm:4.0.0"
+  checksum: 1fa29c05b048da18914e91d9a529e5d9b91774bebbfab10e53f59bcc1667917672b971cf102fee857f142e5e433ce69fa1f0a596e1c7d82f9947a5ec352694b9
   languageName: node
   linkType: hard
 
@@ -6759,6 +6784,15 @@ __metadata:
   dependencies:
     global-dirs: ^0.1.1
   checksum: c4e11d33e84bde7516b824503ffbe4b6cce863d5ce485680fd3db997b7c64da1df98321b1fd0703b58be8bc9bc83bc96bd83043f96194386b45eb47229efb6b6
+  languageName: node
+  linkType: hard
+
+"resolve-pkg@npm:2.0.0":
+  version: 2.0.0
+  resolution: "resolve-pkg@npm:2.0.0"
+  dependencies:
+    resolve-from: ^5.0.0
+  checksum: 4a14cc38effed20ff362c8f377719af9a45ebe27ee07d79d4802b4568858cd96033f4edc3a2add7fd27e361d24101a042047297a9ef9476696ba16b72e0a05fc
   languageName: node
   linkType: hard
 
