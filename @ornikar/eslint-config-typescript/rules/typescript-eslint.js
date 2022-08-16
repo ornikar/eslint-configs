@@ -32,6 +32,7 @@ module.exports = {
     '@typescript-eslint/no-invalid-void-type': 'error',
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
+    '@typescript-eslint/no-duplicate-enum-values': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
