@@ -275,10 +275,10 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/relative-url-style': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
-    'unicorn/prefer-json-parse-buffer': 'off',
+    'unicorn/prefer-json-parse-buffer': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/text-encoding-identifier-case.md
-    'unicorn/text-encoding-identifier-case': 'off',
+    'unicorn/text-encoding-identifier-case': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-switch-case.md
     'unicorn/no-useless-switch-case': 'off',
