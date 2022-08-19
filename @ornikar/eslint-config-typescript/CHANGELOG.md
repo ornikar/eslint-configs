@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.32.0 ([#363](https://github.com/ornikar/eslint-configs/issues/363)) ([a99d484](https://github.com/ornikar/eslint-configs/commit/a99d4847729b588a776148ea047aec1ab27256c6))
+* **deps:** update typescript-eslint monorepo to v5.33.1 ([#376](https://github.com/ornikar/eslint-configs/issues/376)) ([7c007dc](https://github.com/ornikar/eslint-configs/commit/7c007dcae518f5eaa852b12bc7e430399edc7767))
+* **eslint-config-typescript:** enable no-duplicate-enum-values ARCH-1561 ([#371](https://github.com/ornikar/eslint-configs/issues/371)) ([4732052](https://github.com/ornikar/eslint-configs/commit/47320523fa333eee41bf4801ae5f63771bd5e7dc))
+* **eslint-config-typscript:** add consistent-generic-constructors [no issue] ([#370](https://github.com/ornikar/eslint-configs/issues/370)) ([1c083af](https://github.com/ornikar/eslint-configs/commit/1c083af4637aeb63ccb9a9fa9a6321123fb5d1bf))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript

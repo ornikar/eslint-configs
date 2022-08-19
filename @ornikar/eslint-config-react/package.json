@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-react",
-  "version": "19.1.0",
+  "version": "19.2.0",
   "description": "eslint react config files",
   "repository": {
     "type": "git",

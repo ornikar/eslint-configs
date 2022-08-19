@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **eslint-config:** enable text-encoding-identifier-case and prefer-json-parse-buffer ARCH-1562 ([#372](https://github.com/ornikar/eslint-configs/issues/372)) ([d5dca06](https://github.com/ornikar/eslint-configs/commit/d5dca0679aa4f65de8381d23d621600d1e50f215))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config

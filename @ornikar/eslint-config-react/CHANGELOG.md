@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **jsx-curly-brace-presence:** removing disable [no issue] ([#369](https://github.com/ornikar/eslint-configs/issues/369)) ([70dae58](https://github.com/ornikar/eslint-configs/commit/70dae589b153fc3eb1bfa145ec3c1fb9079c0ecd))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config-react
