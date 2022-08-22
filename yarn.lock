@@ -1636,7 +1636,7 @@ __metadata:
     "@types/react": 17.0.48
     eslint: 8.22.0
     react: 17.0.2
-    type-fest: 2.18.0
+    type-fest: 2.18.1
   peerDependencies:
     eslint: ^8.18.0
     prettier: ^2.2.1
@@ -1654,7 +1654,7 @@ __metadata:
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prefer-class-properties: ^1.0.0
-    type-fest: 2.18.0
+    type-fest: 2.18.1
     typescript: 4.7.4
   peerDependencies:
     eslint: ^8.18.0
@@ -7556,10 +7556,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:2.18.0, type-fest@npm:^2.0.0":
-  version: 2.18.0
-  resolution: "type-fest@npm:2.18.0"
-  checksum: 0737128d9d77b93793c6ee443e304462a792f5b723a6be035d6cb488c5610a8baa00522805421341c04324c80efba9849885bbfbc5a9623d0672fe8712969f62
+"type-fest@npm:2.18.1, type-fest@npm:^2.0.0":
+  version: 2.18.1
+  resolution: "type-fest@npm:2.18.1"
+  checksum: 2aabebe88d4cfa8d9576058ee475f95efd878a85a6cbe0b4f4e1d45c891501d12b29057a0baddd5fc5652b128622308a499ac5eed68c69ebb05b1c960d2943cf
   languageName: node
   linkType: hard
 
