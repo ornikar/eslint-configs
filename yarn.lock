@@ -1627,6 +1627,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs":
+  version: 0.0.0-use.local
+  resolution: "@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs"
+  dependencies:
+    "@ornikar/eslint-config-typescript": ^19.2.0
+    eslint: 8.22.0
+    eslint-plugin-prefer-arrow-functions: ^3.1.4
+  peerDependencies:
+    eslint: ^8.18.0
+    prettier: ^2.2.1
+  languageName: unknown
+  linkType: soft
+
 "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
@@ -3533,6 +3546,15 @@ __metadata:
   peerDependencies:
     eslint: ">=7.0.0"
   checksum: 3be265957b3dda6a049841803335c17689cf98a4b3859eeed3e57b44850b241e7d20640890b2dea7e83816c938fc16274bf78d370f571e211d00d9a3c513f281
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prefer-arrow-functions@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "eslint-plugin-prefer-arrow-functions@npm:3.1.4"
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: 581f1be4ea056d70aad1866ee16a0def7ecece050e03ff3bc2a6695b8bdca3751d6360fcd0e4efccd0068a0e0557b7ab36586a301afa38957acc8c58d293560c
   languageName: node
   linkType: hard
 
