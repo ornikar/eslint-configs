@@ -1,5 +1,7 @@
 'use strict';
 
+const forbidComponentsProps = [{ propName: 'data-testid', message: 'Use testID for native components' }];
+
 module.exports = {
   env: {
     browser: true,
@@ -20,5 +22,12 @@ module.exports = {
   rules: {
     'react/prefer-stateless-function': 'off',
     'react/no-unescaped-entities': 'off',
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
+    'react/forbid-component-props': [
+      'error',
+      {
+        forbid: forbidComponentsProps,
+      },
+    ],
   },
 };
