@@ -3,9 +3,9 @@
   "version": "19.2.0",
   "description": "eslint babel config files",
   "repository": {
+    "directory": "@ornikar/eslint-config-babel",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config-babel"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "eslint": "8.22.0"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-babel"
   }
 }
