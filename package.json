@@ -3,17 +3,19 @@
   "private": true,
   "repository": "ornikar/eslint-configs",
   "scripts": {
-    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock",
-    "postinstall": "ornikar-repo-config-postinstall",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
-    "lint:prettier": "prettier --check .",
     "lint:eslint": "eslint --quiet --report-unused-disable-directives .",
-    "release": "lerna publish --conventional-commits"
+    "lint:eslint:fix": "yarn lint:eslint --fix",
+    "lint:prettier": "$(yarn bin ornikar-prettier-check)",
+    "lint:prettier:fix": "$(yarn bin ornikar-prettier-fix)",
+    "postinstall": "ornikar-repo-config-postinstall",
+    "release": "lerna publish --conventional-commits",
+    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@ornikar/prettier-config",
   "packageManager": "yarn@3.2.2",
   "engines": {
-    "node": ">=16.15.1"
+    "node": ">=16.16.0"
   },
   "commitlint": {
     "extends": [

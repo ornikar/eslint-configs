@@ -3,9 +3,9 @@
   "version": "19.2.0",
   "description": "eslint formatjs config files",
   "repository": {
+    "directory": "@ornikar/eslint-config-formatjs",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config-formatjs"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "eslint": "8.22.0"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-formatjs"
   }
 }
