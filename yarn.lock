@@ -1703,7 +1703,7 @@ __metadata:
     "@ornikar/commitlint-config": 5.0.0
     "@ornikar/lerna-config": 7.0.0
     "@ornikar/prettier-config": 6.0.0
-    "@ornikar/repo-config": 10.0.0
+    "@ornikar/repo-config": 10.1.0
     check-package-dependencies: 3.9.2
     eslint: 8.22.0
     eslint-plugin-import: 2.26.0
@@ -1737,15 +1737,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:10.0.0":
-  version: 10.0.0
-  resolution: "@ornikar/repo-config@npm:10.0.0"
+"@ornikar/repo-config@npm:10.1.0":
+  version: 10.1.0
+  resolution: "@ornikar/repo-config@npm:10.1.0"
   dependencies:
     "@commitlint/cli": 17.0.3
     "@ornikar/commitlint-config": ^5.0.0
     husky: 8.0.1
     lint-staged: 13.0.3
-    prettier-plugin-properties: 0.1.0
+    prettier-plugin-properties: 0.2.0
     semver: ^7.3.5
     which-pm-runs: ^1.1.0
   bin:
@@ -1754,7 +1754,7 @@ __metadata:
     ornikar-prettier-check: bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: bin/ornikar-repo-config-postinstall.js
-  checksum: 29b5b79afca6d1ba3a70d4fca356b23e0acc2d3bc59db14a9b8f250b5c7446cf57e430314d5b053105bbdbfe2c56e4ae281bf928c879b9c64903b3d215a8910b
+  checksum: 207c43f6e6c9d39ac707533202a6d19cbd9d94575dc1ba813186afef1ce67518af44f71160fd22c88bf0ec2fe86fe6ac4ed48f2ead31b21eab9ff34880224544
   languageName: node
   linkType: hard
 
@@ -5118,13 +5118,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linguist-languages@npm:^7.9.0":
-  version: 7.15.0
-  resolution: "linguist-languages@npm:7.15.0"
-  checksum: 2f930295a291997ecf30219246f1bdb915ea53820f37410aacd0effb5a94ab6b1076ab35fa792899ac86b196ab0a9b2c40f2cc021817ccbecd4bd2efc45a1df1
-  languageName: node
-  linkType: hard
-
 "lint-staged@npm:13.0.3":
   version: 13.0.3
   resolution: "lint-staged@npm:13.0.3"
@@ -6414,15 +6407,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-properties@npm:0.1.0":
-  version: 0.1.0
-  resolution: "prettier-plugin-properties@npm:0.1.0"
+"prettier-plugin-properties@npm:0.2.0":
+  version: 0.2.0
+  resolution: "prettier-plugin-properties@npm:0.2.0"
   dependencies:
     dot-properties: ^1.0.0
-    linguist-languages: ^7.9.0
-  peerDependencies:
-    prettier: ">=1.11.0"
-  checksum: ffb7b26362478d1cd491a93a1128c81798738212c14db44af36d90204eb4b8c1e040fb5dfb29714155206b6e82d39c089b3dc8716e6b37250160853304e5515e
+  checksum: 0109ca2a5862bf02ea3326ab39b0b308b3be9cec468642d840dfa867ea7a5d643cc5f01f18985072ad0248b1b2713dbda24c6a09b9d8eccef5c26155f8780a59
   languageName: node
   linkType: hard
 
