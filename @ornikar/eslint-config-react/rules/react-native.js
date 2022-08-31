@@ -19,6 +19,6 @@ module.exports = {
 
   rules: {
     'react/prefer-stateless-function': 'off',
-    'react/no-unescaped-entities': 'off',
+    'react/no-unescaped-entities': ['error', { forbid: ['>', "'", '}'] }],
   },
 };
