@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.3.0](https://github.com/ornikar/eslint-configs/compare/v19.2.0...v19.3.0) (2022-08-30)
+
+
+### Features
+
+* **eslint-config-typescript-nestjs:** initial setup [no issue] ([#383](https://github.com/ornikar/eslint-configs/issues/383)) ([f82e3ef](https://github.com/ornikar/eslint-configs/commit/f82e3ef04bedb15a0836ebe5261b07209f2f9e62))
+* **eslint-config:** add forbid-component-props for data-testid INS-1880 ([#381](https://github.com/ornikar/eslint-configs/issues/381)) ([0daf3d3](https://github.com/ornikar/eslint-configs/commit/0daf3d3644fec3cd05571bdafbb0362c64ded108))
+
+
+
+
+
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-formatjs to v4 ([#362](https://github.com/ornikar/eslint-configs/issues/362)) ([ccb614e](https://github.com/ornikar/eslint-configs/commit/ccb614ece4206718a83716411f394f2acefbae2e))
+* **deps:** update typescript-eslint monorepo to v5.32.0 ([#363](https://github.com/ornikar/eslint-configs/issues/363)) ([a99d484](https://github.com/ornikar/eslint-configs/commit/a99d4847729b588a776148ea047aec1ab27256c6))
+* **deps:** update typescript-eslint monorepo to v5.33.1 ([#376](https://github.com/ornikar/eslint-configs/issues/376)) ([7c007dc](https://github.com/ornikar/eslint-configs/commit/7c007dcae518f5eaa852b12bc7e430399edc7767))
+* **eslint-config-typescript:** enable no-duplicate-enum-values ARCH-1561 ([#371](https://github.com/ornikar/eslint-configs/issues/371)) ([4732052](https://github.com/ornikar/eslint-configs/commit/47320523fa333eee41bf4801ae5f63771bd5e7dc))
+* **eslint-config-typscript:** add consistent-generic-constructors [no issue] ([#370](https://github.com/ornikar/eslint-configs/issues/370)) ([1c083af](https://github.com/ornikar/eslint-configs/commit/1c083af4637aeb63ccb9a9fa9a6321123fb5d1bf))
+* **eslint-config:** enable text-encoding-identifier-case and prefer-json-parse-buffer ARCH-1562 ([#372](https://github.com/ornikar/eslint-configs/issues/372)) ([d5dca06](https://github.com/ornikar/eslint-configs/commit/d5dca0679aa4f65de8381d23d621600d1e50f215))
+* **jsx-curly-brace-presence:** removing disable [no issue] ([#369](https://github.com/ornikar/eslint-configs/issues/369)) ([70dae58](https://github.com/ornikar/eslint-configs/commit/70dae589b153fc3eb1bfa145ec3c1fb9079c0ecd))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 

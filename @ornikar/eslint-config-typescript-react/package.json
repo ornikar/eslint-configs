@@ -1,11 +1,11 @@
 {
   "name": "@ornikar/eslint-config-typescript-react",
-  "version": "19.1.0",
+  "version": "19.3.0",
   "description": "eslint typescript react config files",
   "repository": {
+    "directory": "@ornikar/eslint-config-typescript-react",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config-typescript-react"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config-react": "^19.1.0",
-    "@ornikar/eslint-config-typescript": "^19.1.0"
+    "@ornikar/eslint-config-react": "^19.3.0",
+    "@ornikar/eslint-config-typescript": "^19.3.0"
   },
   "peerDependencies": {
     "eslint": "^8.18.0",
@@ -27,6 +27,9 @@
     "@types/react": "17.0.48",
     "eslint": "8.22.0",
     "react": "17.0.2",
-    "type-fest": "2.18.0"
+    "type-fest": "2.19.0"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-typescript-react"
   }
 }

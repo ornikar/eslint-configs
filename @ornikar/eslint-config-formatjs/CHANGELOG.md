@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.3.0](https://github.com/ornikar/eslint-configs/compare/v19.2.0...v19.3.0) (2022-08-30)
+
+
+### Features
+
+* **eslint-config-typescript-nestjs:** initial setup [no issue] ([#383](https://github.com/ornikar/eslint-configs/issues/383)) ([f82e3ef](https://github.com/ornikar/eslint-configs/commit/f82e3ef04bedb15a0836ebe5261b07209f2f9e62))
+
+
+
+
+
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-formatjs to v4 ([#362](https://github.com/ornikar/eslint-configs/issues/362)) ([ccb614e](https://github.com/ornikar/eslint-configs/commit/ccb614ece4206718a83716411f394f2acefbae2e))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config-formatjs

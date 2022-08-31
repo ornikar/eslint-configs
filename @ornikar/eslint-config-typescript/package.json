@@ -1,11 +1,11 @@
 {
   "name": "@ornikar/eslint-config-typescript",
-  "version": "19.1.0",
+  "version": "19.3.0",
   "description": "eslint typescript config files",
   "repository": {
+    "directory": "@ornikar/eslint-config-typescript",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config-typescript"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "^19.1.0",
+    "@ornikar/eslint-config": "^19.3.0",
     "@typescript-eslint/eslint-plugin": "5.33.1",
     "@typescript-eslint/parser": "5.33.1",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -29,7 +29,10 @@
   },
   "devDependencies": {
     "eslint": "8.22.0",
-    "type-fest": "2.18.0",
+    "type-fest": "2.19.0",
     "typescript": "4.7.4"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-typescript"
   }
 }

@@ -42,6 +42,7 @@
       "eslint-config-formatjs",
       "eslint-config-react",
       "eslint-config-typescript",
+      "eslint-config-typescript-nestjs",
       "eslint-config-typescript-react"
     ]
   },
@@ -69,6 +70,10 @@
     {
       "name": "eslint-config-typescript",
       "path": "../@ornikar/eslint-config-typescript"
+    },
+    {
+      "name": "eslint-config-typescript-nestjs",
+      "path": "../@ornikar/eslint-config-typescript-nestjs"
     },
     {
       "name": "eslint-config-typescript-react",

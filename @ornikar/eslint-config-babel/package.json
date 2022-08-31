@@ -1,11 +1,11 @@
 {
   "name": "@ornikar/eslint-config-babel",
-  "version": "19.1.0",
+  "version": "19.3.0",
   "description": "eslint babel config files",
   "repository": {
+    "directory": "@ornikar/eslint-config-babel",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config-babel"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "^19.1.0",
+    "@ornikar/eslint-config": "^19.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.25.4",
@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "eslint": "8.22.0"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-babel"
   }
 }

@@ -1583,7 +1583,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-babel@workspace:@ornikar/eslint-config-babel"
   dependencies:
-    "@ornikar/eslint-config": ^19.1.0
+    "@ornikar/eslint-config": ^19.3.0
     eslint: 8.22.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-babel: ^5.3.0
@@ -1610,7 +1610,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-react@^19.1.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
+"@ornikar/eslint-config-react@^19.3.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react"
   dependencies:
@@ -1627,34 +1627,47 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react":
+"@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs":
   version: 0.0.0-use.local
-  resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
+  resolution: "@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs"
   dependencies:
-    "@ornikar/eslint-config-react": ^19.1.0
-    "@ornikar/eslint-config-typescript": ^19.1.0
-    "@types/react": 17.0.48
+    "@ornikar/eslint-config-typescript": ^19.3.0
     eslint: 8.22.0
-    react: 17.0.2
-    type-fest: 2.18.0
+    eslint-plugin-prefer-arrow-functions: ^3.1.4
   peerDependencies:
     eslint: ^8.18.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript@^19.1.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
+"@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react":
+  version: 0.0.0-use.local
+  resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
+  dependencies:
+    "@ornikar/eslint-config-react": ^19.3.0
+    "@ornikar/eslint-config-typescript": ^19.3.0
+    "@types/react": 17.0.48
+    eslint: 8.22.0
+    react: 17.0.2
+    type-fest: 2.19.0
+  peerDependencies:
+    eslint: ^8.18.0
+    prettier: ^2.2.1
+  languageName: unknown
+  linkType: soft
+
+"@ornikar/eslint-config-typescript@^19.3.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript"
   dependencies:
-    "@ornikar/eslint-config": ^19.1.0
+    "@ornikar/eslint-config": ^19.3.0
     "@typescript-eslint/eslint-plugin": 5.33.1
     "@typescript-eslint/parser": 5.33.1
     eslint: 8.22.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prefer-class-properties: ^1.0.0
-    type-fest: 2.18.0
+    type-fest: 2.19.0
     typescript: 4.7.4
   peerDependencies:
     eslint: ^8.18.0
@@ -1662,7 +1675,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config@^19.1.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
+"@ornikar/eslint-config@^19.3.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config@workspace:@ornikar/eslint-config"
   dependencies:
@@ -1690,11 +1703,11 @@ __metadata:
     "@ornikar/commitlint-config": 5.0.0
     "@ornikar/lerna-config": 7.0.0
     "@ornikar/prettier-config": 6.0.0
-    "@ornikar/repo-config": 10.0.0
+    "@ornikar/repo-config": 10.1.0
     check-package-dependencies: 3.9.2
     eslint: 8.22.0
     eslint-plugin-import: 2.26.0
-    eslint-plugin-n: 15.2.4
+    eslint-plugin-n: 15.2.5
     eslint-plugin-unicorn: 43.0.2
     lerna: 5.1.8
     prettier: 2.7.1
@@ -1724,15 +1737,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:10.0.0":
-  version: 10.0.0
-  resolution: "@ornikar/repo-config@npm:10.0.0"
+"@ornikar/repo-config@npm:10.1.0":
+  version: 10.1.0
+  resolution: "@ornikar/repo-config@npm:10.1.0"
   dependencies:
     "@commitlint/cli": 17.0.3
     "@ornikar/commitlint-config": ^5.0.0
     husky: 8.0.1
     lint-staged: 13.0.3
-    prettier-plugin-properties: 0.1.0
+    prettier-plugin-properties: 0.2.0
     semver: ^7.3.5
     which-pm-runs: ^1.1.0
   bin:
@@ -1741,7 +1754,7 @@ __metadata:
     ornikar-prettier-check: bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: bin/ornikar-repo-config-postinstall.js
-  checksum: 29b5b79afca6d1ba3a70d4fca356b23e0acc2d3bc59db14a9b8f250b5c7446cf57e430314d5b053105bbdbfe2c56e4ae281bf928c879b9c64903b3d215a8910b
+  checksum: 207c43f6e6c9d39ac707533202a6d19cbd9d94575dc1ba813186afef1ce67518af44f71160fd22c88bf0ec2fe86fe6ac4ed48f2ead31b21eab9ff34880224544
   languageName: node
   linkType: hard
 
@@ -3518,21 +3531,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:15.2.4, eslint-plugin-n@npm:^15.2.0":
-  version: 15.2.4
-  resolution: "eslint-plugin-n@npm:15.2.4"
+"eslint-plugin-n@npm:15.2.5, eslint-plugin-n@npm:^15.2.0":
+  version: 15.2.5
+  resolution: "eslint-plugin-n@npm:15.2.5"
   dependencies:
     builtins: ^5.0.1
     eslint-plugin-es: ^4.1.0
     eslint-utils: ^3.0.0
     ignore: ^5.1.1
-    is-core-module: ^2.9.0
+    is-core-module: ^2.10.0
     minimatch: ^3.1.2
-    resolve: ^1.10.1
+    resolve: ^1.22.1
     semver: ^7.3.7
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: dd651651ab76120e45707ee968d846e3ffffb42d1035792fdef6d3b0dcfddf3673bc6a09cb2fac8c5f1d081f14f2a67fc52295d5ed1d2edfb5beead93284eaac
+  checksum: 3be265957b3dda6a049841803335c17689cf98a4b3859eeed3e57b44850b241e7d20640890b2dea7e83816c938fc16274bf78d370f571e211d00d9a3c513f281
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-prefer-arrow-functions@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "eslint-plugin-prefer-arrow-functions@npm:3.1.4"
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: 581f1be4ea056d70aad1866ee16a0def7ecece050e03ff3bc2a6695b8bdca3751d6360fcd0e4efccd0068a0e0557b7ab36586a301afa38957acc8c58d293560c
   languageName: node
   linkType: hard
 
@@ -4643,12 +4665,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
-  version: 2.9.0
-  resolution: "is-core-module@npm:2.9.0"
+"is-core-module@npm:^2.10.0, is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+  version: 2.10.0
+  resolution: "is-core-module@npm:2.10.0"
   dependencies:
     has: ^1.0.3
-  checksum: b27034318b4b462f1c8f1dfb1b32baecd651d891a4e2d1922135daeff4141dfced2b82b07aef83ef54275c4a3526aa38da859223664d0868ca24182badb784ce
+  checksum: 0f3f77811f430af3256fa7bbc806f9639534b140f8ee69476f632c3e1eb4e28a38be0b9d1b8ecf596179c841b53576129279df95e7051d694dac4ceb6f967593
   languageName: node
   linkType: hard
 
@@ -5093,13 +5115,6 @@ __metadata:
   version: 1.1.6
   resolution: "lines-and-columns@npm:1.1.6"
   checksum: 198a5436b1fa5cf703bae719c01c686b076f0ad7e1aafd95a58d626cabff302dc0414822126f2f80b58a8c3d66cda8a7b6da064f27130f87e1d3506d6dfd0d68
-  languageName: node
-  linkType: hard
-
-"linguist-languages@npm:^7.9.0":
-  version: 7.15.0
-  resolution: "linguist-languages@npm:7.15.0"
-  checksum: 2f930295a291997ecf30219246f1bdb915ea53820f37410aacd0effb5a94ab6b1076ab35fa792899ac86b196ab0a9b2c40f2cc021817ccbecd4bd2efc45a1df1
   languageName: node
   linkType: hard
 
@@ -6392,15 +6407,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-properties@npm:0.1.0":
-  version: 0.1.0
-  resolution: "prettier-plugin-properties@npm:0.1.0"
+"prettier-plugin-properties@npm:0.2.0":
+  version: 0.2.0
+  resolution: "prettier-plugin-properties@npm:0.2.0"
   dependencies:
     dot-properties: ^1.0.0
-    linguist-languages: ^7.9.0
-  peerDependencies:
-    prettier: ">=1.11.0"
-  checksum: ffb7b26362478d1cd491a93a1128c81798738212c14db44af36d90204eb4b8c1e040fb5dfb29714155206b6e82d39c089b3dc8716e6b37250160853304e5515e
+  checksum: 0109ca2a5862bf02ea3326ab39b0b308b3be9cec468642d840dfa867ea7a5d643cc5f01f18985072ad0248b1b2713dbda24c6a09b9d8eccef5c26155f8780a59
   languageName: node
   linkType: hard
 
@@ -6781,16 +6793,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.10.0, resolve@npm:^1.10.1, resolve@npm:^1.20.0, resolve@npm:^1.22.0":
-  version: 1.22.0
-  resolution: "resolve@npm:1.22.0"
+"resolve@npm:^1.10.0, resolve@npm:^1.20.0, resolve@npm:^1.22.0, resolve@npm:^1.22.1":
+  version: 1.22.1
+  resolution: "resolve@npm:1.22.1"
   dependencies:
-    is-core-module: ^2.8.1
+    is-core-module: ^2.9.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: a2d14cc437b3a23996f8c7367eee5c7cf8149c586b07ca2ae00e96581ce59455555a1190be9aa92154785cf9f2042646c200d0e00e0bbd2b8a995a93a0ed3e4e
+  checksum: 07af5fc1e81aa1d866cbc9e9460fbb67318a10fa3c4deadc35c3ad8a898ee9a71a86a65e4755ac3195e0ea0cfbe201eb323ebe655ce90526fd61917313a34e4e
   languageName: node
   linkType: hard
 
@@ -6804,16 +6816,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
-  version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
+  version: 1.22.1
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
-    is-core-module: ^2.8.1
+    is-core-module: ^2.9.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: c79ecaea36c872ee4a79e3db0d3d4160b593f2ca16e031d8283735acd01715a203607e9ded3f91f68899c2937fa0d49390cddbe0fb2852629212f3cda283f4a7
+  checksum: 5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
   languageName: node
   linkType: hard
 
@@ -7556,10 +7568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:2.18.0, type-fest@npm:^2.0.0":
-  version: 2.18.0
-  resolution: "type-fest@npm:2.18.0"
-  checksum: 0737128d9d77b93793c6ee443e304462a792f5b723a6be035d6cb488c5610a8baa00522805421341c04324c80efba9849885bbfbc5a9623d0672fe8712969f62
+"type-fest@npm:2.19.0, type-fest@npm:^2.0.0":
+  version: 2.19.0
+  resolution: "type-fest@npm:2.19.0"
+  checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
   languageName: node
   linkType: hard
 

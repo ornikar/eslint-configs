@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.3.0](https://github.com/ornikar/eslint-configs/compare/v19.2.0...v19.3.0) (2022-08-30)
+
+
+### Features
+
+* **eslint-config-typescript-nestjs:** initial setup [no issue] ([#383](https://github.com/ornikar/eslint-configs/issues/383)) ([f82e3ef](https://github.com/ornikar/eslint-configs/commit/f82e3ef04bedb15a0836ebe5261b07209f2f9e62))
+
+
+
+
+
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **eslint-config:** enable text-encoding-identifier-case and prefer-json-parse-buffer ARCH-1562 ([#372](https://github.com/ornikar/eslint-configs/issues/372)) ([d5dca06](https://github.com/ornikar/eslint-configs/commit/d5dca0679aa4f65de8381d23d621600d1e50f215))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config

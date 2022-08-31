@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.3.0](https://github.com/ornikar/eslint-configs/compare/v19.2.0...v19.3.0) (2022-08-30)
+
+
+### Features
+
+* **eslint-config-typescript-nestjs:** initial setup [no issue] ([#383](https://github.com/ornikar/eslint-configs/issues/383)) ([f82e3ef](https://github.com/ornikar/eslint-configs/commit/f82e3ef04bedb15a0836ebe5261b07209f2f9e62))
+* **eslint-config:** add forbid-component-props for data-testid INS-1880 ([#381](https://github.com/ornikar/eslint-configs/issues/381)) ([0daf3d3](https://github.com/ornikar/eslint-configs/commit/0daf3d3644fec3cd05571bdafbb0362c64ded108))
+
+
+
+
+
+# [19.2.0](https://github.com/ornikar/eslint-configs/compare/v19.1.0...v19.2.0) (2022-08-19)
+
+
+### Features
+
+* **jsx-curly-brace-presence:** removing disable [no issue] ([#369](https://github.com/ornikar/eslint-configs/issues/369)) ([70dae58](https://github.com/ornikar/eslint-configs/commit/70dae589b153fc3eb1bfa145ec3c1fb9079c0ecd))
+
+
+
+
+
 # [19.1.0](https://github.com/ornikar/eslint-configs/compare/v19.0.0...v19.1.0) (2022-07-22)
 
 **Note:** Version bump only for package @ornikar/eslint-config-react

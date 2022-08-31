@@ -1,11 +1,11 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "19.1.0",
+  "version": "19.3.0",
   "description": "eslint config files",
   "repository": {
+    "directory": "@ornikar/eslint-config",
     "type": "git",
-    "url": "https://github.com/ornikar/eslint-configs.git",
-    "directory": "@ornikar/eslint-config"
+    "url": "https://github.com/ornikar/eslint-configs.git"
   },
   "main": "index.js",
   "license": "ISC",
@@ -33,5 +33,8 @@
   "devDependencies": {
     "eslint": "8.22.0",
     "prettier": "2.7.1"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "@ornikar/eslint-config-formatjs",
+  "name": "@ornikar/eslint-config-typescript-nestjs",
   "version": "19.3.0",
-  "description": "eslint formatjs config files",
+  "description": "eslint typescript nestjs config files",
   "repository": {
-    "directory": "@ornikar/eslint-config-formatjs",
+    "directory": "@ornikar/eslint-config-typescript-nestjs",
     "type": "git",
     "url": "https://github.com/ornikar/eslint-configs.git"
   },
@@ -16,21 +16,17 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-plugin-formatjs": "^4.0.0"
+    "@ornikar/eslint-config-typescript": "^19.3.0",
+    "eslint-plugin-prefer-arrow-functions": "^3.1.4"
   },
   "peerDependencies": {
     "eslint": "^8.18.0",
-    "eslint-plugin-formatjs": "^3.0.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint-plugin-formatjs": {
-      "optional": true
-    }
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "8.22.0"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-formatjs"
+    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-typescript-nestjs"
   }
 }
