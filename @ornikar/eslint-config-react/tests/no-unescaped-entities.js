@@ -9,9 +9,11 @@ export function NoUnescapedEntities() {
       <p>{"A paragraph with 'quote' is incorrect"}</p>
 
       <p>A paragraph with 'quote' is correct</p>
-      <p>A paragraph with "quote" is correct</p>
-      <div> {'><'} </div>
-      <div> {'}{'} </div>
+      <p>A paragraph with "double quote" is correct</p>
+      <div> {'>'} </div>
+      <div> {'<'} </div>
+      <div> {'}'} </div>
+      <div> {'{'} </div>
     </App>
   );
 }
