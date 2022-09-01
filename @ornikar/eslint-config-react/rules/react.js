@@ -96,6 +96,24 @@ module.exports = {
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',
 
+    // By default, single and double quote are also forbidden ("')
+    // this is incompatible with the rule react/jsx-curly-brace-presence
+    'react/no-unescaped-entities': [
+      'error',
+      {
+        forbid: [
+          {
+            char: '>',
+            alternatives: ["{'>'}"],
+          },
+          {
+            char: '}',
+            alternatives: ["{'}'}"],
+          },
+        ],
+      },
+    ],
+
     // allow react-intl
     'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
 
