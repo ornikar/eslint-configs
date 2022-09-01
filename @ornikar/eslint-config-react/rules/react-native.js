@@ -1,11 +1,6 @@
 'use strict';
 
-const forbidComponentsProps = [
-  { propName: 'data-testid', message: 'Use testID for native components' },
-  { propName: 'data-test', message: 'Use data-testid' },
-  { propName: 'data-test-id', message: 'Use data-testid' },
-  { propName: 'data-test-class', message: 'Use data-testid' },
-];
+const forbidComponentsProps = [{ propName: 'data-testid', message: 'Use testID for native components' }];
 
 module.exports = {
   env: {
@@ -26,12 +21,7 @@ module.exports = {
 
   rules: {
     'react/prefer-stateless-function': 'off',
-    'react/no-unescaped-entities': [
-      'error',
-      {
-        forbid: ['>', "'", '}'],
-      },
-    ],
+    'react/no-unescaped-entities': 'off',
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
     'react/forbid-component-props': [
       'error',
