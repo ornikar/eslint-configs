@@ -1,6 +1,6 @@
 'use strict';
 
-const forbidComponentsProps = [{ propName: 'data-testid', message: 'Use testID for native components', '>', "'", '}'}];
+const forbidComponentsProps = [{ propName: 'data-testid', message: 'Use testID for native components' }, '>', "'", '}'];
 
 module.exports = {
   env: {
