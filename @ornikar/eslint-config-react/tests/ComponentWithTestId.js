@@ -17,8 +17,9 @@ export function ComponentUsingComponentWithTestId() {
       <ComponentUsingComponentWithTestId data-test-id="tests.ComponentWithTestId.unique" />
       {/* eslint-disable-next-line react/forbid-component-props */}
       <ComponentUsingComponentWithTestId data-test-class="tests.ComponentWithTestId.unique" />
-
+      {/* eslint-disable-next-line react/forbid-component-props */}
       <ComponentUsingComponentWithTestId data-testid="tests.ComponentWithTestId.unique" />
+
       <ComponentUsingComponentWithTestId testID="tests.ComponentWithTestId.unique" />
     </>
   );
