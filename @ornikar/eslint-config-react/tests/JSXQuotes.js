@@ -8,12 +8,8 @@ function Color() {
 
 export function JSXQuotes() {
   return (
-    <App
-      validProp="Hello world"
-      // eslint-disable-next-line react/jsx-curly-brace-presence
-      invalidProp={'Hello world'}
-    >
-      Hello World
+    // eslint-disable-next-line react/jsx-curly-brace-presence
+    <App prop={'Hello world'}>
       {/* eslint-disable-next-line react/jsx-curly-brace-presence */}
       {'Hello world'}
       <Color text={'\u00A0'} />
