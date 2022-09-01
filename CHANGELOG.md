@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.3.1](https://github.com/ornikar/eslint-configs/compare/v19.3.0...v19.3.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* **eslint-config-react:** fix no-unescaped-entities [no issue] ([#386](https://github.com/ornikar/eslint-configs/issues/386)) ([e9a5135](https://github.com/ornikar/eslint-configs/commit/e9a51352bc55d9e12704a5cf417437408d656a64))
+
+
+
+
+
 # [19.3.0](https://github.com/ornikar/eslint-configs/compare/v19.2.0...v19.3.0) (2022-08-30)
 
 
