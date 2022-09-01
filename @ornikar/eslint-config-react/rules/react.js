@@ -96,10 +96,20 @@ module.exports = {
     // allow props spreading
     'react/jsx-props-no-spreading': 'off',
 
+    // By default, single and double quote are forbidden ("')
     'react/no-unescaped-entities': [
       'error',
       {
-        forbid: ['>', "'", '}'],
+        forbid: [
+          {
+            char: '>',
+            alternatives: ["{'>'}"],
+          },
+          {
+            char: '}',
+            alternatives: ["{'}'}"],
+          },
+        ],
       },
     ],
 
