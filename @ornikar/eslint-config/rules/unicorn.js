@@ -287,7 +287,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-modern-math-apis': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
-    'unicorn/no-unreadable-iife': 'off',
+    'unicorn/no-unreadable-iife': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md
     'unicorn/prefer-native-coercion-functions': 'error',
