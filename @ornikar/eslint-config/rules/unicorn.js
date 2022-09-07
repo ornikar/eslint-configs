@@ -272,7 +272,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-useless-promise-resolve-reject': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md
-    'unicorn/relative-url-style': 'off',
+    'unicorn/relative-url-style': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
     'unicorn/prefer-json-parse-buffer': 'error',
@@ -287,7 +287,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-modern-math-apis': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unreadable-iife.md
-    'unicorn/no-unreadable-iife': 'off',
+    'unicorn/no-unreadable-iife': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md
     'unicorn/prefer-native-coercion-functions': 'error',
