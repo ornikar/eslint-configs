@@ -20,7 +20,6 @@ module.exports = {
   },
 
   rules: {
-    'react/prefer-stateless-function': 'off',
     'react/no-unescaped-entities': 'off',
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
     'react/forbid-component-props': [
