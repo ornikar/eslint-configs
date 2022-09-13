@@ -291,5 +291,8 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-native-coercion-functions.md
     'unicorn/prefer-native-coercion-functions': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-logical-operator-over-ternary.md
+    'unicorn/prefer-logical-operator-over-ternary': 'error',
   },
 };

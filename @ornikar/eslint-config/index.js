@@ -5,6 +5,7 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'script',
+    ecmaVersion: 2020,
   },
 
   rules: {
