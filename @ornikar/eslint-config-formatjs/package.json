@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-formatjs",
-  "version": "19.3.1",
+  "version": "19.4.0",
   "description": "eslint formatjs config files",
   "repository": {
     "directory": "@ornikar/eslint-config-formatjs",

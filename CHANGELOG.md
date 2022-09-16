@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.4.0](https://github.com/ornikar/eslint-configs/compare/v19.3.1...v19.4.0) (2022-09-16)
+
+
+### Features
+
+* add prefer-logical-operator-over-ternary INS-1931 ([#393](https://github.com/ornikar/eslint-configs/issues/393)) ([927e798](https://github.com/ornikar/eslint-configs/commit/927e79863f659214ba709553725bbb92de2575e9))
+* remove prefer-stateless-function from react-native INS-1926 ([#392](https://github.com/ornikar/eslint-configs/issues/392)) ([fafb9e1](https://github.com/ornikar/eslint-configs/commit/fafb9e11cabb7f8925daef7e0aedb1a2706e7bea))
+* **unicorn:** add no-unreadable-iife [no issue] ([#389](https://github.com/ornikar/eslint-configs/issues/389)) ([01d1c62](https://github.com/ornikar/eslint-configs/commit/01d1c6294bbf582821944647b624c42ebb4dd268))
+* **unicorn:** add relative-url-style [no issue] ([#390](https://github.com/ornikar/eslint-configs/issues/390)) ([59d045a](https://github.com/ornikar/eslint-configs/commit/59d045aa8c398b1af1e321573d6c8b0721a7d7f5))
+
+
+
+
+
 ## [19.3.1](https://github.com/ornikar/eslint-configs/compare/v19.3.0...v19.3.1) (2022-09-01)
 
 

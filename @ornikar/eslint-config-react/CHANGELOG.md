@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.4.0](https://github.com/ornikar/eslint-configs/compare/v19.3.1...v19.4.0) (2022-09-16)
+
+
+### Features
+
+* remove prefer-stateless-function from react-native INS-1926 ([#392](https://github.com/ornikar/eslint-configs/issues/392)) ([fafb9e1](https://github.com/ornikar/eslint-configs/commit/fafb9e11cabb7f8925daef7e0aedb1a2706e7bea))
+
+
+
+
+
 ## [19.3.1](https://github.com/ornikar/eslint-configs/compare/v19.3.0...v19.3.1) (2022-09-01)
 
 
