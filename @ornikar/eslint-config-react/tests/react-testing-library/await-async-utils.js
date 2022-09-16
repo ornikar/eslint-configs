@@ -39,7 +39,7 @@ test('something correctly', async () => {
 
   waitFor(() => {}, { timeout: 100 })
     .then(() => console.log('DOM changed!'))
-    .catch((err) => console.log(`Error you need to deal with: ${err}`));
+    .catch((error) => console.log(`Error you need to deal with: ${err}`));
 
   await Promise.all([
     waitFor(() => getByLabelText('email')),

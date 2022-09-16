@@ -4,7 +4,7 @@ module.exports = {
   plugins: ['unicorn'],
   rules: {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/catch-error-name.md
-    'unicorn/catch-error-name': ['error', { name: 'err' }],
+    'unicorn/catch-error-name': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/explicit-length-check.md
     'unicorn/explicit-length-check': 'error',
