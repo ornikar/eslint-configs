@@ -13,7 +13,7 @@
     "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@ornikar/prettier-config",
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.2.3",
   "engines": {
     "node": ">=16.16.0"
   },
