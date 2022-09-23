@@ -1711,7 +1711,7 @@ __metadata:
     check-package-dependencies: 3.9.2
     eslint: 8.23.1
     eslint-plugin-import: 2.26.0
-    eslint-plugin-n: 15.2.5
+    eslint-plugin-n: 15.3.0
     eslint-plugin-unicorn: 43.0.2
     lerna: 5.5.2
     prettier: 2.7.1
@@ -3636,9 +3636,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:15.2.5, eslint-plugin-n@npm:^15.2.0":
-  version: 15.2.5
-  resolution: "eslint-plugin-n@npm:15.2.5"
+"eslint-plugin-n@npm:15.3.0, eslint-plugin-n@npm:^15.2.0":
+  version: 15.3.0
+  resolution: "eslint-plugin-n@npm:15.3.0"
   dependencies:
     builtins: ^5.0.1
     eslint-plugin-es: ^4.1.0
@@ -3650,7 +3650,7 @@ __metadata:
     semver: ^7.3.7
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 3be265957b3dda6a049841803335c17689cf98a4b3859eeed3e57b44850b241e7d20640890b2dea7e83816c938fc16274bf78d370f571e211d00d9a3c513f281
+  checksum: a5a4c778804a0d343ca904c917b8e583b4df28aaad593ea6d41893befac45d4f92ab38d895aac018ac757583697d38e99397d4deda783ec8ff650bb2041d23c8
   languageName: node
   linkType: hard
 
@@ -7889,11 +7889,11 @@ __metadata:
 
 "typescript@patch:typescript@^3 || ^4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0404a09c625df01934ef774b45ce1ca57ccae41cd625fcdbb82056715320d9329e70d9d75c2c732ec6ef947444ca978c189a332b71fa21f5c1437d5a83e24906
+  checksum: 2222d2382fb3146089b1d27ce2b55e9d1f99cc64118f1aba75809b693b856c5d3c324f052f60c75b577947fc538bc1c27bad0eb76cbdba9a63a253489504ba7e
   languageName: node
   linkType: hard
 
