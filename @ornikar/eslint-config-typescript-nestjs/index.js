@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  plugins: ['prefer-arrow-functions'],
+  plugins: ['eslint-plugin-tsdoc', 'prefer-arrow-functions'],
   extends: [
     '@ornikar/eslint-config-typescript/node',
     './rules/typescript-eslint',
@@ -14,5 +14,6 @@ module.exports = {
         returnStyle: 'implicit',
       },
     ],
+    'tsdoc/syntax': 'warn',
   },
 };
