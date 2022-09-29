@@ -27,7 +27,7 @@
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "8.23.1"
+    "eslint": "8.24.0"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-babel"
