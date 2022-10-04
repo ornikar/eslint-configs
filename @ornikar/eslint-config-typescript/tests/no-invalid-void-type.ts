@@ -7,7 +7,6 @@ type MorePossibleValues = string | ((number & any) | (string | void));
 
 // eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 function logSomething(thing: void) {}
-// eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 function printArg<T = void>(arg: T) {}
 
 // eslint-disable-next-line @typescript-eslint/no-invalid-void-type
