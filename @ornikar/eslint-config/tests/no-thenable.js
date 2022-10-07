@@ -2,8 +2,6 @@
 
 'use strict';
 
-const array = [];
-
 // Incorrect uses
 
 const foo = {
