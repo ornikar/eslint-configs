@@ -266,7 +266,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/require-array-join-separator': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-thenable.md
-    'unicorn/no-thenable': 'off',
+    'unicorn/no-thenable': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md
     'unicorn/no-useless-promise-resolve-reject': 'off',
