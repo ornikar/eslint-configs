@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.5.0](https://github.com/ornikar/eslint-configs/compare/v19.4.0...v19.5.0) (2022-10-14)
+
+
+### Features
+
+* **eslint-config:** enable no-thenable rule [no issue] ([#405](https://github.com/ornikar/eslint-configs/issues/405)) ([8125fec](https://github.com/ornikar/eslint-configs/commit/8125fecc3ec03db5cf83c54da4ae87118375396d))
+* update param name of unicorn/catch-error-name from err to error ING-666 ([#396](https://github.com/ornikar/eslint-configs/issues/396)) ([dc1b320](https://github.com/ornikar/eslint-configs/commit/dc1b32009fb280fdc886186266e0da8bc905b048))
+
+
+
+
+
 # [19.4.0](https://github.com/ornikar/eslint-configs/compare/v19.3.1...v19.4.0) (2022-09-16)
 
 

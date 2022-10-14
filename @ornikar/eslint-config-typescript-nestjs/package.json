@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript-nestjs",
-  "version": "19.4.0",
+  "version": "19.5.0",
   "description": "eslint typescript nestjs config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript-nestjs",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config-typescript": "^19.4.0",
+    "@ornikar/eslint-config-typescript": "^19.5.0",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4"
   },
   "peerDependencies": {
