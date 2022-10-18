@@ -19,7 +19,6 @@ await waitFor(() => expect(getByLabel('button', { name: /submit/i })).toBeInTheD
 await waitFor(() => expect(getByLabel('button', { name: /submit/i })).not.toBeFalsy());
 
 // Correct
-await waitForElementToBeRemoved(() => findAllByRole('button'));
 await waitForElementToBeRemoved(() => queryAllByLabel('my label'));
 await waitForElementToBeRemoved(document.querySelector('foo'));
 

@@ -22,5 +22,6 @@ module.exports = {
     'testing-library/prefer-explicit-assert': 'error',
     'testing-library/prefer-find-by': 'error',
     'testing-library/prefer-presence-queries': 'error',
+    'testing-library/prefer-query-by-disappearance': 'error',
   },
 };
