@@ -23,5 +23,6 @@ module.exports = {
     'testing-library/prefer-find-by': 'error',
     'testing-library/prefer-presence-queries': 'error',
     'testing-library/prefer-query-by-disappearance': 'error',
+    'testing-library/render-result-naming-convention': 'error',
   },
 };
