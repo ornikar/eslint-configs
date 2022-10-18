@@ -30,7 +30,7 @@ it('is correct', async () => {
   expect(queryByText('foo')).toBeInTheDocument();
 
   // Doing something with the element returned without asserting is absolutely fine
-  const test2 = await waitFor(() => getByText('foo'));
+  const test2 = await findByText('foo');
   fireEvent.click(getByText('bar'));
   const quxElement = getByText('qux');
 

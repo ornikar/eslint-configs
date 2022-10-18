@@ -20,6 +20,7 @@ module.exports = {
     'testing-library/no-wait-for-side-effects': 'error',
     'testing-library/no-wait-for-snapshot': 'error',
     'testing-library/prefer-explicit-assert': 'error',
+    'testing-library/prefer-find-by': 'error',
     'testing-library/prefer-presence-queries': 'error',
   },
 };

@@ -37,7 +37,7 @@ test('something incorrectly', async () => {
 // Correct uses
 
 test('something correctly', async () => {
-  await waitFor(() => getByLabelText('email'));
+  await waitFor(() => test);
 
   const [usernameElement, passwordElement] = await waitFor(
     () => [getByLabelText(container, 'username'), getByLabelText(container, 'password')],
