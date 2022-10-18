@@ -6,7 +6,9 @@
 
 test('something incorrectly', async () => {
   // eslint-disable-next-line testing-library/await-async-utils
-  waitFor(() => {});
+  waitFor(() => {
+    queryByText('test');
+  });
 
   // eslint-disable-next-line testing-library/await-async-utils
   const [usernameElement, passwordElement] = waitFor(
@@ -15,7 +17,12 @@ test('something incorrectly', async () => {
   );
 
   // eslint-disable-next-line testing-library/await-async-utils
-  waitFor(() => {}, { timeout: 100 });
+  waitFor(
+    () => {
+      queryByText('test');
+    },
+    { timeout: 100 },
+  );
 
   // eslint-disable-next-line testing-library/await-async-utils
   waitForElementToBeRemoved(() => document.querySelector('div.getOuttaHere'));
@@ -37,7 +44,12 @@ test('something correctly', async () => {
     { container },
   );
 
-  waitFor(() => {}, { timeout: 100 })
+  waitFor(
+    () => {
+      queryByText('test');
+    },
+    { timeout: 100 },
+  )
     .then(() => console.log('DOM changed!'))
     .catch((error) => console.log(`Error you need to deal with: ${err}`));
 
