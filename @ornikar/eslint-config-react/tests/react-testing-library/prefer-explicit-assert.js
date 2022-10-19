@@ -22,15 +22,15 @@ it('is incorrect', async () => {
 it('is correct', async () => {
   expect(getByText('foo')).toBeDefined();
 
-  const utils2 = render(<Component />);
-  expect(utils2.getByText('foo')).toBeDefined();
+  const view = render(<Component />);
+  expect(view.getByText('foo')).toBeDefined();
 
   // even more explicit if you use `@testing-library/jest-dom` matcher
   // for checking the element is present in the document
   expect(queryByText('foo')).toBeInTheDocument();
 
   // Doing something with the element returned without asserting is absolutely fine
-  const test2 = await waitFor(() => getByText('foo'));
+  const test2 = await findByText('foo');
   fireEvent.click(getByText('bar'));
   const quxElement = getByText('qux');
 
