@@ -10,7 +10,6 @@ const forbidDomAndComponentsProps = [
 
 module.exports = {
   extends: ['plugin:react/jsx-runtime'],
-  plugins: ['testing-library'],
 
   rules: {
     /* added rules */
@@ -116,15 +115,5 @@ module.exports = {
 
     // allow react-intl
     'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
-
-    // Allows consistent data-testid and testID
-    // Format is: sectionName.pageName?.FileName.uniqueIdentifier
-    'testing-library/consistent-data-testid': [
-      'error',
-      {
-        testIdPattern: '^([a-z][a-zA-Z]+\\.)+{fileName}\\.([a-z][a-zA-Z]+)+$',
-        testIdAttribute: ['data-testid', 'testID'],
-      },
-    ],
   },
 };
