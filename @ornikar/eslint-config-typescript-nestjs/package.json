@@ -24,7 +24,7 @@
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "8.25.0"
+    "eslint": "8.26.0"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-typescript-nestjs"
