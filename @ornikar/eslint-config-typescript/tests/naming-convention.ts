@@ -1,3 +1,33 @@
+/* Type like naming */
+
+// warning eslint
+export interface IInvalidPrefixInterface {
+  name: string;
+}
+
+// warning eslint
+export type IInvalidPrefixType = IInvalidPrefixInterface;
+
+// warning eslint
+export interface invalidCaseInterface {
+  name: string;
+}
+
+// warning eslint
+export type invalidCaseType = invalidCaseInterface;
+
+export interface ValidInterface {}
+export type ValidType = ValidInterface;
+
+/* Enum naming */
+
+// warning eslint
+export enum InvalidEnumName {}
+
+export enum ValidEnum {}
+
+/* Boolean */
+
 export const isBooleanVariable = false;
 // warning eslint
 export const invalidIsBooleanVariable = false;
