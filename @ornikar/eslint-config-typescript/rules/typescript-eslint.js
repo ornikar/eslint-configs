@@ -96,6 +96,21 @@ module.exports = {
     /* Naming convention */
     '@typescript-eslint/naming-convention': [
       enableIfVSCode('warn'),
+      // Enforce that interface or type names are not prefixed with an I and are in PascalCase
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false,
+        },
+      },
+      // Enforce that an enum is suffixed
+      {
+        selector: 'enum',
+        format: ['PascalCase'],
+        suffix: ['Enum'],
+      },
       // enforce that boolean are prefixed with an allowed verb
       {
         selector: 'variable',
