@@ -269,7 +269,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-thenable': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md
-    'unicorn/no-useless-promise-resolve-reject': 'off',
+    'unicorn/no-useless-promise-resolve-reject': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md
     'unicorn/relative-url-style': 'error',
