@@ -24,7 +24,7 @@
     "eslint-plugin-prefer-class-properties": "^1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.18.0",
+    "eslint": "^8.23.1",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
