@@ -52,7 +52,7 @@ const correctMain = async (foo) => {
     throw new Error('🤪');
   }
 
-  return result;
+  return res;
 };
 
 // eslint-disable-next-line no-unused-vars
