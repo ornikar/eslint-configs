@@ -46,7 +46,6 @@ promise.finally(() => Promise.reject(new Error('oh no')));
 
 // eslint-disable-next-line no-unused-vars
 const correctMain = async (foo) => {
-  // eslint-disable-next-line no-unused-vars
   const res = await awaitablePromise();
   if (foo > 4) {
     throw new Error('🤪');
