@@ -7,17 +7,18 @@ const promise = new Promise();
 const awaitablePromise = new Promise();
 
 // Incorrect uses
-export const incorrectMain = async (foo) => {
+
+const incorrectMain = async (foo) => {
+  const res = await awaitablePromise();
   if (foo > 4) {
-    // eslint-disable-next-line no-unused-vars
-    const res = await awaitablePromise();
     // eslint-disable-next-line unicorn/no-useless-promise-resolve-reject
     return Promise.reject(new Error('🤪'));
   }
   // eslint-disable-next-line unicorn/no-useless-promise-resolve-reject
-  return Promise.resolve(result);
+  return Promise.resolve(res);
 };
-export async function* incorrectGenerator() {
+
+async function* incorrectGenerator() {
   // eslint-disable-next-line unicorn/no-useless-promise-resolve-reject
   yield Promise.resolve(result);
   // eslint-disable-next-line unicorn/no-useless-promise-resolve-reject
@@ -42,7 +43,7 @@ promise.finally(() => Promise.reject(new Error('oh no')));
 
 // Correct uses
 
-export const correctMain = async (foo) => {
+const correctMain = async (foo) => {
   const res = await awaitablePromise();
   if (foo > 4) {
     throw new Error('🤪');
@@ -51,7 +52,7 @@ export const correctMain = async (foo) => {
   return res;
 };
 
-export async function* correctGenerator() {
+async function* correctGenerator() {
   yield result;
   throw error;
 }
@@ -71,3 +72,10 @@ promise
 promise.finally(() => {
   throw new Error('oh no');
 });
+
+module.exports = {
+  incorrectMain,
+  incorrectGenerator,
+  correctMain,
+  correctGenerator,
+};
