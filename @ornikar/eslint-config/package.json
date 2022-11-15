@@ -35,6 +35,6 @@
     "prettier": "2.7.1"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config"
+    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config"
   }
 }

@@ -31,6 +31,6 @@
     "eslint": "8.27.0"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-formatjs"
+    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-formatjs"
   }
 }
