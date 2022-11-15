@@ -34,17 +34,7 @@
     },
     "eslint.lintTask.enable": true,
     "eslint.format.enable": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "jest.disabledWorkspaceFolders": [
-      "✨ root",
-      "eslint-config",
-      "eslint-config-babel",
-      "eslint-config-formatjs",
-      "eslint-config-react",
-      "eslint-config-typescript",
-      "eslint-config-typescript-nestjs",
-      "eslint-config-typescript-react"
-    ]
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "folders": [
     {

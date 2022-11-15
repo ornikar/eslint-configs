@@ -27,6 +27,6 @@
     "eslint": "8.27.0"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. lint:eslint @ornikar/eslint-config-typescript-nestjs"
+    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-typescript-nestjs"
   }
 }
