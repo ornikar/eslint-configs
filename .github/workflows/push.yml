@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.10.0]
+        node-version: [16.10.0, 18.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -17,6 +17,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
+
+      - name: Remove node version check
+        run: yarn plugin remove @yarnpkg/plugin-engines
+        if: startsWith(matrix.node-version, '18.')
 
       - name: Install Dependencies
         run: yarn install --immutable --immutable-cache
