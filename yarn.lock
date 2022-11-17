@@ -1219,7 +1219,7 @@ __metadata:
     "@ornikar/commitlint-config": 5.0.0
     "@ornikar/lerna-config": 9.0.0
     "@ornikar/prettier-config": 6.0.0
-    "@ornikar/repo-config": 10.2.0
+    "@ornikar/repo-config": 10.3.0
     check-package-dependencies: 3.10.0
     eslint: 8.27.0
     eslint-plugin-import: 2.26.0
@@ -1261,13 +1261,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:10.2.0":
-  version: 10.2.0
-  resolution: "@ornikar/repo-config@npm:10.2.0"
+"@ornikar/repo-config@npm:10.3.0":
+  version: 10.3.0
+  resolution: "@ornikar/repo-config@npm:10.3.0"
   dependencies:
     "@commitlint/cli": 17.2.0
     "@ornikar/commitlint-config": ^5.0.0
-    husky: 8.0.1
+    husky: 8.0.2
     lint-staged: 13.0.3
     prettier-plugin-properties: 0.2.0
     semver: ^7.3.5
@@ -1278,7 +1278,7 @@ __metadata:
     ornikar-prettier-check: bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: bin/ornikar-repo-config-postinstall.js
-  checksum: 30d0865c6e02649d8cf459d3ec1cbb4c62be71e10daf8465aaaef7660e68861ca3439654b2bd611709166a700d54196e541e2d8bb4a4ebb2fee549e66de5cb2d
+  checksum: b70ddaed7d98cc31927675b0b614b3cdfece687dbf31e193d639d3403b8ed56f1fba741b402286baab09618d6823b2897a1e2f3db02029a0e75aa40f49ad6924
   languageName: node
   linkType: hard
 
@@ -3866,12 +3866,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.1":
-  version: 8.0.1
-  resolution: "husky@npm:8.0.1"
+"husky@npm:8.0.2":
+  version: 8.0.2
+  resolution: "husky@npm:8.0.2"
   bin:
     husky: lib/bin.js
-  checksum: 943a73a13d0201318fd30e83d299bb81d866bd245b69e6277804c3b462638dc1921694cb94c2b8c920a4a187060f7d6058d3365152865406352e934c5fff70dc
+  checksum: e101656fcb56163d610488f186448c78b132626aa427094489d886ce9374955a90274912b0f3a34af3326eaa74977883b032e5f701d7aaf4554daa5a7931be43
   languageName: node
   linkType: hard
 
