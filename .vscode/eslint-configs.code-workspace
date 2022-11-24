@@ -10,31 +10,31 @@
     "unwantedRecommendations": []
   },
   "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.format.enable": false,
+    "eslint.lintTask.enable": true,
+    "eslint.options": {
+      "resolvePluginsRelativeTo": ".",
+      "reportUnusedDisableDirectives": "error"
+    },
+    "eslint.useESLintClass": true,
+    "eslint.workingDirectories": ["."],
+    "jest.autoRun": {
+      "watch": false,
+      "onStartup": []
+    },
     "npm.packageManager": "yarn",
     "search.exclude": {
       "**/.yarn": true,
       "**/yarn-error.log": true,
       "**/yarn.lock": true
-    },
-    "editor.formatOnSave": true,
-    "eslint.codeActionsOnSave.mode": "all",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.organizeImports": false
-    },
-    "jest.autoRun": {
-      "watch": false,
-      "onStartup": []
-    },
-    "eslint.workingDirectories": ["."],
-    "eslint.useESLintClass": true,
-    "eslint.options": {
-      "resolvePluginsRelativeTo": ".",
-      "reportUnusedDisableDirectives": "error"
-    },
-    "eslint.lintTask.enable": true,
-    "eslint.format.enable": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   },
   "folders": [
     {

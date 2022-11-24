@@ -15,7 +15,7 @@
   "prettier": "@ornikar/prettier-config",
   "packageManager": "yarn@3.2.4",
   "engines": {
-    "node": "16.10.0"
+    "node": ">=16.10.0"
   },
   "commitlint": {
     "extends": [
