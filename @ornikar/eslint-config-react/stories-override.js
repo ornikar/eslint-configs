@@ -10,6 +10,9 @@ module.exports = {
       },
     ],
 
+    // Allow default export for CSF
+    'import/no-default-export': 'off',
+
     // Allow arrow functions in stories
     'react/function-component-definition': [
       'error',
