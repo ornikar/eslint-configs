@@ -242,7 +242,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-empty-file': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
-    'unicorn/prefer-export-from': 'off',
+    'unicorn/prefer-export-from': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md
     'unicorn/prefer-code-point': 'error',

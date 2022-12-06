@@ -1,6 +1,9 @@
 {
   "root": true,
-  "extends": ["../../node.js"],
+  "extends": ["../../index.js"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "rules": {
     "import/no-extraneous-dependencies": "off"
   }
