@@ -1132,7 +1132,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-react@^19.7.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
+"@ornikar/eslint-config-react@^19.8.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react"
   dependencies:
@@ -1166,7 +1166,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
   dependencies:
-    "@ornikar/eslint-config-react": ^19.7.0
+    "@ornikar/eslint-config-react": ^19.8.0
     "@ornikar/eslint-config-typescript": ^19.7.0
     "@types/react": 17.0.52
     eslint: 8.28.0

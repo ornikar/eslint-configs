@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.8.0](https://github.com/ornikar/eslint-configs/compare/v19.7.0...v19.8.0) (2022-12-06)
+
+
+### Features
+
+* **eslint-config-react:** allow default export in stories for CSF [no issue] ([#445](https://github.com/ornikar/eslint-configs/issues/445)) ([836d2e2](https://github.com/ornikar/eslint-configs/commit/836d2e23f92badc5e96c72512c19d2a48600e495))
+
+
+
+
+
 # [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
 
 
