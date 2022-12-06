@@ -250,6 +250,9 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
     'unicorn/no-await-expression-member': 'off',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unnecessary-await.md
+    'unicorn/no-unnecessary-await': 'error',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-object-from-entries.md
     'unicorn/prefer-object-from-entries': 'error',
 
