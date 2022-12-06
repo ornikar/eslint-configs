@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
+
+
+### Features
+
+* add no-invalid-remove-event-listener rule INS-1974 ([#436](https://github.com/ornikar/eslint-configs/issues/436)) ([9abccad](https://github.com/ornikar/eslint-configs/commit/9abccadf7b37ae1e98d026d26958a23f70fc5afa))
+* add unnecessary await unicorn rule [no issue] ([#446](https://github.com/ornikar/eslint-configs/issues/446)) ([16a3777](https://github.com/ornikar/eslint-configs/commit/16a3777a83e56e7a01ae1bb51895b82190cd6bd5))
+* **deps:** update dependency eslint-plugin-simple-import-sort to v8 ([#414](https://github.com/ornikar/eslint-configs/issues/414)) ([c846217](https://github.com/ornikar/eslint-configs/commit/c846217e3fe0db765d7edadfff57155941410345))
+* enable unicorn/no-useless-promise-resolve ECF-55 ([#420](https://github.com/ornikar/eslint-configs/issues/420)) ([628f9c4](https://github.com/ornikar/eslint-configs/commit/628f9c4c56dc4f9f4f6be11d2adea3c284afd69a))
+* **eslint-config:** enable no-array-method-this-argument ING-674 ([#415](https://github.com/ornikar/eslint-configs/issues/415)) ([67a1740](https://github.com/ornikar/eslint-configs/commit/67a17400f8ceee6a5bda500222b672acc13cb4fa))
+* **eslint-config:** enable prefer-export-from ING-690 ([#435](https://github.com/ornikar/eslint-configs/issues/435)) ([c099f4e](https://github.com/ornikar/eslint-configs/commit/c099f4ebb460584b7da10321d17443e84a751696))
+* **eslint-unicorn:** add eslint rules required to fixed argument [no issue] ([#447](https://github.com/ornikar/eslint-configs/issues/447)) ([74adf2c](https://github.com/ornikar/eslint-configs/commit/74adf2ceb917df34e135449b0b16475919bb3cf2))
+
+
+
+
+
 # [19.5.0](https://github.com/ornikar/eslint-configs/compare/v19.4.0...v19.5.0) (2022-10-14)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-formatjs to v4 ([#430](https://github.com/ornikar/eslint-configs/issues/430)) ([5da8335](https://github.com/ornikar/eslint-configs/commit/5da8335a0285cc3cae6f2e7ef3ac33c370dfae12))
+
+
+
+
+
 # [19.5.0](https://github.com/ornikar/eslint-configs/compare/v19.4.0...v19.5.0) (2022-10-14)
 
 **Note:** Version bump only for package @ornikar/eslint-config-formatjs

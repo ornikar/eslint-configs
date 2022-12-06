@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.42.1 ([#433](https://github.com/ornikar/eslint-configs/issues/433)) ([3eedcae](https://github.com/ornikar/eslint-configs/commit/3eedcaec01c8b5068b1efb762d043de904988cfb))
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.42.0 ([#422](https://github.com/ornikar/eslint-configs/issues/422)) ([c6c595f](https://github.com/ornikar/eslint-configs/commit/c6c595f80ca01ef4abe173fcaa9ec45dd96a2819))
+* **eslint-config-typescript:** add rules to naming convention [no issue] ([#418](https://github.com/ornikar/eslint-configs/issues/418)) ([e4b7c47](https://github.com/ornikar/eslint-configs/commit/e4b7c471103f1b95108f3fe9def17f02fd9446b7))
+* **eslint-config:** add no unsafe declaration merging rule [no issue] ([#429](https://github.com/ornikar/eslint-configs/issues/429)) ([0d99c7c](https://github.com/ornikar/eslint-configs/commit/0d99c7c231678dcabe63b120bf5935a1a4dd94c0))
+* **eslint-config:** enable prefer-export-from ING-690 ([#435](https://github.com/ornikar/eslint-configs/issues/435)) ([c099f4e](https://github.com/ornikar/eslint-configs/commit/c099f4ebb460584b7da10321d17443e84a751696))
+
+
+
+
+
 # [19.5.0](https://github.com/ornikar/eslint-configs/compare/v19.4.0...v19.5.0) (2022-10-14)
 
 

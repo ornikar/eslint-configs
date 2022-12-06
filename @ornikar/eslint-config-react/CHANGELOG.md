@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* fix react-testing-library override for typescript-react [no issue] ([#409](https://github.com/ornikar/eslint-configs/issues/409)) ([66e2cb3](https://github.com/ornikar/eslint-configs/commit/66e2cb30654e64958a127305c95f518f9697c48c))
+
+
+
+
+
 # [19.6.0](https://github.com/ornikar/eslint-configs/compare/v19.5.0...v19.6.0) (2022-10-19)
 
 

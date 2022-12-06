@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.42.1 ([#433](https://github.com/ornikar/eslint-configs/issues/433)) ([3eedcae](https://github.com/ornikar/eslint-configs/commit/3eedcaec01c8b5068b1efb762d043de904988cfb))
+* fix react-testing-library override for typescript-react [no issue] ([#409](https://github.com/ornikar/eslint-configs/issues/409)) ([66e2cb3](https://github.com/ornikar/eslint-configs/commit/66e2cb30654e64958a127305c95f518f9697c48c))
+
+
+### Features
+
+* add no-invalid-remove-event-listener rule INS-1974 ([#436](https://github.com/ornikar/eslint-configs/issues/436)) ([9abccad](https://github.com/ornikar/eslint-configs/commit/9abccadf7b37ae1e98d026d26958a23f70fc5afa))
+* add unnecessary await unicorn rule [no issue] ([#446](https://github.com/ornikar/eslint-configs/issues/446)) ([16a3777](https://github.com/ornikar/eslint-configs/commit/16a3777a83e56e7a01ae1bb51895b82190cd6bd5))
+* **deps:** update dependency eslint-plugin-formatjs to v4 ([#430](https://github.com/ornikar/eslint-configs/issues/430)) ([5da8335](https://github.com/ornikar/eslint-configs/commit/5da8335a0285cc3cae6f2e7ef3ac33c370dfae12))
+* **deps:** update dependency eslint-plugin-simple-import-sort to v8 ([#414](https://github.com/ornikar/eslint-configs/issues/414)) ([c846217](https://github.com/ornikar/eslint-configs/commit/c846217e3fe0db765d7edadfff57155941410345))
+* **deps:** update typescript-eslint monorepo to v5.42.0 ([#422](https://github.com/ornikar/eslint-configs/issues/422)) ([c6c595f](https://github.com/ornikar/eslint-configs/commit/c6c595f80ca01ef4abe173fcaa9ec45dd96a2819))
+* enable unicorn/no-useless-promise-resolve ECF-55 ([#420](https://github.com/ornikar/eslint-configs/issues/420)) ([628f9c4](https://github.com/ornikar/eslint-configs/commit/628f9c4c56dc4f9f4f6be11d2adea3c284afd69a))
+* **eslint-config-typescript:** add rules to naming convention [no issue] ([#418](https://github.com/ornikar/eslint-configs/issues/418)) ([e4b7c47](https://github.com/ornikar/eslint-configs/commit/e4b7c471103f1b95108f3fe9def17f02fd9446b7))
+* **eslint-config:** add no unsafe declaration merging rule [no issue] ([#429](https://github.com/ornikar/eslint-configs/issues/429)) ([0d99c7c](https://github.com/ornikar/eslint-configs/commit/0d99c7c231678dcabe63b120bf5935a1a4dd94c0))
+* **eslint-config:** enable no-array-method-this-argument ING-674 ([#415](https://github.com/ornikar/eslint-configs/issues/415)) ([67a1740](https://github.com/ornikar/eslint-configs/commit/67a17400f8ceee6a5bda500222b672acc13cb4fa))
+* **eslint-config:** enable prefer-export-from ING-690 ([#435](https://github.com/ornikar/eslint-configs/issues/435)) ([c099f4e](https://github.com/ornikar/eslint-configs/commit/c099f4ebb460584b7da10321d17443e84a751696))
+* **eslint-unicorn:** add eslint rules required to fixed argument [no issue] ([#447](https://github.com/ornikar/eslint-configs/issues/447)) ([74adf2c](https://github.com/ornikar/eslint-configs/commit/74adf2ceb917df34e135449b0b16475919bb3cf2))
+
+
+
+
+
 # [19.6.0](https://github.com/ornikar/eslint-configs/compare/v19.5.0...v19.6.0) (2022-10-19)
 
 
