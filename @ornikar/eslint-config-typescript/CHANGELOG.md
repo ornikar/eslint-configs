@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.9.0](https://github.com/ornikar/eslint-configs/compare/v19.8.0...v19.9.0) (2022-12-09)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.46.0 ([#451](https://github.com/ornikar/eslint-configs/issues/451)) ([6789b68](https://github.com/ornikar/eslint-configs/commit/6789b68e7b2180c19de169968c297c5f6aec3946))
+
+
+
+
+
 # [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
 
 

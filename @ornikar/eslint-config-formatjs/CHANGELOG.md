@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.9.0](https://github.com/ornikar/eslint-configs/compare/v19.8.0...v19.9.0) (2022-12-09)
+
+**Note:** Version bump only for package @ornikar/eslint-config-formatjs
+
+
+
+
+
 # [19.7.0](https://github.com/ornikar/eslint-configs/compare/v19.6.0...v19.7.0) (2022-12-06)
 
 
