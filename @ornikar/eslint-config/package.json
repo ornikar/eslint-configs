@@ -24,10 +24,10 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-security": "^1.5.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
-    "eslint-plugin-unicorn": "^44.0.0"
+    "eslint-plugin-unicorn": "^45.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.23.1",
+    "eslint": "^8.28.0",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
