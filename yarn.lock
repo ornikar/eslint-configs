@@ -1237,7 +1237,7 @@ __metadata:
     "@ornikar/lerna-config": 9.0.1
     "@ornikar/prettier-config": 6.0.2
     "@ornikar/repo-config": 10.3.2
-    check-package-dependencies: 3.10.0
+    check-package-dependencies: 4.0.0
     eslint: 8.29.0
     eslint-plugin-import: 2.26.0
     eslint-plugin-n: 15.6.0
@@ -2083,17 +2083,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"check-package-dependencies@npm:3.10.0":
-  version: 3.10.0
-  resolution: "check-package-dependencies@npm:3.10.0"
+"check-package-dependencies@npm:4.0.0":
+  version: 4.0.0
+  resolution: "check-package-dependencies@npm:4.0.0"
   dependencies:
     chalk: ^4.1.0
     glob: ^8.0.0
+    import-meta-resolve: ^2.1.0
     semver: ^7.3.4
-    type-fest: ^2.0.0
+    type-fest: ^3.0.0
   bin:
     check-package-dependencies: bin/check-package-dependencies.js
-  checksum: 1774a8852a4e89716325a59965c4babfeafb4ad3f28c2a4c56c7b57a1a5aeed83ef701c4b05dccfda86551d1f1244c673217016858d4838d984bfa116c981201
+  checksum: b4378e245ff7a525da54f3ed433d3af0f3d72f586f0a30fc3a15b035045adacd487af951a50fbfc3f520f2b79d349bad6725a41cd3ebbaa1fba45bbbb7d3ef2d
   languageName: node
   linkType: hard
 
@@ -3949,6 +3950,13 @@ __metadata:
   version: 4.0.0
   resolution: "import-from@npm:4.0.0"
   checksum: 1fa29c05b048da18914e91d9a529e5d9b91774bebbfab10e53f59bcc1667917672b971cf102fee857f142e5e433ce69fa1f0a596e1c7d82f9947a5ec352694b9
+  languageName: node
+  linkType: hard
+
+"import-meta-resolve@npm:^2.1.0":
+  version: 2.2.0
+  resolution: "import-meta-resolve@npm:2.2.0"
+  checksum: 35a012c07bdaaed907ad150021b47a4bd8b2c77c88f02a2c5a15a5cb5c146072a94b6633cc528eaccf187bca12196c0fb2ff44a54b3b2a03bcf200511b3f1e50
   languageName: node
   linkType: hard
 
@@ -6828,7 +6836,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:3.4.0":
+"type-fest@npm:3.4.0, type-fest@npm:^3.0.0":
   version: 3.4.0
   resolution: "type-fest@npm:3.4.0"
   checksum: 37e8559f07778b6a24a1d01f285d9b6904537cfde49f6231f080f146c6ff753ea12a9163bcbe8e9bcd24f72529cf4d3baf69874b9a6e1d2da47046c41e4567f6
@@ -6881,13 +6889,6 @@ __metadata:
   version: 0.8.1
   resolution: "type-fest@npm:0.8.1"
   checksum: d61c4b2eba24009033ae4500d7d818a94fd6d1b481a8111612ee141400d5f1db46f199c014766b9fa9b31a6a7374d96fc748c6d688a78a3ce5a33123839becb7
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^2.0.0":
-  version: 2.19.0
-  resolution: "type-fest@npm:2.19.0"
-  checksum: a4ef07ece297c9fba78fc1bd6d85dff4472fe043ede98bd4710d2615d15776902b595abf62bd78339ed6278f021235fb28a96361f8be86ed754f778973a0d278
   languageName: node
   linkType: hard
 
