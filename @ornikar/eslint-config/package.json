@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "eslint": "8.29.0",
-    "prettier": "2.8.1"
+    "prettier": "2.8.2"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config"
