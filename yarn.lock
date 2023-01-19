@@ -1179,7 +1179,7 @@ __metadata:
   dependencies:
     "@ornikar/eslint-config-react": ^19.9.1
     "@ornikar/eslint-config-typescript": ^19.9.1
-    "@types/react": 17.0.52
+    "@types/react": 17.0.53
     eslint: 8.29.0
     react: 17.0.2
     type-fest: 3.5.1
@@ -1456,14 +1456,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.52":
-  version: 17.0.52
-  resolution: "@types/react@npm:17.0.52"
+"@types/react@npm:17.0.53":
+  version: 17.0.53
+  resolution: "@types/react@npm:17.0.53"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: a51b98dd87838d161278fdf9dd78e6a4ff8c018f406d6647f77963e144fb52a8beee40c89fd0e7e840eaeaa8bd9fe2f34519410540b1a52d43a6f8b4d2fbce33
+  checksum: dacfde02c260fd98bed2eb775ed0c7ce1397be4c0844f907a50763b081a4008f81f57071889a16eb1350ddcf0927f3cf1a6541702c8ad03de3c70383ef931e3f
   languageName: node
   linkType: hard
 
