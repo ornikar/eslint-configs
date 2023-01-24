@@ -12,12 +12,11 @@ orbs:
 # -------------------------------------------------------------------------------------------------
 
 workflows:
-  version: 2
-
   main-workflow:
     jobs:
       - frontend/checks:
           name: checks
+          check-package-script-path: 'scripts/check-packagejson.mjs'
 
       - frontend/lint-src:
           name: lint
