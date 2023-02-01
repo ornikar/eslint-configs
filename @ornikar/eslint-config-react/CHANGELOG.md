@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.10.0](https://github.com/ornikar/eslint-configs/compare/v19.9.1...v19.10.0) (2023-02-01)
+
+
+### Features
+
+* improve data testid with monorepo override [no issue] ([#464](https://github.com/ornikar/eslint-configs/issues/464)) ([244977a](https://github.com/ornikar/eslint-configs/commit/244977abcc23bd2fce213ec61630d74d2d3c62d5))
+
+
+
+
+
 ## [19.9.1](https://github.com/ornikar/eslint-configs/compare/v19.9.0...v19.9.1) (2022-12-20)
 
 **Note:** Version bump only for package @ornikar/eslint-config-react

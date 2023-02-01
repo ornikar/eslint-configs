@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.10.0](https://github.com/ornikar/eslint-configs/compare/v19.9.1...v19.10.0) (2023-02-01)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.50.0 ([#479](https://github.com/ornikar/eslint-configs/issues/479)) ([044b0b5](https://github.com/ornikar/eslint-configs/commit/044b0b523dadec9e828809803a5497aa9bc680f4))
+* disable node/shebang for our js scripts ([#477](https://github.com/ornikar/eslint-configs/issues/477)) ([f118901](https://github.com/ornikar/eslint-configs/commit/f118901f1af3b19751c3c899c81d082ad94151e0))
+* improve data testid with monorepo override [no issue] ([#464](https://github.com/ornikar/eslint-configs/issues/464)) ([244977a](https://github.com/ornikar/eslint-configs/commit/244977abcc23bd2fce213ec61630d74d2d3c62d5))
+
+
+
+
+
 ## [19.9.1](https://github.com/ornikar/eslint-configs/compare/v19.9.0...v19.9.1) (2022-12-20)
 
 

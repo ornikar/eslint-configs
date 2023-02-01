@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.10.0](https://github.com/ornikar/eslint-configs/compare/v19.9.1...v19.10.0) (2023-02-01)
+
+
+### Features
+
+* disable node/shebang for our js scripts ([#477](https://github.com/ornikar/eslint-configs/issues/477)) ([f118901](https://github.com/ornikar/eslint-configs/commit/f118901f1af3b19751c3c899c81d082ad94151e0))
+
+
+
+
+
 ## [19.9.1](https://github.com/ornikar/eslint-configs/compare/v19.9.0...v19.9.1) (2022-12-20)
 
 **Note:** Version bump only for package @ornikar/eslint-config
