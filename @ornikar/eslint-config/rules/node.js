@@ -28,5 +28,11 @@ module.exports = {
         ecmaVersion: 2022,
       },
     },
+    {
+      files: ['scripts/**'],
+      rules: {
+        'n/shebang': 'off',
+      },
+    },
   ],
 };
