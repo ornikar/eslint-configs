@@ -170,7 +170,7 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/prefer-array-find': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-reduce.md
-    'unicorn/no-array-reduce': 'warn',
+    'unicorn/no-array-reduce': ['error', { allowSimpleOperations: true }],
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-style.md
     'unicorn/import-style': 'off',
