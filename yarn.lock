@@ -1249,7 +1249,7 @@ __metadata:
   dependencies:
     "@ornikar/commitlint-config": 5.0.2
     "@ornikar/lerna-config": 9.0.1
-    "@ornikar/prettier-config": 6.0.4
+    "@ornikar/prettier-config": 6.0.5
     "@ornikar/repo-config": 10.4.2
     check-package-dependencies: 6.3.1
     eslint: 8.36.0
@@ -1283,12 +1283,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/prettier-config@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@ornikar/prettier-config@npm:6.0.4"
+"@ornikar/prettier-config@npm:6.0.5":
+  version: 6.0.5
+  resolution: "@ornikar/prettier-config@npm:6.0.5"
   peerDependencies:
     prettier: ^2.0.4
-  checksum: 3ff48b904d24c54c3011bd076b5db5841fae1c97ee4ac340ea17910a0eaccbd0c96b59c7bccc25e2c66df32ce2d0f3d16259545d9f3c4e3ececaaf61eb6cf41a
+  checksum: 5d63de466250b159ff0ac60084ad753094937a9bcefa908352346458b9f5f227878ccbf9789f4351e45d02fe9cfb7d98c6353a51a9e2952adc526ba1a1e72b7c
   languageName: node
   linkType: hard
 
