@@ -43,14 +43,12 @@ export const { loading: invalidIsLoading } = invalidObject;
 
 export interface ExampleInterface {
   isBooleanVariable: boolean;
-  $isBooleanVariable: boolean;
   // warning eslint
   invalidIsBooleanVariable: boolean;
 }
 
 export function exampleFunction(
   isValidBooleanParameter: boolean,
-  $isValidBooleanParameter: boolean,
   // warning eslint
   invalidBooleanParameter: boolean,
 ): void {}
