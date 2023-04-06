@@ -1130,7 +1130,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-babel@workspace:@ornikar/eslint-config-babel"
   dependencies:
-    "@ornikar/eslint-config": ^19.11.0
+    "@ornikar/eslint-config": ^19.12.0
     eslint: 8.37.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-babel: ^5.3.0
@@ -1157,7 +1157,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-react@^19.11.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
+"@ornikar/eslint-config-react@^19.12.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react"
   dependencies:
@@ -1178,7 +1178,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs"
   dependencies:
-    "@ornikar/eslint-config-typescript": ^19.11.0
+    "@ornikar/eslint-config-typescript": ^19.12.0
     eslint: 8.37.0
     eslint-plugin-prefer-arrow-functions: ^3.1.4
   peerDependencies:
@@ -1191,8 +1191,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
   dependencies:
-    "@ornikar/eslint-config-react": ^19.11.0
-    "@ornikar/eslint-config-typescript": ^19.11.0
+    "@ornikar/eslint-config-react": ^19.12.0
+    "@ornikar/eslint-config-typescript": ^19.12.0
     "@types/react": 17.0.56
     eslint: 8.37.0
     react: 17.0.2
@@ -1203,11 +1203,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript@^19.11.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
+"@ornikar/eslint-config-typescript@^19.12.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript"
   dependencies:
-    "@ornikar/eslint-config": ^19.11.0
+    "@ornikar/eslint-config": ^19.12.0
     "@typescript-eslint/eslint-plugin": 5.57.1
     "@typescript-eslint/parser": 5.57.1
     eslint: 8.37.0
@@ -1222,7 +1222,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config@^19.11.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
+"@ornikar/eslint-config@^19.12.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config@workspace:@ornikar/eslint-config"
   dependencies:

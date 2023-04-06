@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.12.0](https://github.com/ornikar/eslint-configs/compare/v19.11.0...v19.12.0) (2023-04-06)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v5.57.0 ([#504](https://github.com/ornikar/eslint-configs/issues/504)) ([20ebc6a](https://github.com/ornikar/eslint-configs/commit/20ebc6afd8309e0563f177b3ebb8adbfe1013d7d))
+* **eslint-config-typescript:** remove legacy styled-components prefixes [no issue] ([#515](https://github.com/ornikar/eslint-configs/issues/515)) ([a4a6004](https://github.com/ornikar/eslint-configs/commit/a4a6004a95ee19b9bf28ff24a98cd206378ef2b0))
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.54.1 ([#489](https://github.com/ornikar/eslint-configs/issues/489)) ([cc2d6f1](https://github.com/ornikar/eslint-configs/commit/cc2d6f173882138faf742a8e44e2d16f50885fc4))
+* **deps:** update typescript-eslint monorepo to v5.57.1 ([#514](https://github.com/ornikar/eslint-configs/issues/514)) ([3cff8b6](https://github.com/ornikar/eslint-configs/commit/3cff8b65ad3c0dc9678fd74e70e0046e13e8a403))
+
+
+
 # [19.11.0](https://github.com/ornikar/eslint-configs/compare/v19.10.0...v19.11.0) (2023-03-04)
 
 

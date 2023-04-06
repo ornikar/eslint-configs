@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.12.0](https://github.com/ornikar/eslint-configs/compare/v19.11.0...v19.12.0) (2023-04-06)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-simple-import-sort to v10 ([#506](https://github.com/ornikar/eslint-configs/issues/506)) ([8c44ae1](https://github.com/ornikar/eslint-configs/commit/8c44ae10895a1feafb51e8c604a24bd508bd5dd0))
+* **eslint-config:** unicorn no-array-reduce with configured allowSimpleOperations [no issue] ([#493](https://github.com/ornikar/eslint-configs/issues/493)) ([858098e](https://github.com/ornikar/eslint-configs/commit/858098e60dadd7160471ca9c2c73d0c83234d28b))
+
+
+
 # [19.11.0](https://github.com/ornikar/eslint-configs/compare/v19.10.0...v19.11.0) (2023-03-04)
 
 **Note:** Version bump only for package @ornikar/eslint-config
