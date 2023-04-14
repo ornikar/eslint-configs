@@ -51,14 +51,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.5.0":
-  version: 17.5.0
-  resolution: "@commitlint/cli@npm:17.5.0"
+"@commitlint/cli@npm:17.5.1":
+  version: 17.5.1
+  resolution: "@commitlint/cli@npm:17.5.1"
   dependencies:
     "@commitlint/format": ^17.4.4
     "@commitlint/lint": ^17.4.4
     "@commitlint/load": ^17.5.0
-    "@commitlint/read": ^17.4.4
+    "@commitlint/read": ^17.5.1
     "@commitlint/types": ^17.4.4
     execa: ^5.0.0
     lodash.isfunction: ^3.0.9
@@ -67,7 +67,7 @@ __metadata:
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: d7d7a016a64d323ecbd3f9cc652039323d6ba735d13f0820dcbf78d3f270a63b4e609ef0fdd3ee2cfa749ad74bf59f9d4a7d74c3458ea1e849916078f9303bad
+  checksum: 2bdd26b3215796dccb16b0d7459d3b0db7f6324800aa73b97a8cdf79b77f3691d85ee88f37fa6cf20c97ac664f31dcb6ad7aef1da3c3b32d7bb12f18d49a37f2
   languageName: node
   linkType: hard
 
@@ -200,16 +200,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/read@npm:17.4.4"
+"@commitlint/read@npm:^17.5.1":
+  version: 17.5.1
+  resolution: "@commitlint/read@npm:17.5.1"
   dependencies:
     "@commitlint/top-level": ^17.4.0
     "@commitlint/types": ^17.4.4
     fs-extra: ^11.0.0
-    git-raw-commits: ^2.0.0
+    git-raw-commits: ^2.0.11
     minimist: ^1.2.6
-  checksum: 29c828ba0a756196cff6b6fb480971cc779519823c3d061c6b2debee1dfc6c17453ef8aefe6d72a2f21e7be866f501e478b77dddd77f7cd75dfdae7f4a153268
+  checksum: 62ee4f7a47b22a8571ae313bca36b418805a248f4986557f38f06317c44b6d18072889f95e7bc22bbb33a2f2b08236f74596ff28e3dbd0894249477a9df367c3
   languageName: node
   linkType: hard
 
@@ -1250,7 +1250,7 @@ __metadata:
     "@ornikar/commitlint-config": 5.0.2
     "@ornikar/lerna-config": 9.1.0
     "@ornikar/prettier-config": 6.0.6
-    "@ornikar/repo-config": 10.4.3
+    "@ornikar/repo-config": 10.4.4
     check-package-dependencies: 6.3.1
     eslint: 8.38.0
     eslint-plugin-import: 2.27.5
@@ -1293,14 +1293,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:10.4.3":
-  version: 10.4.3
-  resolution: "@ornikar/repo-config@npm:10.4.3"
+"@ornikar/repo-config@npm:10.4.4":
+  version: 10.4.4
+  resolution: "@ornikar/repo-config@npm:10.4.4"
   dependencies:
-    "@commitlint/cli": 17.5.0
+    "@commitlint/cli": 17.5.1
     "@ornikar/commitlint-config": ^5.0.2
     husky: 8.0.3
-    lint-staged: 13.2.0
+    lint-staged: 13.2.1
     prettier-plugin-properties: 0.2.0
     semver: ^7.3.5
     which-pm-runs: ^1.1.0
@@ -1310,7 +1310,7 @@ __metadata:
     ornikar-prettier-check: bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: bin/ornikar-repo-config-postinstall.js
-  checksum: d0797c83776414eb5a321ba1938ac5297a3169a05674e26db88a41bdf4ace1fba96d49214c191e20fbd84b0cffb529e9c6dbf7f987dbbc57b589ab0308cd587a
+  checksum: dce036e4aa7b23f7d22e52b684bf9fa5098894500a58fa0684506152435bbac22e219800f8faee93847a0045f84c660d4119be9b2f6dcda0e4c5b9e33aa6f6b1
   languageName: node
   linkType: hard
 
@@ -3671,9 +3671,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-raw-commits@npm:^2.0.0, git-raw-commits@npm:^2.0.8":
-  version: 2.0.10
-  resolution: "git-raw-commits@npm:2.0.10"
+"git-raw-commits@npm:^2.0.11, git-raw-commits@npm:^2.0.8":
+  version: 2.0.11
+  resolution: "git-raw-commits@npm:2.0.11"
   dependencies:
     dargs: ^7.0.0
     lodash: ^4.17.15
@@ -3682,7 +3682,7 @@ __metadata:
     through2: ^4.0.0
   bin:
     git-raw-commits: cli.js
-  checksum: 66e2d7b4cdeff946ac639e1bba37f5dcbd9f5c9245348b31e027e4529f6b6733d23f75768d285d5f29c1f08d3485705a4932300a81a45b77b660fe3ce6089c29
+  checksum: c178af43633684106179793b6e3473e1d2bb50bb41d04e2e285ea4eef342ca4090fee6bc8a737552fde879d22346c90de5c49f18c719a0f38d4c934f258a0f79
   languageName: node
   linkType: hard
 
@@ -4710,9 +4710,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.2.0":
-  version: 13.2.0
-  resolution: "lint-staged@npm:13.2.0"
+"lint-staged@npm:13.2.1":
+  version: 13.2.1
+  resolution: "lint-staged@npm:13.2.1"
   dependencies:
     chalk: 5.2.0
     cli-truncate: ^3.1.0
@@ -4729,7 +4729,7 @@ __metadata:
     yaml: ^2.2.1
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: dcaa8fbbde567eb8ac27230a18b3a22f30c278c524c0e27cf7d4110d662d5d33ed68a585a2e1b05075ef1c262e853f557a5ae046188b723603246d63e6b9f07b
+  checksum: 5788d3fe38e69b7f7b7f700284d4e10738978a0916bc77d3f6253c43a030fc4f01f89c09da349fb658f929f3393d8b1e3eaabaac5b604416ebc33476640b51ce
   languageName: node
   linkType: hard
 
