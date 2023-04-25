@@ -43,6 +43,7 @@ export const { loading: invalidIsLoading } = invalidObject;
 
 export interface ExampleInterface {
   isBooleanVariable: boolean;
+  visible: boolean;
   // warning eslint
   invalidIsBooleanVariable: boolean;
 }
