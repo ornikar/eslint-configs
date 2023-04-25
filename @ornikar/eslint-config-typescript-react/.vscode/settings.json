@@ -1,5 +1,3 @@
 {
-  "eslint.workingDirectories": ["../../"],
-  "jest.rootPath": "../..",
-  "jest.jestCommandLine": "node_modules/.bin/jest --config jest.config.js --roots ./@ornikar/eslint-config-typescript-react/src"
+  "eslint.workingDirectories": ["../../"]
 }

@@ -5,7 +5,7 @@
       "EditorConfig.EditorConfig",
       "esbenp.prettier-vscode",
       "dbaeumer.vscode-eslint",
-      "ms-vsliveshare.vsliveshare-pack"
+      "MS-vsliveshare.vsliveshare"
     ],
     "unwantedRecommendations": []
   },
