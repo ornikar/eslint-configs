@@ -43,9 +43,17 @@ export const { loading: invalidIsLoading } = invalidObject;
 
 export interface ExampleInterface {
   isBooleanVariable: boolean;
-  visible: boolean;
   // warning eslint
   invalidIsBooleanVariable: boolean;
+  note: boolean;
+  // valid cases
+  checked: boolean;
+  disabled: boolean;
+  selected: boolean;
+  visible: boolean;
+  skip: boolean;
+  autoFocus: boolean;
+  noAutoFocus: boolean;
 }
 
 export function exampleFunction(

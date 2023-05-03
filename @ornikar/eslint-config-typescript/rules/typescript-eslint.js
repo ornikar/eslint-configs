@@ -2,6 +2,33 @@
 
 const { enableIfVSCode } = require('@ornikar/eslint-config/utils');
 
+const allowedBooleanPrefixes = [
+  'is',
+  'should',
+  'has',
+  'can',
+  'did',
+  'will',
+  'with',
+  'without',
+  'allow',
+  'disallow',
+  'no',
+];
+const allowedBooleanNames = [
+  // boolean html attributes
+  'autoFocus',
+  'checked',
+  'disabled',
+  'hidden',
+  'selected',
+  // other known boolean names
+  'visible',
+  'skip',
+];
+
+const regex = `^((${allowedBooleanNames.join('|')})$|(${allowedBooleanPrefixes.join('|')})[A-Z])`;
+
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
 
@@ -117,35 +144,43 @@ module.exports = {
         selector: 'variable',
         types: ['boolean'],
         format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'property',
-        types: ['boolean'],
-        format: ['PascalCase'],
         filter: {
-          regex: '_',
+          regex,
           match: false,
         },
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'parameterProperty',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'parameter',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
       },
       {
         selector: 'variable',
         types: ['boolean'],
         modifiers: ['destructured'],
         format: null,
+      },
+      {
+        selector: 'property',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        filter: {
+          regex: `(_|${regex})`,
+          match: false,
+        },
+      },
+      {
+        selector: 'parameterProperty',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        filter: {
+          regex,
+          match: false,
+        },
+      },
+      {
+        selector: 'parameter',
+        types: ['boolean'],
+        format: ['PascalCase'],
+        filter: {
+          regex,
+          match: false,
+        },
       },
     ],
   },
