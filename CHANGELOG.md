@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.14.0](https://github.com/ornikar/eslint-configs/compare/v19.13.0...v19.14.0) (2023-05-03)
+
+
+### Features
+
+* remove boolean restrictions on naming convention rule [no issue] ([#531](https://github.com/ornikar/eslint-configs/issues/531)) ([c090b7c](https://github.com/ornikar/eslint-configs/commit/c090b7cc187c1745e9cdbc375238f4ebaecc101a))
+
+
+
 ## [19.13.0](https://github.com/ornikar/eslint-configs/compare/v19.12.0...v19.13.0) (2023-04-14)
 
 
