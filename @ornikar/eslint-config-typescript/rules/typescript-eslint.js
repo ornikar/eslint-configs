@@ -112,41 +112,6 @@ module.exports = {
         format: ['PascalCase'],
         suffix: ['Enum'],
       },
-      // enforce that boolean are prefixed with an allowed verb
-      {
-        selector: 'variable',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'property',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        filter: {
-          regex: '_',
-          match: false,
-        },
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'parameterProperty',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'parameter',
-        types: ['boolean'],
-        format: ['PascalCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will', 'with', 'without'],
-      },
-      {
-        selector: 'variable',
-        types: ['boolean'],
-        modifiers: ['destructured'],
-        format: null,
-      },
     ],
   },
 };
