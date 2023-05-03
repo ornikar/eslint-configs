@@ -6,8 +6,8 @@
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --quiet --report-unused-disable-directives .",
     "lint:eslint:fix": "yarn lint:eslint --fix",
-    "lint:prettier": "prettier --check . '**/.env*' '**/*.env'",
-    "lint:prettier:fix": "prettier --check . '**/.env*' '**/*.env'",
+    "lint:prettier": "prettier --no-error-on-unmatched-pattern --check . '**/.env*' '**/*.env'",
+    "lint:prettier:fix": "prettier --no-error-on-unmatched-pattern --write . '**/.env*' '**/*.env'",
     "postinstall": "ornikar-repo-config-postinstall",
     "release": "lerna publish --conventional-commits",
     "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
