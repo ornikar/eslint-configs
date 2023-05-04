@@ -25,6 +25,27 @@ workflows:
           run-tsc: false
           run-stylelint: false
 
+      # prerelease
+      - hold-prerelease:
+          type: approval
+          filters:
+            branches:
+              ignore: main
+
+      - frontend/monorepo-release:
+          name: prerelease
+          context: npm-publish
+          npm-publish: true
+          no-private: true
+          branch-release: true
+          requires:
+            - checks
+            - lint
+            - hold-prerelease
+          filters:
+            branches:
+              ignore: main
+
       # release
       - hold-release:
           type: approval
