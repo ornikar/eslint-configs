@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "eslint": "8.40.0",
-    "react": "17.0.2"
+    "react": "18.2.0"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-react"
