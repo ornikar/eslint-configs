@@ -315,5 +315,8 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-set-size.md
     'unicorn/prefer-set-size': 'off',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-blob-reading-methods.md
+    'unicorn/prefer-blob-reading-methods': 'off',
   },
 };
