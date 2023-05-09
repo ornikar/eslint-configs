@@ -1137,7 +1137,7 @@ __metadata:
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prefer-class-properties: ^1.0.0
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -1149,7 +1149,7 @@ __metadata:
     eslint: 8.40.0
     eslint-plugin-formatjs: ^4.0.0
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     eslint-plugin-formatjs: ^3.0.0 || ^4.0.0
   peerDependenciesMeta:
     eslint-plugin-formatjs:
@@ -1170,7 +1170,7 @@ __metadata:
     eslint-plugin-testing-library: ^5.7.3
     react: 17.0.2
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
   languageName: unknown
   linkType: soft
 
@@ -1182,7 +1182,7 @@ __metadata:
     eslint: 8.40.0
     eslint-plugin-prefer-arrow-functions: ^3.1.4
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -1198,7 +1198,7 @@ __metadata:
     react: 17.0.2
     type-fest: 3.8.0
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -1217,7 +1217,7 @@ __metadata:
     type-fest: 3.8.0
     typescript: 5.0.4
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
@@ -1238,7 +1238,7 @@ __metadata:
     eslint-plugin-unicorn: ^47.0.0
     prettier: 2.8.8
   peerDependencies:
-    eslint: ^8.28.0
+    eslint: ^8.40.0
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
