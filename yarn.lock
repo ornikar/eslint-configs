@@ -1197,6 +1197,7 @@ __metadata:
     eslint: 8.40.0
     react: 17.0.2
     type-fest: 3.10.0
+    typescript: 5.0.4
   peerDependencies:
     eslint: ^8.28.0
     prettier: ^2.2.1
