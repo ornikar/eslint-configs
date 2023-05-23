@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.15.1](https://github.com/ornikar/eslint-configs/compare/v19.15.0...v19.15.1) (2023-05-23)
+
+
+### Bug Fixes
+
+* require eslint 8.39.0 instead of 8.40.0 ([9d2ac60](https://github.com/ornikar/eslint-configs/commit/9d2ac602b8efecb05164b33fc06ac0b81b18d351))
+
+
+
 ## [19.15.0](https://github.com/ornikar/eslint-configs/compare/v19.14.0...v19.15.0) (2023-05-09)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript-react
