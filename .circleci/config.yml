@@ -38,6 +38,7 @@ workflows:
           npm-publish: true
           no-private: true
           branch-release: true
+          exact: true
           requires:
             - checks
             - lint
@@ -56,6 +57,7 @@ workflows:
       - frontend/monorepo-release:
           npm-publish: true
           no-private: true
+          exact: true
           context: npm-publish
           requires:
             - checks
