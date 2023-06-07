@@ -20,17 +20,17 @@ fit('foo', () => {});
 // eslint-disable-next-line jest/no-focused-tests
 fit.each`
   table
-`();
+`('foo', () => {});
 
 // Correct uses
 describe('foo', () => {});
 it('foo', () => {});
 test('foo', () => {});
-it.each()();
+it.each()('foo', () => {});
 it.each`
   table
-`();
-test.each()();
+`('foo', () => {});
+test.each()('foo', () => {});
 test.each`
   table
-`();
+`('foo', () => {});
