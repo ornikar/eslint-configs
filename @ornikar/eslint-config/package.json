@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "19.15.1",
+  "version": "19.16.0",
   "description": "eslint config files",
   "repository": {
     "directory": "@ornikar/eslint-config",

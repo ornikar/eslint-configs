@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.16.0](https://github.com/ornikar/eslint-configs/compare/v19.15.1...v19.16.0) (2023-06-07)
+
+
+### Features
+
+* **deps:** update dependency eslint-plugin-jest to v27.2.1 ING-1055 ([#454](https://github.com/ornikar/eslint-configs/issues/454)) ([574ecf4](https://github.com/ornikar/eslint-configs/commit/574ecf4801801228cd1214467aa9daf29dd1d57f))
+
+
+
 ## [19.15.1](https://github.com/ornikar/eslint-configs/compare/v19.15.0...v19.15.1) (2023-05-23)
 
 
