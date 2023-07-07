@@ -27,7 +27,7 @@
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "8.43.0"
+    "eslint": "8.44.0"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-babel"
