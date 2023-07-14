@@ -10,7 +10,7 @@
     "lint:prettier:fix": "prettier --no-error-on-unmatched-pattern --write . '**/.env*' '**/*.env'",
     "postinstall": "ornikar-repo-config-postinstall",
     "release": "lerna publish --conventional-commits",
-    "version": "YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
+    "version": "ornikar-monorepo-update-peer-dependencies && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@ornikar/prettier-config",
   "packageManager": "yarn@3.6.1",
