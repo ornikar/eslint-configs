@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.39.0",
-    "eslint-plugin-formatjs": "^3.0.0 || ^4.0.0"
+    "eslint-plugin-formatjs": "^4.0.0"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-formatjs": {
