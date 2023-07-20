@@ -1285,6 +1285,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config@workspace:@ornikar/eslint-config"
   dependencies:
+    "@ornikar/eslint-plugin-ornikar": ^1.0.0-pre
     eslint: 8.49.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.2.0
@@ -1316,6 +1317,14 @@ __metadata:
     eslint-plugin-n: 16.1.0
     eslint-plugin-unicorn: 47.0.0
     prettier: 2.8.8
+  languageName: unknown
+  linkType: soft
+
+"@ornikar/eslint-plugin-ornikar@^1.0.0-pre, @ornikar/eslint-plugin-ornikar@workspace:@ornikar/eslint-plugin-ornikar":
+  version: 0.0.0-use.local
+  resolution: "@ornikar/eslint-plugin-ornikar@workspace:@ornikar/eslint-plugin-ornikar"
+  peerDependencies:
+    eslint: ^8.39.0
   languageName: unknown
   linkType: soft
 

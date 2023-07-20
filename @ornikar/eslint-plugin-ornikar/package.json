@@ -1,0 +1,31 @@
+{
+  "name": "@ornikar/eslint-plugin-ornikar",
+  "version": "1.0.0-pre",
+  "description": "eslint plugin for ornikar",
+  "repository": {
+    "directory": "@ornikar/eslint-plugin-ornikar",
+    "type": "git",
+    "url": "https://github.com/ornikar/eslint-configs.git"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "ornikar": {
+    "entries": [],
+    "extraEntries": [
+      "."
+    ]
+  },
+  "peerDependencies": {
+    "eslint": "^8.39.0"
+  },
+  "scripts": {
+    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-plugin-ornikar"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./index.js"
+  }
+}

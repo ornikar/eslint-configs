@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.10.0, 18.x]
+        node-version: [18.16.0, 20.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -18,10 +18,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Remove node version check
-        run: yarn plugin remove @yarnpkg/plugin-engines
-        if: startsWith(matrix.node-version, '18.')
-
       - name: Install Dependencies
         run: yarn install --immutable --immutable-cache
 
@@ -30,13 +26,13 @@ jobs:
 
       - name: Prettier
         run: yarn run lint:prettier
-        if: startsWith(matrix.node-version, '16.')
+        if: startsWith(matrix.node-version, '18.')
 
       - name: Eslint
         run: yarn run lint:eslint
 
       - name: Check working directory is clean
-        if: startsWith(matrix.node-version, '16.')
+        if: startsWith(matrix.node-version, '18.')
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "Working directory not clean:"
