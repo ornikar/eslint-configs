@@ -1,13 +1,18 @@
-/* eslint-disable import/no-extraneous-dependencies */
-
 'use strict';
 
 const assert = require('assert');
-const typescriptEslintRules = Object.keys(require('@typescript-eslint/eslint-plugin/dist/rules').default);
-const typescriptEslintRecommendedConfig = require('@typescript-eslint/eslint-plugin/dist/configs/recommended').rules;
-const typescriptEslintRecommendedRequiringTypeCheckingConfig =
-  require('@typescript-eslint/eslint-plugin/dist/configs/recommended-requiring-type-checking').rules;
+// eslint-disable-next-line import/no-unresolved
+const typescriptEslintPlugin = require('@typescript-eslint/eslint-plugin');
 const typescriptEslintConfig = require('../@ornikar/eslint-config-typescript/rules/typescript-eslint').rules;
+
+const typescriptEslintRules = Object.keys(
+  // eslint-disable-next-line import/no-unresolved
+  require('@typescript-eslint/eslint-plugin/use-at-your-own-risk/rules').default,
+);
+
+const typescriptEslintRecommendedConfig = typescriptEslintPlugin.configs.recommended.rules;
+const typescriptEslintRecommendedRequiringTypeCheckingConfig =
+  typescriptEslintPlugin.configs['recommended-type-checked'].rules;
 
 const typescriptEslintRecommendedRules = Object.keys(typescriptEslintRecommendedConfig);
 const typescriptEslintRecommendedRequiringTypeCheckingRules = Object.keys(
@@ -38,7 +43,7 @@ Object.entries(typescriptEslintRecommendedRequiringTypeCheckingConfig).forEach((
     assert.notDeepStrictEqual(
       typescriptEslintConfig[rule],
       value,
-      `Rule "${rule}" has same value as recommended-requiring-type-checking config`,
+      `Rule "${rule}" has same value as recommended-type-checked config`,
     );
   }
 });
