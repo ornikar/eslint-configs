@@ -3,12 +3,12 @@
 const { enableIfVSCode } = require('@ornikar/eslint-config/utils');
 
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-requiring-type-checking'],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:@typescript-eslint/recommended-type-checked'],
 
   rules: {
     /* Enabled */
     '@typescript-eslint/array-type': 'error',
-    '@typescript-eslint/no-parameter-properties': 'error',
+    '@typescript-eslint/parameter-properties': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/prefer-function-type': 'error',
@@ -30,9 +30,7 @@ module.exports = {
     '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/prefer-literal-enum-member': 'error',
     '@typescript-eslint/no-invalid-void-type': 'error',
-    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
-    '@typescript-eslint/no-duplicate-enum-values': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -71,10 +69,6 @@ module.exports = {
       },
     ],
 
-    /* Warning */
-
-    '@typescript-eslint/no-unsafe-argument': 'warn',
-
     /* Disabled */
 
     // interface can be used for empty props
@@ -85,14 +79,21 @@ module.exports = {
     // issue when is used to remove undefined
     '@typescript-eslint/no-unnecessary-type-assertion': 'off',
 
+    // we are not ready to enable this
+    '@typescript-eslint/no-explicit-any': 'warn',
+
     /* in recommended, disabled but to enable */
+
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-return': 'off',
-    '@typescript-eslint/no-unsafe-declaration-merging': 'error',
+
+    /* in recommended, warnings to temporary check if we want to enable it */
+
+    '@typescript-eslint/no-redundant-type-constituents': 'warn',
 
     /* Naming convention */
     '@typescript-eslint/naming-convention': [
