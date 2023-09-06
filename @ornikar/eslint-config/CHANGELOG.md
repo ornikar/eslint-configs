@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.0.0](https://github.com/ornikar/eslint-configs/compare/v19.16.0...v20.0.0) (2023-09-06)
+
+
+### Bug Fixes
+
+* configure imports for base config [no issue] ([#576](https://github.com/ornikar/eslint-configs/issues/576)) ([bd2dc75](https://github.com/ornikar/eslint-configs/commit/bd2dc75f9b44eab3192e959d306cc9438957b841))
+
+
+
 ## [19.16.0](https://github.com/ornikar/eslint-configs/compare/v19.15.1...v19.16.0) (2023-06-07)
 
 
