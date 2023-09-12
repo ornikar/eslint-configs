@@ -2,8 +2,13 @@
   "extends": ["config:js-lib", "github>ornikar/renovate-presets:frontend"],
   "packageRules": [
     {
-      "packagePatterns": ["^@typescript-eslint/", "^eslint-"],
+      "packagePatterns": ["^eslint-"],
       "packageNames": ["eslint", "typescript"],
+      "schedule": ["at any time"],
+      "reviewers": ["team:frontend-architects"]
+    },
+    {
+      "packagePatterns": ["^@typescript-eslint/"],
       "matchSourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-architects"]
