@@ -4,12 +4,14 @@
     {
       "packagePatterns": ["^eslint-"],
       "packageNames": ["eslint", "typescript"],
+      "masterIssue": false,
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-architects"]
     },
     {
       "packagePatterns": ["^@typescript-eslint/"],
       "matchSourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
+      "masterIssue": false,
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-architects"]
     }
