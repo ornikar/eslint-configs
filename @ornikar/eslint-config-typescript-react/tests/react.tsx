@@ -8,13 +8,17 @@ interface AppIntlProviderProps {
   unusedProp?: string;
 }
 
-function AppIntlProvider({ locale, children, onClick }: AppIntlProviderProps): ReactElement {
+interface IntlProviderProps {
+  children: ReactNode;
+}
+
+function AppIntlProvider({ locale, children, onClick }: AppIntlProviderProps): ReactNode {
   return <>Content - {children}</>;
 }
 
-export const renderWithIntl = (ui: ReactElement, locale = 'fr-FR'): FC => {
+export const renderWithIntl = (ui: ReactElement, locale = 'fr-FR'): FC<IntlProviderProps> => {
   // eslint-disable-next-line react/function-component-definition
-  const IntlProvider: FC = ({ children }): ReactElement => {
+  const IntlProvider: FC<IntlProviderProps> = ({ children }): ReactElement => {
     return <AppIntlProvider locale={locale}>{children}</AppIntlProvider>;
   };
   return IntlProvider;

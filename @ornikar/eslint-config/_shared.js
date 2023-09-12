@@ -3,6 +3,7 @@
 module.exports = {
   extends: [
     './rules/best-practices',
+    './rules/ornikar',
     './rules/imports',
     './rules/style',
     './rules/sort-imports-exports',
