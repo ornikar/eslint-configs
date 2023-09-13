@@ -38,8 +38,8 @@ export function SomeComponent(): ReactElement {
           messageId: 'invalidReturnType',
           data: { value: 'ReactElement' },
           line: 3,
-          column: 37,
-          endColumn: 49,
+          column: 34,
+          endColumn: 46,
           suggestions: [
             {
               messageId: 'replaceReturnType',
