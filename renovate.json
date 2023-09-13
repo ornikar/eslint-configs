@@ -4,6 +4,7 @@
     {
       "matchPackagePatterns": ["^eslint-"],
       "matchPackageNames": ["eslint", "typescript"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
       "masterIssue": false,
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-architects"]
@@ -11,6 +12,7 @@
     {
       "matchPackagePatterns": ["^@typescript-eslint/"],
       "matchSourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
       "masterIssue": false,
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-architects"]
