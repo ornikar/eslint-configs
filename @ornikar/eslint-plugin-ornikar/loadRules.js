@@ -2,6 +2,15 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const pkg = require('./package.json');
+
+const repoUrl = 'https://github.com/ornikar/eslint-configs';
+const packagePath = '@ornikar/eslint-plugin-ornikar';
+
+const getDocumentationUrl = (filename) => {
+  const ruleName = path.basename(filename, '.js');
+  return `${repoUrl}/blob/v${pkg.version}/${packagePath}/docs/rules/${ruleName}.md`;
+};
 
 function loadRule(ruleId) {
   // eslint-disable-next-line import/no-dynamic-require, global-require, security/detect-non-literal-require
@@ -13,7 +22,7 @@ function loadRule(ruleId) {
       ...rule.meta,
       docs: {
         ...rule.meta.docs,
-        // url: getDocumentationUrl(ruleId),
+        url: getDocumentationUrl(ruleId),
       },
     },
     create: rule.create,

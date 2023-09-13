@@ -2,6 +2,6 @@
 
 module.exports = {
   rules: {
-    '@ornikar/ornikar/react-function-return-react-node': 'error',
+    '@ornikar/ornikar/react-function-component-return-react-node': 'error',
   },
 };

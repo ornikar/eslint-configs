@@ -1,7 +1,7 @@
 'use strict';
 
 const path = require('node:path');
-const rule = require('./react-function-return-react-node');
+const rule = require('./react-function-component-return-react-node');
 const { RuleTester } = require('./test-utils/RuleTester');
 
 const ruleTester = new RuleTester({
@@ -15,7 +15,7 @@ const ruleTester = new RuleTester({
   },
 });
 
-ruleTester.run('react-function-return-react-node', rule, {
+ruleTester.run('react-function-component-return-react-node', rule, {
   valid: [
     {
       code: `
