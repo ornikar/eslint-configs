@@ -1309,7 +1309,7 @@ __metadata:
     "@ornikar/commitlint-config": 5.0.2
     "@ornikar/lerna-config": 9.4.0
     "@ornikar/prettier-config": 6.0.7
-    "@ornikar/repo-config": 10.5.6
+    "@ornikar/repo-config": 10.6.0
     check-package-dependencies: 6.7.0
     eslint: 8.49.0
     eslint-plugin-import: 2.28.1
@@ -1353,9 +1353,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:10.5.6":
-  version: 10.5.6
-  resolution: "@ornikar/repo-config@npm:10.5.6"
+"@ornikar/repo-config@npm:10.6.0":
+  version: 10.6.0
+  resolution: "@ornikar/repo-config@npm:10.6.0"
   dependencies:
     "@commitlint/cli": 17.7.1
     "@ornikar/commitlint-config": ^5.0.2
@@ -1370,7 +1370,7 @@ __metadata:
     ornikar-prettier-check: bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: bin/ornikar-repo-config-postinstall.js
-  checksum: 531f4060c7895a41de2cb1f8cb0a67bf894245207445da63aa9eaa094e3c4418c0999ebaea0c3ce76c442e9a687570b5a990b9f02aaaed4632ff46f3a46c45af
+  checksum: c1a39325d817af4978c2f855f2c789da2de4526f49da4401c2183be61e1897ebd4939f01d4f51f44df6e5e3802b3019767e6b24bdce710d13020ff7d1fe49e4c
   languageName: node
   linkType: hard
 
