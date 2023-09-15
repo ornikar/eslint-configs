@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript-react",
-  "version": "20.0.0",
+  "version": "20.1.0",
   "description": "eslint typescript react config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript-react",
@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config-react": "20.0.0",
-    "@ornikar/eslint-config-typescript": "20.0.0"
+    "@ornikar/eslint-config-react": "20.1.0",
+    "@ornikar/eslint-config-typescript": "20.1.0"
   },
   "peerDependencies": {
     "eslint": "^8.39.0",
