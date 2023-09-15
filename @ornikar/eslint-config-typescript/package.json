@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "8.49.0",
     "type-fest": "3.13.1",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-typescript"
