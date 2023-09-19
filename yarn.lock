@@ -1254,7 +1254,7 @@ __metadata:
     "@types/react": 18.2.21
     eslint: 8.49.0
     react: 18.2.0
-    type-fest: 3.13.1
+    type-fest: 4.3.1
     typescript: 5.2.2
   peerDependencies:
     eslint: ^8.39.0
@@ -1273,7 +1273,7 @@ __metadata:
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prefer-class-properties: ^1.0.0
-    type-fest: 3.13.1
+    type-fest: 4.3.1
     typescript: 5.2.2
   peerDependencies:
     eslint: ^8.39.0
@@ -7523,10 +7523,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:3.13.1, type-fest@npm:^3.0.0":
-  version: 3.13.1
-  resolution: "type-fest@npm:3.13.1"
-  checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
+"type-fest@npm:4.3.1":
+  version: 4.3.1
+  resolution: "type-fest@npm:4.3.1"
+  checksum: 04e0f073dcc31c113c1b8856c089b388e7e9f4383a9ed72cc1466a89ec50d9d67678844eeec342b5a1ce71b21e817764d4f067aa148f6bcb5df9005ff3803382
   languageName: node
   linkType: hard
 
@@ -7576,6 +7576,13 @@ __metadata:
   version: 1.4.0
   resolution: "type-fest@npm:1.4.0"
   checksum: b011c3388665b097ae6a109a437a04d6f61d81b7357f74cbcb02246f2f5bd72b888ae33631b99871388122ba0a87f4ff1c94078e7119ff22c70e52c0ff828201
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^3.0.0":
+  version: 3.13.1
+  resolution: "type-fest@npm:3.13.1"
+  checksum: c06b0901d54391dc46de3802375f5579868949d71f93b425ce564e19a428a0d411ae8d8cb0e300d330071d86152c3ea86e744c3f2860a42a79585b6ec2fdae8e
   languageName: node
   linkType: hard
 
