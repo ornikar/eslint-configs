@@ -1236,7 +1236,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs"
   dependencies:
-    "@ornikar/eslint-config-typescript": 20.1.0
+    "@ornikar/eslint-config-typescript": 20.1.1
     eslint: 8.49.0
     eslint-plugin-prefer-arrow-functions: ^3.1.4
   peerDependencies:
@@ -1250,7 +1250,7 @@ __metadata:
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
   dependencies:
     "@ornikar/eslint-config-react": 20.1.0
-    "@ornikar/eslint-config-typescript": 20.1.0
+    "@ornikar/eslint-config-typescript": 20.1.1
     "@types/react": 18.2.21
     eslint: 8.49.0
     react: 18.2.0
@@ -1262,7 +1262,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript@20.1.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
+"@ornikar/eslint-config-typescript@20.1.1, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript"
   dependencies:

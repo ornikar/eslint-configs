@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript",
-  "version": "20.1.0",
+  "version": "20.1.1",
   "description": "eslint typescript config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript",
