@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@ornikar/eslint-config": "20.1.0",
-    "@typescript-eslint/eslint-plugin": "6.7.0",
-    "@typescript-eslint/parser": "6.7.0",
+    "@typescript-eslint/eslint-plugin": "6.7.2",
+    "@typescript-eslint/parser": "6.7.2",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prefer-class-properties": "^1.0.0"
