@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "20.1.0",
+  "version": "20.2.0",
   "description": "eslint config files",
   "repository": {
     "directory": "@ornikar/eslint-config",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-plugin-ornikar": "^1.0.0-pre",
+    "@ornikar/eslint-plugin-ornikar": "20.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-import": "^2.25.4",
