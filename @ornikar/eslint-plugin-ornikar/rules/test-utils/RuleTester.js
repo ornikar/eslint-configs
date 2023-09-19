@@ -1,5 +1,6 @@
 'use strict';
 
+// eslint-disable-next-line import/no-unresolved, import/order
 const { after, describe, it } = require('node:test');
 // eslint-disable-next-line import/no-unresolved -- missing main field
 const { RuleTester } = require('@typescript-eslint/rule-tester');
