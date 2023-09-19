@@ -1,8 +1,8 @@
 'use strict';
 
-// eslint-disable-next-line import/no-unresolved, import/order
+// eslint-disable-next-line import/no-unresolved -- waiting for node 18
 const { after, describe, it } = require('node:test');
-// eslint-disable-next-line import/no-unresolved -- missing main field
+// eslint-disable-next-line import/no-unresolved, import/order -- missing main field
 const { RuleTester } = require('@typescript-eslint/rule-tester');
 
 RuleTester.afterAll = after;
