@@ -8,7 +8,7 @@
     "lint:eslint:fix": "yarn lint:eslint --fix",
     "lint:prettier": "prettier --no-error-on-unmatched-pattern --check . '**/.env*' '**/*.env'",
     "lint:prettier:fix": "prettier --no-error-on-unmatched-pattern --write . '**/.env*' '**/*.env'",
-    "test": "node --test",
+    "test:removethissuffixafternode18update": "node --test",
     "postinstall": "ornikar-repo-config-postinstall",
     "release": "lerna publish --conventional-commits",
     "version": "ornikar-monorepo-update-peer-dependencies && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
