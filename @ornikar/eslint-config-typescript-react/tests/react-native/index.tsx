@@ -1,6 +1,6 @@
-import type { ReactElement } from 'react';
+import type { ReactNode } from 'react';
 import MyComponent from './MyComponent';
 
-export function App(): ReactElement {
+export function App(): ReactNode {
   return <MyComponent />;
 }

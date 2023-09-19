@@ -1,5 +1,5 @@
-import type { ReactElement } from 'react';
+import type { ReactNode } from 'react';
 
-export function MyComponent(): ReactElement {
+export function MyComponent(): ReactNode {
   return <>Content</>;
 }

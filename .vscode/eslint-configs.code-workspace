@@ -68,6 +68,10 @@
     {
       "name": "eslint-config-typescript-react",
       "path": "../@ornikar/eslint-config-typescript-react"
+    },
+    {
+      "name": "eslint-plugin-ornikar",
+      "path": "../@ornikar/eslint-plugin-ornikar"
     }
   ]
 }
