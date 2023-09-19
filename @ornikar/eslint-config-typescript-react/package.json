@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript-react",
-  "version": "20.0.0",
+  "version": "20.1.1",
   "description": "eslint typescript react config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript-react",
@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config-react": "20.0.0",
-    "@ornikar/eslint-config-typescript": "20.0.0"
+    "@ornikar/eslint-config-react": "20.1.0",
+    "@ornikar/eslint-config-typescript": "20.1.1"
   },
   "peerDependencies": {
     "eslint": "^8.39.0",
@@ -27,8 +27,8 @@
     "@types/react": "18.2.21",
     "eslint": "8.49.0",
     "react": "18.2.0",
-    "type-fest": "3.13.1",
-    "typescript": "5.1.6"
+    "type-fest": "4.3.1",
+    "typescript": "5.2.2"
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-typescript-react"
