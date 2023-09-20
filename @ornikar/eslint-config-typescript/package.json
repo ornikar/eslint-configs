@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript",
-  "version": "20.2.0",
+  "version": "20.2.1",
   "description": "eslint typescript config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "20.2.0",
+    "@ornikar/eslint-config": "20.2.1",
     "@typescript-eslint/eslint-plugin": "6.7.2",
     "@typescript-eslint/parser": "6.7.2",
     "eslint-config-airbnb-base": "^15.0.0",
