@@ -31,6 +31,10 @@ jobs:
       - name: Eslint
         run: yarn run lint:eslint
 
+      - name: Tests
+        run: yarn run test
+        if: startsWith(matrix.node-version, '18.')
+
       - name: Check working directory is clean
         if: startsWith(matrix.node-version, '18.')
         run: |
