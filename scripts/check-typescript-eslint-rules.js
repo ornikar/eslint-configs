@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assert');
+const assert = require('node:assert');
 // eslint-disable-next-line import/no-unresolved
 const typescriptEslintPlugin = require('@typescript-eslint/eslint-plugin');
 const typescriptEslintConfig = require('../@ornikar/eslint-config-typescript/rules/typescript-eslint').rules;
