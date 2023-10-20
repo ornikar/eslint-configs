@@ -19,7 +19,13 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^8.39.0"
+    "eslint": "^8.39.0",
+    "typescript": ">=5.2.2"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
   },
   "scripts": {
     "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-plugin-ornikar"
@@ -29,13 +35,15 @@
     ".": "./index.js"
   },
   "dependencies": {
-    "eslint-plugin-react": "^7.33.2"
+    "@typescript-eslint/utils": "6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "ts-unused-exports": "^10.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "2.1.2",
     "@typescript-eslint/rule-tester": "6.8.0",
-    "@typescript-eslint/utils": "6.8.0",
-    "eslint": "8.51.0"
+    "eslint": "8.51.0",
+    "typescript": "5.2.2"
   },
   "engines": {
     "node": ">=18.18.0"
