@@ -1330,8 +1330,13 @@ __metadata:
     eslint: 8.51.0
     eslint-plugin-react: ^7.33.2
     ts-unused-exports: ^10.0.1
+    typescript: 5.2.2
   peerDependencies:
     eslint: ^8.39.0
+    typescript: ">=5.2.2"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
   languageName: unknown
   linkType: soft
 
