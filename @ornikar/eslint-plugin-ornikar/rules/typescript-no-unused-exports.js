@@ -31,6 +31,9 @@ exports.meta = {
         allowUnusedTypes: {
           type: 'boolean',
         },
+        ignoreFiles: {
+          type: 'string',
+        },
       },
       type: 'object',
     },
@@ -52,13 +55,18 @@ exports.create = (context) => {
   // should cover ornikar case.
   const tsconfigPath = path.join(process.cwd(), path.relative(process.cwd().toLowerCase(), tsconfigPathLowercased));
 
-  const tsUnusedOptions = ["--ignoreFiles='.*/(__mocks__|__generated__)/.*'"];
+  const tsUnusedOptions = ["--ignoreFiles='/(__mocks__|__generated__)/'", "--ignoreFiles='[.](web|ios|android)$'"];
+
   if (options.allowUnusedEnums) {
     tsUnusedOptions.push('--allowUnusedEnums');
   }
 
   if (options.allowUnusedTypes) {
     tsUnusedOptions.push('--allowUnusedTypes');
+  }
+
+  if (options.ignoreFiles) {
+    tsUnusedOptions.push(`--ignoreFiles='${options.ignoreFiles}'`);
   }
 
   const result = analyzeTsConfig(tsconfigPath, tsUnusedOptions);
