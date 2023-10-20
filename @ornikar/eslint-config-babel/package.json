@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-babel",
-  "version": "21.0.0",
+  "version": "21.1.0",
   "description": "eslint babel config files",
   "repository": {
     "directory": "@ornikar/eslint-config-babel",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config": "21.0.0",
+    "@ornikar/eslint-config": "21.1.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-import": "^2.25.4",

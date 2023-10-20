@@ -1188,7 +1188,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-babel@workspace:@ornikar/eslint-config-babel"
   dependencies:
-    "@ornikar/eslint-config": 21.0.0
+    "@ornikar/eslint-config": 21.1.0
     eslint: 8.51.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-plugin-babel: ^5.3.0
@@ -1215,7 +1215,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-react@21.0.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
+"@ornikar/eslint-config-react@21.1.0, @ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-react@workspace:@ornikar/eslint-config-react"
   dependencies:
@@ -1236,7 +1236,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-nestjs@workspace:@ornikar/eslint-config-typescript-nestjs"
   dependencies:
-    "@ornikar/eslint-config-typescript": 21.0.0
+    "@ornikar/eslint-config-typescript": 21.1.0
     eslint: 8.51.0
     eslint-plugin-prefer-arrow-functions: ^3.1.4
   peerDependencies:
@@ -1249,8 +1249,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript-react@workspace:@ornikar/eslint-config-typescript-react"
   dependencies:
-    "@ornikar/eslint-config-react": 21.0.0
-    "@ornikar/eslint-config-typescript": 21.0.0
+    "@ornikar/eslint-config-react": 21.1.0
+    "@ornikar/eslint-config-typescript": 21.1.0
     "@types/react": 18.2.24
     eslint: 8.51.0
     react: 18.2.0
@@ -1262,11 +1262,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config-typescript@21.0.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
+"@ornikar/eslint-config-typescript@21.1.0, @ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config-typescript@workspace:@ornikar/eslint-config-typescript"
   dependencies:
-    "@ornikar/eslint-config": 21.0.0
+    "@ornikar/eslint-config": 21.1.0
     "@typescript-eslint/eslint-plugin": 6.8.0
     "@typescript-eslint/parser": 6.8.0
     eslint: 8.51.0
@@ -1281,11 +1281,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-config@21.0.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
+"@ornikar/eslint-config@21.1.0, @ornikar/eslint-config@workspace:@ornikar/eslint-config":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-config@workspace:@ornikar/eslint-config"
   dependencies:
-    "@ornikar/eslint-plugin-ornikar": 21.0.0
+    "@ornikar/eslint-plugin-ornikar": 21.1.0
     eslint: 8.51.0
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-prettier: ^8.2.0
@@ -1320,7 +1320,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/eslint-plugin-ornikar@21.0.0, @ornikar/eslint-plugin-ornikar@workspace:@ornikar/eslint-plugin-ornikar":
+"@ornikar/eslint-plugin-ornikar@21.1.0, @ornikar/eslint-plugin-ornikar@workspace:@ornikar/eslint-plugin-ornikar":
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-plugin-ornikar@workspace:@ornikar/eslint-plugin-ornikar"
   dependencies:
