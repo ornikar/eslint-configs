@@ -52,7 +52,7 @@ exports.create = (context) => {
   // should cover ornikar case.
   const tsconfigPath = path.join(process.cwd(), path.relative(process.cwd().toLowerCase(), tsconfigPathLowercased));
 
-  const tsUnusedOptions = [];
+  const tsUnusedOptions = ["--ignoreFiles='.*/(__mocks__|__generated__)/.*'"];
   if (options.allowUnusedEnums) {
     tsUnusedOptions.push('--allowUnusedEnums');
   }
