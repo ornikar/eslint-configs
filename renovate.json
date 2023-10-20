@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^eslint-"],
-      "matchPackageNames": ["eslint", "typescript"],
+      "matchPackageNames": ["eslint", "typescript", "ts-unused-exports"],
       "matchUpdateTypes": ["patch", "minor", "major"],
       "masterIssue": false,
       "schedule": ["at any time"],
