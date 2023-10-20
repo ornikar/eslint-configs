@@ -56,9 +56,9 @@ exports.create = (context) => {
   const tsconfigPath = path.join(process.cwd(), path.relative(process.cwd().toLowerCase(), tsconfigPathLowercased));
 
   const tsUnusedOptions = [
-    "--ignoreFiles='/(__mocks__|__generated__)/'",
-    "--ignoreFiles='[.](web|ios|android)$'",
-    "--ignoreFiles='apollo/typeDefs$'",
+    '--ignoreFiles=/(__mocks__|__generated__)/',
+    '--ignoreFiles=[.](web|ios|android)$',
+    '--ignoreFiles=apollo/typeDefs$',
   ];
 
   if (options.allowUnusedEnums) {
@@ -70,7 +70,7 @@ exports.create = (context) => {
   }
 
   if (options.ignoreFiles) {
-    tsUnusedOptions.push(`--ignoreFiles='${options.ignoreFiles}'`);
+    tsUnusedOptions.push(`--ignoreFiles=${options.ignoreFiles}`);
   }
 
   const result = analyzeTsConfig(tsconfigPath, tsUnusedOptions);
