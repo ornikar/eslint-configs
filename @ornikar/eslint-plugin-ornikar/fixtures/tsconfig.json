@@ -3,6 +3,7 @@
     "jsx": "preserve",
     "target": "es5",
     "module": "commonjs",
+    "moduleDetection": "force",
     "strict": true
   },
   "include": ["**/*.ts", "**/*.tsx"]

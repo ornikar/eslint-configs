@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.1.0](https://github.com/ornikar/eslint-configs/compare/v21.0.0...v21.1.0) (2023-10-20)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v6.8.0 ([#624](https://github.com/ornikar/eslint-configs/issues/624)) ([2b51343](https://github.com/ornikar/eslint-configs/commit/2b51343a953af6cc468f2c16447b4da4d4bc6e9e))
+* **eslint-plugin-ornikar:** add typescript-no-unused-exports rule [no issue] ([#632](https://github.com/ornikar/eslint-configs/issues/632)) ([b5baffe](https://github.com/ornikar/eslint-configs/commit/b5baffef16c3e8e274d5398c303e09ed2d322219))
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v6.7.4 ([#616](https://github.com/ornikar/eslint-configs/issues/616)) ([c3eb1ce](https://github.com/ornikar/eslint-configs/commit/c3eb1ce5126a26b5fd740e7b1153a6cd015c3bc3))
+
+
+
 ## [21.0.0](https://github.com/ornikar/eslint-configs/compare/v20.2.1...v21.0.0) (2023-09-26)
 
 
