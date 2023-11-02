@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.2.0](https://github.com/ornikar/eslint-configs/compare/v21.1.0...v21.2.0) (2023-11-02)
+
+
+### Features
+
+* eslint-plugin-ornikar improve ignoreFiles in typescript-no-unused-exports [no issue] ([#633](https://github.com/ornikar/eslint-configs/issues/633)) ([db2c331](https://github.com/ornikar/eslint-configs/commit/db2c3311de9c53a4f74b30954af273195b9d8f90))
+
+
+
 ## [21.1.0](https://github.com/ornikar/eslint-configs/compare/v21.0.0...v21.1.0) (2023-10-20)
 
 
