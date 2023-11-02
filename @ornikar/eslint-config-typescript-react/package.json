@@ -24,7 +24,7 @@
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "@types/react": "18.2.33",
+    "@types/react": "18.2.34",
     "eslint": "8.52.0",
     "react": "18.2.0",
     "type-fest": "4.6.0",
