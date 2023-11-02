@@ -15,7 +15,7 @@
     "version": "ornikar-monorepo-update-peer-dependencies && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@ornikar/prettier-config",
-  "packageManager": "yarn@3.6.4",
+  "packageManager": "yarn@4.0.1",
   "engines": {
     "node": ">=18.18.0"
   },
