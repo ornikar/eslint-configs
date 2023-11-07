@@ -1139,7 +1139,7 @@ __metadata:
     "@ornikar/eslint-plugin-ornikar": "npm:21.2.0"
     eslint: "npm:8.52.0"
     eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-config-prettier: "npm:^8.2.0"
+    eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-import: "npm:^2.25.4"
     eslint-plugin-jest: "npm:^27.2.1"
     eslint-plugin-jsx-a11y: "npm:^6.4.1"
@@ -3102,14 +3102,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.2.0":
-  version: 8.8.0
-  resolution: "eslint-config-prettier@npm:8.8.0"
+"eslint-config-prettier@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "eslint-config-prettier@npm:9.0.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: 9e3bb602184b7ec59239d2f901b1594cd7cc59ff38c3ddcd812137817e50840f4d65d62b61c515c7eae86d85f8b6fb2ebda659a3f83b2f2c5da75feb15531508
+  checksum: bc1f661915845c631824178942e5d02f858fe6d0ea796f0050d63e0f681927b92696e81139dd04714c08c3e7de580fd079c66162e40070155ba79eaee78ab5d0
   languageName: node
   linkType: hard
 
