@@ -33,9 +33,9 @@
     "@ornikar/prettier-config": "7.0.0",
     "@ornikar/repo-config": "13.0.1",
     "check-package-dependencies": "7.0.0",
-    "eslint": "8.52.0",
+    "eslint": "8.53.0",
     "eslint-plugin-import": "2.29.0",
-    "eslint-plugin-n": "16.2.0",
+    "eslint-plugin-n": "16.3.0",
     "eslint-plugin-unicorn": "48.0.1",
     "prettier": "2.8.8"
   }
