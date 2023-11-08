@@ -1159,7 +1159,7 @@ __metadata:
   resolution: "@ornikar/eslint-configs@workspace:."
   dependencies:
     "@ornikar/commitlint-config": "npm:6.0.0"
-    "@ornikar/monorepo-config": "npm:12.0.1"
+    "@ornikar/monorepo-config": "npm:12.1.0"
     "@ornikar/prettier-config": "npm:7.0.0"
     "@ornikar/repo-config": "npm:13.0.1"
     check-package-dependencies: "npm:7.0.0"
@@ -1191,13 +1191,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/monorepo-config@npm:12.0.1":
-  version: 12.0.1
-  resolution: "@ornikar/monorepo-config@npm:12.0.1"
+"@ornikar/monorepo-config@npm:12.1.0":
+  version: 12.1.0
+  resolution: "@ornikar/monorepo-config@npm:12.1.0"
   dependencies:
     "@lerna/cli": "npm:5.5.4"
     "@lerna/version": "npm:5.5.4"
-    "@pob/pretty-eslint-config": "npm:^3.0.0"
+    "@pob/pretty-eslint-config": "npm:^5.0.0"
     conventional-changelog-conventionalcommits: "npm:^6.0.0"
   peerDependencies:
     lerna: 0.0.0
@@ -1205,11 +1205,11 @@ __metadata:
     lerna:
       optional: true
   bin:
-    lerna: bin/lerna
-    monorepo-config-generate-eslintrc-files: bin/generate-eslintrc-files.mjs
-    monorepo-config-generate-tsconfig-files: bin/generate-tsconfig-files.mjs
-    ornikar-monorepo-update-peer-dependencies: bin/update-peer-dependencies.mjs
-  checksum: 56818e04531550c691677d0bf3c4fc7437fed3b971cb58fdc01e250f25533fe8178c230c5b9bdaa020c1b96660f7a51cae0a94c4b6c5b27389cce6e9a1796c75
+    lerna: ./bin/lerna
+    monorepo-config-generate-eslintrc-files: ./bin/generate-eslintrc-files.mjs
+    monorepo-config-generate-tsconfig-files: ./bin/generate-tsconfig-files.mjs
+    ornikar-monorepo-update-peer-dependencies: ./bin/update-peer-dependencies.mjs
+  checksum: 9b1dff02d4aab09c70daf2adc9ff68fcad83773faf04fb046b4f8a34c16be38e68166f65577fff07e6704beab9f048a50a78805b4106f4b981e69876c10320e8
   languageName: node
   linkType: hard
 
@@ -1250,31 +1250,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pob/pretty-eslint-config@npm:^3.0.0":
-  version: 3.3.0
-  resolution: "@pob/pretty-eslint-config@npm:3.3.0"
+"@pob/pretty-eslint-config@npm:^5.0.0":
+  version: 5.2.0
+  resolution: "@pob/pretty-eslint-config@npm:5.2.0"
   dependencies:
-    "@pob/sort-eslint-config": "npm:3.1.0"
+    "@pob/sort-eslint-config": "npm:5.1.0"
     prettier: "npm:^2.6.2"
   bin:
-    pretty-eslint-config: bin/pretty-eslint-config.js
-  checksum: ee27916fc25955d7175b04032b7e21d2d55ddf43411ed08ee44237412112a77ee6fd43958f3fc7fa1ee8e6cdb0c36c0c932fde353d85ff39bdcaf7642327273c
+    pretty-eslint-config: ./bin/pretty-eslint-config.js
+  checksum: 6bc4db5cb7c167f7a3c039902e047517b3dca3bce261b976d3fd8a8778a30653898d3a254f591f3a3d82e4161b53c7fa046013272ffa7d126b92d547e4046271
   languageName: node
   linkType: hard
 
-"@pob/sort-eslint-config@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@pob/sort-eslint-config@npm:3.1.0"
+"@pob/sort-eslint-config@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@pob/sort-eslint-config@npm:5.1.0"
   dependencies:
-    "@pob/sort-object": "npm:4.1.0"
-  checksum: e91bc8f8eb4a6309f9f0e66b83b11d1adeee2dba3ff9fb512531182225e36450d3a5e9aed1900454f2332bfdb752635bd1d9756abd9bf38c891c6d8ce775b7e1
+    "@pob/sort-object": "npm:6.1.0"
+  checksum: b79b1c4a62902045740a875cfc86878c575ac6d7549da7793af3438aa2f09c4c88a4847d8b9315f489d93b1cee95e04fbbd300466589db16f8722682f6b66dbf
   languageName: node
   linkType: hard
 
-"@pob/sort-object@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@pob/sort-object@npm:4.1.0"
-  checksum: 9dcfc65b70162f397cf2d2c090bdf40d264e1ac3773e31a0acbb5ba1f1dd614e16a062a2924b458f6b6551b7f86d08061b33fb2fb708414a9010bc21bc325fb1
+"@pob/sort-object@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@pob/sort-object@npm:6.1.0"
+  checksum: 37516cbc036786a677b019c6b6b776e8d25baf682325f590efd15c28b9de6788bfe660a32fd0772addcad099ff5a54d7f70a0614365aeeaa83c36e7aea1e0a15
   languageName: node
   linkType: hard
 
