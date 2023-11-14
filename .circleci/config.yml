@@ -14,14 +14,22 @@ orbs:
 workflows:
   main-workflow:
     jobs:
+      - frontend/dependencies:
+          name: dependencies
+          is-monorepo: true
+
       - frontend/checks:
           name: checks
           check-package-script-path: 'scripts/check-packagejson.mjs'
+          requires:
+            - dependencies
 
       - frontend/lint-src:
           name: lint
           run-tsc: false
           run-stylelint: false
+          requires:
+            - dependencies
 
       # prerelease
       - hold-prerelease:
@@ -38,6 +46,7 @@ workflows:
           branch-release: true
           exact: true
           requires:
+            - dependencies
             - checks
             - lint
             - hold-prerelease
@@ -58,6 +67,7 @@ workflows:
           exact: true
           context: npm-publish
           requires:
+            - dependencies
             - checks
             - lint
             - hold-release
