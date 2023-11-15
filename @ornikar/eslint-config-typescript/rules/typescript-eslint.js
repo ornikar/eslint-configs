@@ -32,6 +32,7 @@ module.exports = {
     '@typescript-eslint/no-invalid-void-type': 'error',
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/no-duplicate-type-constituents': 'error',
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
