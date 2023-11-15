@@ -1161,7 +1161,7 @@ __metadata:
     "@ornikar/commitlint-config": "npm:6.0.0"
     "@ornikar/monorepo-config": "npm:12.1.0"
     "@ornikar/prettier-config": "npm:7.0.0"
-    "@ornikar/repo-config": "npm:13.1.0"
+    "@ornikar/repo-config": "npm:13.1.1"
     check-package-dependencies: "npm:7.0.0"
     eslint: "npm:8.53.0"
     eslint-plugin-import: "npm:2.29.0"
@@ -1222,14 +1222,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:13.1.0":
-  version: 13.1.0
-  resolution: "@ornikar/repo-config@npm:13.1.0"
+"@ornikar/repo-config@npm:13.1.1":
+  version: 13.1.1
+  resolution: "@ornikar/repo-config@npm:13.1.1"
   dependencies:
     "@commitlint/cli": "npm:17.8.1"
     "@ornikar/commitlint-config": "npm:6.0.0"
     husky: "npm:8.0.3"
-    lint-staged: "npm:15.0.2"
+    lint-staged: "npm:15.1.0"
     prettier-plugin-properties: "npm:0.3.0"
     semver: "npm:^7.3.5"
     which-pm-runs: "npm:^1.1.0"
@@ -1241,7 +1241,7 @@ __metadata:
     ornikar-prettier-check: ./bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: ./bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: ./bin/ornikar-repo-config-postinstall.js
-  checksum: d853a7acc1403865e0dff7cb0215bd3c9afa51becab7716652864b627eb75bcadaf7cff5a36be6f099297601c2f90445bf1a93a69dd5782ccabab1076c41c3a4
+  checksum: 42e1e43cf5446c50011be89d8df850c9e3f32520f03769e574a8bb5a910212ccaa263012b46e4587f8ffe6f7374d2ed596cb2a6157337bea2de927f282f5c9de
   languageName: node
   linkType: hard
 
@@ -4965,9 +4965,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:15.0.2":
-  version: 15.0.2
-  resolution: "lint-staged@npm:15.0.2"
+"lint-staged@npm:15.1.0":
+  version: 15.1.0
+  resolution: "lint-staged@npm:15.1.0"
   dependencies:
     chalk: "npm:5.3.0"
     commander: "npm:11.1.0"
@@ -4978,10 +4978,10 @@ __metadata:
     micromatch: "npm:4.0.5"
     pidtree: "npm:0.6.0"
     string-argv: "npm:0.3.2"
-    yaml: "npm:2.3.3"
+    yaml: "npm:2.3.4"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 5c8806137c8c9c63e1156e16f2a2763586a9eab8f24713b95bbfd099308c83f85af2df622fdc326a9f0e455e657718f61f6d4a81067a5c77243e65e822c8f16c
+  checksum: d427408be98df7558e918593cb765d5caaa67a5cdca89671fb54280a6c959f4e448db36d4f85e8e0bd9c2c1e996aa133916925cf47c9df573b47308d5e298d84
   languageName: node
   linkType: hard
 
@@ -7682,10 +7682,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:2.3.3":
-  version: 2.3.3
-  resolution: "yaml@npm:2.3.3"
-  checksum: a0c56bf682159b0567e9cbbddf23efc2f6806f6450716d9be6ec5eb1af1b941e95c8d3dc9c47da20d1b6883a9d6c61e31cf98bb4b77ebca4396bf772657f2f00
+"yaml@npm:2.3.4":
+  version: 2.3.4
+  resolution: "yaml@npm:2.3.4"
+  checksum: cf03b68f8fef5e8516b0f0b54edaf2459f1648317fc6210391cf606d247e678b449382f4bd01f77392538429e306c7cba8ff46ff6b37cac4de9a76aff33bd9e1
   languageName: node
   linkType: hard
 
