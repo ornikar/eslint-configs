@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.3.0](https://github.com/ornikar/eslint-configs/compare/v21.2.0...v21.3.0) (2023-11-17)
+
+**Note:** Version bump only for package @ornikar/eslint-config-react
+
+
+
+
+
 ## [21.2.0](https://github.com/ornikar/eslint-configs/compare/v21.1.0...v21.2.0) (2023-11-02)
 
 **Note:** Version bump only for package @ornikar/eslint-config-react

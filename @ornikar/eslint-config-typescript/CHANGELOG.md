@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.3.0](https://github.com/ornikar/eslint-configs/compare/v21.2.0...v21.3.0) (2023-11-17)
+
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to v6.10.0 ([#654](https://github.com/ornikar/eslint-configs/issues/654)) ([38d332a](https://github.com/ornikar/eslint-configs/commit/38d332a250da950736f3efdd8f8f8c9fccc416cc))
+* enable @typescript-eslint/no-duplicate-type-constituents ECF-317 ([#657](https://github.com/ornikar/eslint-configs/issues/657)) ([9c425f8](https://github.com/ornikar/eslint-configs/commit/9c425f83bb8845331b02aadde5f2391f8c5ecda3))
+* **eslint-config-typescript:** add @typescript-eslint/no-unnecessary-boolean-literal-compare [no issue] ([#669](https://github.com/ornikar/eslint-configs/issues/669)) ([89d8369](https://github.com/ornikar/eslint-configs/commit/89d83696f555c9ea606e9ef4423862b3ca7e599b))
+
+
+
 ## [21.2.0](https://github.com/ornikar/eslint-configs/compare/v21.1.0...v21.2.0) (2023-11-02)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript
