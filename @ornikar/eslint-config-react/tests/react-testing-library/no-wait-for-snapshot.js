@@ -11,13 +11,6 @@ const bar = async () => {
   await waitFor(() => expect(container).toMatchInlineSnapshot());
 };
 
-const baz = async () => {
-  await wait(() => {
-    // eslint-disable-next-line testing-library/no-wait-for-snapshot
-    expect(container).toMatchSnapshot();
-  });
-};
-
 // Correct
 const by = () => {
   expect(container).toMatchSnapshot();

@@ -1,4 +1,4 @@
-/* eslint-disable testing-library/await-async-query */
+/* eslint-disable testing-library/await-async-queries */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable no-return-await */
 

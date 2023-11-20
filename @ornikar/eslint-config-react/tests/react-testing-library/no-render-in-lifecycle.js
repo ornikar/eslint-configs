@@ -5,12 +5,12 @@
 // Incorrect uses
 
 beforeEach(() => {
-  // eslint-disable-next-line testing-library/no-render-in-setup
+  // eslint-disable-next-line testing-library/no-render-in-lifecycle
   render(<MyComponent />);
 });
 
 beforeAll(() => {
-  // eslint-disable-next-line testing-library/no-render-in-setup
+  // eslint-disable-next-line testing-library/no-render-in-lifecycle
   render(<MyComponent />);
 });
 
