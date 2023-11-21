@@ -1076,7 +1076,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:6.8.0"
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-react-hooks: "npm:4.6.0"
-    eslint-plugin-testing-library: "npm:^5.7.3"
+    eslint-plugin-testing-library: "npm:^6.0.0"
     react: "npm:18.2.0"
   peerDependencies:
     eslint: ^8.39.0
@@ -3343,14 +3343,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^5.7.3":
-  version: 5.11.0
-  resolution: "eslint-plugin-testing-library@npm:5.11.0"
+"eslint-plugin-testing-library@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "eslint-plugin-testing-library@npm:6.1.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.58.0"
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 0c99bdd5e0933de4e48d73def10f458ceaade4b7c7d3046ddd90b4a24950042ca2408507e29fbab1fcd8adcbc7a33e7c962cfff964f299e30d4a1e5a6ca0785b
+  checksum: 3ddcf014e35029f9b90340598de0620038e87712543d013934ea9f972619e388467498f327396d1fe7242eb0d75445b04135822a5bf526166656b68e9107f6a9
   languageName: node
   linkType: hard
 

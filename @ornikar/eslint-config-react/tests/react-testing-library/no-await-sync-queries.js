@@ -4,12 +4,12 @@
 // Incorrect uses
 
 const foo = async () => {
-  // eslint-disable-next-line testing-library/no-await-sync-query
+  // eslint-disable-next-line testing-library/no-await-sync-queries
   const rows = await queryAllByRole('row');
 };
 
 const bar = async () => {
-  // eslint-disable-next-line testing-library/no-await-sync-query
+  // eslint-disable-next-line testing-library/no-await-sync-queries
   const button = await test.getByText('submit');
 };
 

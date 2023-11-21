@@ -8,20 +8,6 @@ const foo = async () => {
   await fireEvent.click(button);
 };
 
-const bar = async () => {
-  // userEvent prior to v14
-  // eslint-disable-next-line testing-library/no-await-sync-events
-  await userEvent.tab();
-  // ...
-};
-
-const baz = async () => {
-  // eslint-disable-next-line testing-library/no-await-sync-events
-  await userEvent.type(textInput, 'abc');
-  // eslint-disable-next-line testing-library/no-await-sync-events
-  await userEvent.keyboard('abc');
-};
-
 // Correct uses
 
 const foo2 = () => {

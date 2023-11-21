@@ -4,13 +4,13 @@
 
 // Incorrect uses
 
-// eslint-disable-next-line testing-library/await-async-query
+// eslint-disable-next-line testing-library/await-async-queries
 const rows = findAllByRole('row');
-// eslint-disable-next-line testing-library/await-async-query
+// eslint-disable-next-line testing-library/await-async-queries
 findByIcon('search');
-// eslint-disable-next-line testing-library/await-async-query
+// eslint-disable-next-line testing-library/await-async-queries
 test.findAllByPlaceholderText('name');
-// eslint-disable-next-line testing-library/await-async-query
+// eslint-disable-next-line testing-library/await-async-queries
 const someButton = findByIcon(); // promise unhandled here
 
 // Correct uses
