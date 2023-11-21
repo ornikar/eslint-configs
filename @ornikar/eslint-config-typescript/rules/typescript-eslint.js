@@ -33,6 +33,7 @@ module.exports = {
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/no-duplicate-type-constituents': 'error',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+    '@typescript-eslint/no-unnecessary-condition': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
