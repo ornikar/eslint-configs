@@ -7,7 +7,7 @@
       "matchUpdateTypes": ["patch", "minor", "major"],
       "masterIssue": false,
       "schedule": ["at any time"],
-      "reviewers": ["team:frontend-architects"]
+      "reviewers": ["team:frontend-wg-foundations"]
     },
     {
       "matchPackagePatterns": ["^@typescript-eslint/"],
@@ -15,7 +15,7 @@
       "matchUpdateTypes": ["patch", "minor", "major"],
       "masterIssue": false,
       "schedule": ["at any time"],
-      "reviewers": ["team:frontend-architects"]
+      "reviewers": ["team:frontend-wg-foundations"]
     }
   ]
 }
