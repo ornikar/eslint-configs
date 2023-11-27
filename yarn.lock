@@ -1025,13 +1025,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/commitlint-config@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@ornikar/commitlint-config@npm:6.0.0"
+"@ornikar/commitlint-config@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@ornikar/commitlint-config@npm:6.0.1"
   dependencies:
     "@commitlint/config-conventional": "npm:^17.0.3"
     "@commitlint/config-lerna-scopes": "npm:^17.0.2"
-  checksum: 46966b2a54fd77a02d9038bd2b8cdbfefe7d780edf8c93d212bd91e8f6917b3e2497e474b5a5d855f3766e8529f35361760c9f079287e853ac7bd19dc106e09f
+  checksum: 1b6d272de4d3ea974cb83c0740e88ce7da05b8bda26e02b1a0fb81b7647e060eba9e41cc8e5f8e72d7af3f07d8e96e87be3b9c1c601ce70cd39af470c35ae3ed
   languageName: node
   linkType: hard
 
@@ -1158,10 +1158,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ornikar/eslint-configs@workspace:."
   dependencies:
-    "@ornikar/commitlint-config": "npm:6.0.0"
+    "@ornikar/commitlint-config": "npm:6.0.1"
     "@ornikar/monorepo-config": "npm:12.1.0"
     "@ornikar/prettier-config": "npm:7.0.0"
-    "@ornikar/repo-config": "npm:13.1.1"
+    "@ornikar/repo-config": "npm:13.2.1"
     check-package-dependencies: "npm:7.0.0"
     eslint: "npm:8.54.0"
     eslint-plugin-import: "npm:2.29.0"
@@ -1222,12 +1222,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ornikar/repo-config@npm:13.1.1":
-  version: 13.1.1
-  resolution: "@ornikar/repo-config@npm:13.1.1"
+"@ornikar/repo-config@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@ornikar/repo-config@npm:13.2.1"
   dependencies:
     "@commitlint/cli": "npm:17.8.1"
-    "@ornikar/commitlint-config": "npm:6.0.0"
+    "@ornikar/commitlint-config": "npm:6.0.1"
     husky: "npm:8.0.3"
     lint-staged: "npm:15.1.0"
     prettier-plugin-properties: "npm:0.3.0"
@@ -1241,7 +1241,7 @@ __metadata:
     ornikar-prettier-check: ./bin/ornikar-prettier-check.sh
     ornikar-prettier-fix: ./bin/ornikar-prettier-fix.sh
     ornikar-repo-config-postinstall: ./bin/ornikar-repo-config-postinstall.js
-  checksum: 42e1e43cf5446c50011be89d8df850c9e3f32520f03769e574a8bb5a910212ccaa263012b46e4587f8ffe6f7374d2ed596cb2a6157337bea2de927f282f5c9de
+  checksum: 0576acbd9373d10e3496a5ea23e555e8967a39b4c201a8eb8f5b0deb51da4a978774ac46e6f6a5357ecdf691b59a7b72329b363a02594dbb07575a7b63c5e55e
   languageName: node
   linkType: hard
 
