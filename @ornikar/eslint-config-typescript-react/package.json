@@ -27,7 +27,7 @@
     "@types/react": "18.2.38",
     "eslint": "8.54.0",
     "react": "18.2.0",
-    "type-fest": "4.8.2",
+    "type-fest": "4.8.3",
     "typescript": "5.2.2"
   },
   "scripts": {
