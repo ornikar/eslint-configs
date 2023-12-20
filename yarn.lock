@@ -1159,7 +1159,7 @@ __metadata:
   resolution: "@ornikar/eslint-configs@workspace:."
   dependencies:
     "@ornikar/commitlint-config": "npm:6.0.0"
-    "@ornikar/monorepo-config": "npm:12.1.0"
+    "@ornikar/monorepo-config": "npm:13.0.0"
     "@ornikar/prettier-config": "npm:7.0.0"
     "@ornikar/repo-config": "npm:13.1.1"
     check-package-dependencies: "npm:7.0.0"
@@ -1191,9 +1191,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ornikar/monorepo-config@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@ornikar/monorepo-config@npm:12.1.0"
+"@ornikar/monorepo-config@npm:13.0.0":
+  version: 13.0.0
+  resolution: "@ornikar/monorepo-config@npm:13.0.0"
   dependencies:
     "@lerna/cli": "npm:5.5.4"
     "@lerna/version": "npm:5.5.4"
@@ -1209,7 +1209,7 @@ __metadata:
     monorepo-config-generate-eslintrc-files: ./bin/generate-eslintrc-files.mjs
     monorepo-config-generate-tsconfig-files: ./bin/generate-tsconfig-files.mjs
     ornikar-monorepo-update-peer-dependencies: ./bin/update-peer-dependencies.mjs
-  checksum: 9b1dff02d4aab09c70daf2adc9ff68fcad83773faf04fb046b4f8a34c16be38e68166f65577fff07e6704beab9f048a50a78805b4106f4b981e69876c10320e8
+  checksum: 5b1a19e444ddaae0abf770227b4ef808ece01d0e926a669faae53bf4dabd8610076e74803b58599bd9d1a2335a718a2babd786d8bbbc2786067c4a0e03d22aa4
   languageName: node
   linkType: hard
 
