@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config",
-  "version": "21.3.0",
+  "version": "22.0.0",
   "description": "eslint config files",
   "repository": {
     "directory": "@ornikar/eslint-config",
@@ -10,13 +10,13 @@
   "main": "index.js",
   "license": "ISC",
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=20.10.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-plugin-ornikar": "21.3.0",
+    "@ornikar/eslint-plugin-ornikar": "22.0.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.25.4",

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.0.0](https://github.com/ornikar/eslint-configs/compare/v21.3.0...v22.0.0) (2023-12-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* node 20 OSE-6084 (#684)
+
+### Features
+
+* node 20 OSE-6084 ([#684](https://github.com/ornikar/eslint-configs/issues/684)) ([aaa8fc2](https://github.com/ornikar/eslint-configs/commit/aaa8fc2bd56350b1ef826f677b73349897a2889e))
+
+
+
 ## [21.3.0](https://github.com/ornikar/eslint-configs/compare/v21.2.0...v21.3.0) (2023-11-17)
 
 **Note:** Version bump only for package @ornikar/eslint-config-formatjs
