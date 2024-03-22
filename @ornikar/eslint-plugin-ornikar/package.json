@@ -43,7 +43,7 @@
     "@eslint/eslintrc": "2.1.4",
     "@typescript-eslint/rule-tester": "6.10.0",
     "eslint": "8.56.0",
-    "typescript": "5.2.2"
+    "typescript": "5.4.3"
   },
   "engines": {
     "node": ">=20.10.0"
