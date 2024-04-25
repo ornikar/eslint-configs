@@ -33,7 +33,6 @@ module.exports = {
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/no-duplicate-type-constituents': 'error',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-    '@typescript-eslint/no-unnecessary-condition': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -84,6 +83,9 @@ module.exports = {
 
     // we are not ready to enable this
     '@typescript-eslint/no-explicit-any': 'warn',
+
+    // this was overriden by the repositories using this config
+    '@typescript-eslint/no-unnecessary-condition': 'warn',
 
     /* in recommended, disabled but to enable */
 
