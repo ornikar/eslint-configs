@@ -35,5 +35,27 @@ module.exports = {
 
     /* Avoid default exports: https://ornikar.atlassian.net/wiki/spaces/TECH/pages/2670330094/Avoid+default+export */
     'import/no-default-export': 'error',
+
+    'no-restricted-imports': [
+      'warn',
+      {
+        paths: [
+          {
+            name: '@apollo/client/react/components',
+            message: 'Use hooks instead of legacy components.',
+          },
+          {
+            name: '@apollo/client',
+            importNames: ['useQuery', 'useMutation'],
+            message: 'Use @ornikar/react-apollo hooks instead.',
+          },
+          {
+            name: 'react-final-form',
+            importNames: ['Form'],
+            message: 'Use @ornikar/react-forms-universal instead.',
+          },
+        ],
+      },
+    ],
   },
 };
