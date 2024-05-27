@@ -31,7 +31,7 @@
     "@ornikar/commitlint-config": "7.0.0",
     "@ornikar/monorepo-config": "13.0.0",
     "@ornikar/prettier-config": "8.0.0",
-    "@ornikar/repo-config": "14.0.0",
+    "@ornikar/repo-config": "14.0.1",
     "check-package-dependencies": "7.1.1",
     "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
