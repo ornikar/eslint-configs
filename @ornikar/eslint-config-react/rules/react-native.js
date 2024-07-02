@@ -3,6 +3,8 @@
 const forbidComponentsProps = [{ propName: 'data-testid', message: 'Use testID for native components' }];
 
 module.exports = {
+  plugins: ['react-native'],
+
   env: {
     browser: true,
   },
@@ -28,5 +30,6 @@ module.exports = {
         forbid: forbidComponentsProps,
       },
     ],
+    'react-native/no-raw-text': 2,
   },
 };
