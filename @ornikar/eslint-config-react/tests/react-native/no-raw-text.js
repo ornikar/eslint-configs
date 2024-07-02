@@ -6,6 +6,10 @@ function Text() {
   return null;
 }
 
+const Typography = {
+  Text: () => null,
+};
+
 export function MyComponent() {
   const text = 'some text';
 
@@ -18,6 +22,11 @@ export function MyComponent() {
       {/* Correct code */}
       <View>
         <Text>{`${text}`}</Text>
+      </View>
+
+      {/* Correct code */}
+      <View>
+        <Typography.Text>{`${text}`}</Typography.Text>
       </View>
     </>
   );
