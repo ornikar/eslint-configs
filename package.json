@@ -32,7 +32,7 @@
     "@ornikar/monorepo-config": "13.0.0",
     "@ornikar/prettier-config": "8.0.0",
     "@ornikar/repo-config": "14.0.1",
-    "check-package-dependencies": "7.1.2",
+    "check-package-dependencies": "7.2.0",
     "eslint": "8.57.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "16.6.2",
