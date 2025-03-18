@@ -46,6 +46,7 @@ module.exports = {
         noSortAlphabetically: true,
         requiredFirst: false,
         callbacksLast: true,
+        checkTypes: true,
       },
     ],
 

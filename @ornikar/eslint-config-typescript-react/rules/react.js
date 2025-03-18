@@ -12,6 +12,17 @@ module.exports = {
       },
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
+    'react/sort-prop-types': [
+      'error',
+      {
+        noSortAlphabetically: true,
+        requiredFirst: false,
+        callbacksLast: true,
+        checkTypes: true,
+      },
+    ],
+
     // overrides camelcase rule to allow UNSAFE_* commonly used in react libraries
     camelcase: ['error', { ...baseStyleRules.camelcase[1], allow: ['^UNSAFE_'] }],
   },
