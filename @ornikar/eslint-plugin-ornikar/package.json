@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-plugin-ornikar",
-  "version": "22.1.0",
+  "version": "22.2.0",
   "description": "eslint plugin for ornikar",
   "repository": {
     "directory": "@ornikar/eslint-plugin-ornikar",
