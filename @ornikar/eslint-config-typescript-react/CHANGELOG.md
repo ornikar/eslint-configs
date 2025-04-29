@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.2.0](https://github.com/ornikar/eslint-configs/compare/v22.1.0...v22.2.0) (2025-04-25)
+
+
+### Features
+
+* **react-native:** add no-raw-text rule OSE-10117 ([#744](https://github.com/ornikar/eslint-configs/issues/744)) ([331c98a](https://github.com/ornikar/eslint-configs/commit/331c98a300098ba805b51097d7c3303563597376))
+
+
+
 ## [22.1.0](https://github.com/ornikar/eslint-configs/compare/v22.0.1...v22.1.0) (2024-03-29)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript-react
