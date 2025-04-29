@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.3.0](https://github.com/ornikar/eslint-configs/compare/v22.2.0...v22.3.0) (2025-04-29)
+
+
+### Features
+
+* **eslint-plugin-ornikar:** add no-callback-render rule [no issue] ([#763](https://github.com/ornikar/eslint-configs/issues/763)) ([3a24ba1](https://github.com/ornikar/eslint-configs/commit/3a24ba172f8e6e77e975c7a521481b6490568b56))
+
+
+
 ## [22.2.0](https://github.com/ornikar/eslint-configs/compare/v22.1.0...v22.2.0) (2025-04-25)
 
 
