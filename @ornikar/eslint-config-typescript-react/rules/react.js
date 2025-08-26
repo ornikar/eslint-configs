@@ -21,6 +21,6 @@ module.exports = {
     'react/sort-prop-types': 'off',
 
     // overrides camelcase rule to allow UNSAFE_* commonly used in react libraries
-    camelcase: ['error', { ...baseStyleRules.camelcase[1], allow: ['^UNSAFE_'] }],
+    camelcase: ['error', { ...baseStyleRules.camelcase.at(1), allow: ['^UNSAFE_'] }],
   },
 };
