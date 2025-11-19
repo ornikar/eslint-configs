@@ -21,6 +21,7 @@ const colorProps = [
   'borderRightColor',
   'borderTopColor',
   'borderBottomColor',
+  'color',
 ];
 
 exports.create = (context) => {
