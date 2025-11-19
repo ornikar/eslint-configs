@@ -24,6 +24,16 @@ const colorProps = [
 ];
 
 exports.create = (context) => {
+  const checkColorValue = (valueNode, stringValue) => {
+    // Check if it's a kitt token but not kitt.bumper.*
+    if (stringValue.startsWith('kitt.') && !stringValue.startsWith('kitt.bumper.')) {
+      context.report({
+        node: valueNode,
+        messageId: 'forbidden',
+      });
+    }
+  };
+
   return {
     JSXAttribute(node) {
       const propName = node.name && node.name.name;
@@ -34,16 +44,24 @@ exports.create = (context) => {
 
       const { value } = node;
 
+      // Handle literal strings like backgroundColor="kitt.primary"
       if (value && value.type === 'Literal' && typeof value.value === 'string') {
-        const colorValue = value.value;
+        checkColorValue(node, value.value);
+      }
 
-        // Check if it's a kitt token but not kitt.bumper.*
-        if (!colorValue.startsWith('kitt.bumper.')) {
-          context.report({
-            node,
-            messageId: 'forbidden',
-          });
-        }
+      // Handle JSX expressions like backgroundColor={isOk ? "kitt.primary" : "kitt.bumper.*"}
+      if (value && value.type === 'JSXExpressionContainer') {
+        const checkExpression = (expr) => {
+          if (expr.type === 'Literal' && typeof expr.value === 'string') {
+            checkColorValue(node, expr.value);
+          } else if (expr.type === 'ConditionalExpression') {
+            // Check both branches of ternary
+            checkExpression(expr.consequent);
+            checkExpression(expr.alternate);
+          }
+        };
+
+        checkExpression(value.expression);
       }
     },
   };

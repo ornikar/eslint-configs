@@ -43,6 +43,11 @@ ruleTester.run('forbid-kitt-colors-token', rule, {
       <View borderBottomColor="kitt.bumper.*" />
     `,
     },
+    {
+      code: `
+      <View borderBottomColor={isOk ? "kitt.bumper.*" : "kitt.bumper.*"} />
+    `,
+    },
   ],
   invalid: [
     {
@@ -98,6 +103,16 @@ ruleTester.run('forbid-kitt-colors-token', rule, {
     {
       code: `
       <View borderLeftColor="kitt.primary" />
+    `,
+      errors: [
+        {
+          messageId: 'forbidden',
+        },
+      ],
+    },
+    {
+      code: `
+      <View borderLeftColor={isOk ? "kitt.primary" : "kitt.bumper.*"} />
     `,
       errors: [
         {
