@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.4.0](https://github.com/ornikar/eslint-configs/compare/v22.3.1...v22.4.0) (2025-11-21)
+
+
+### Features
+
+* create rule which forbid kitt tokens in color props [no issue] ([#777](https://github.com/ornikar/eslint-configs/issues/777)) ([0954344](https://github.com/ornikar/eslint-configs/commit/09543446e9cf9fd3c7d83f2b6165c9ad93ddcd1d))
+
+
+
 ## [22.3.1](https://github.com/ornikar/eslint-configs/compare/v22.3.0...v22.3.1) (2025-06-02)
 
 **Note:** Version bump only for package @ornikar/eslint-configs

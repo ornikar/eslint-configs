@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.4.0](https://github.com/ornikar/eslint-configs/compare/v22.3.1...v22.4.0) (2025-11-21)
+
+**Note:** Version bump only for package @ornikar/eslint-config-typescript
+
+
+
+
+
 ## [22.3.1](https://github.com/ornikar/eslint-configs/compare/v22.3.0...v22.3.1) (2025-06-02)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript
