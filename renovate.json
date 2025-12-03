@@ -1,5 +1,6 @@
 {
   "extends": ["config:js-lib", "github>ornikar/renovate-presets:frontend"],
+  "reviewers": ["team:core-edu-frontend"],
   "packageRules": [
     {
       "matchPackagePatterns": ["^eslint-"],
