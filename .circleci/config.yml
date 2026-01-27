@@ -5,7 +5,7 @@ version: 2.1
 # -------------------------------------------------------------------------------------------------
 
 orbs:
-  frontend: ornikar/frontend-orb@dev:a912bc0
+  frontend: ornikar/frontend-orb@13.3.0
 
 # -------------------------------------------------------------------------------------------------
 # WORKFLOWS
@@ -40,7 +40,7 @@ workflows:
 
       - frontend/monorepo-release:
           name: prerelease
-          context: npm-gcp
+          context: npm-publish
           npm-publish: true
           no-private: true
           branch-release: true
@@ -65,7 +65,7 @@ workflows:
           npm-publish: true
           no-private: true
           exact: true
-          context: npm-gcp
+          context: npm-publish
           requires:
             - dependencies
             - checks
