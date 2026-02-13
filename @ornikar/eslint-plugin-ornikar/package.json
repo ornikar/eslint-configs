@@ -43,7 +43,8 @@
     "@eslint/eslintrc": "2.1.4",
     "@typescript-eslint/rule-tester": "8.55.0",
     "eslint": "8.57.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.55.0"
   },
   "engines": {
     "node": ">=20.10.0"

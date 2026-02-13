@@ -46,9 +46,8 @@ module.exports = {
     'keyword-spacing': 'off',
     '@typescript-eslint/keyword-spacing': baseStyleRules['keyword-spacing'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/lines-between-class-members.md
-    'lines-between-class-members': 'off',
-    '@typescript-eslint/lines-between-class-members': baseStyleRules['lines-between-class-members'],
+    // lines-between-class-members was removed in v8, use base ESLint rule
+    'lines-between-class-members': baseStyleRules['lines-between-class-members'],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-array-constructor.md
     'no-array-constructor': 'off',
@@ -94,9 +93,10 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': baseVariablesRules['no-shadow'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-throw-literal.md
+    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/only-throw-error.md
+    // no-throw-literal was renamed to only-throw-error in v8
     'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': baseBestPracticesRules['no-throw-literal'],
+    '@typescript-eslint/only-throw-error': baseBestPracticesRules['no-throw-literal'],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-unused-expressions.md
     'no-unused-expressions': 'off',

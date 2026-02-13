@@ -2,29 +2,33 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+// eslint-disable-next-line import/no-unresolved -- dev dependency
+const tseslint = require('typescript-eslint');
 const { RuleTester } = require('./test-utils/RuleTester');
 const rule = require('./typescript-no-unused-exports');
 
+const fixturesPath = path.join(__dirname, '../fixtures');
+
 const ruleTester = new RuleTester({
-  parser: require.resolve('@typescript-eslint/parser'),
-  parserOptions: {
-    tsconfigRootDir: path.join(__dirname, '../fixtures'),
-    project: './tsconfig.json',
+  languageOptions: {
+    parser: tseslint.parser,
+    parserOptions: {
+      project: './tsconfig.json',
+      tsconfigRootDir: fixturesPath,
+    },
   },
 });
-
-const fixturesPath = path.join(__dirname, '../fixtures');
 
 ruleTester.run('typescript-no-unused-exports', rule, {
   valid: [
     {
-      filename: path.join(fixturesPath, 'used-export.ts'),
+      filename: 'used-export.ts',
       code: fs.readFileSync(path.join(fixturesPath, 'used-export.ts'), 'utf8'),
     },
   ],
   invalid: [
     {
-      filename: path.join(fixturesPath, 'unused-export.ts'),
+      filename: 'unused-export.ts',
       code: fs.readFileSync(path.join(fixturesPath, 'unused-export.ts'), 'utf8'),
       errors: [
         {

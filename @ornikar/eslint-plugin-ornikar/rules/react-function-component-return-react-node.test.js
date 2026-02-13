@@ -1,16 +1,17 @@
 'use strict';
 
-const path = require('node:path');
+// eslint-disable-next-line import/no-unresolved -- dev dependency
+const tseslint = require('typescript-eslint');
 const rule = require('./react-function-component-return-react-node');
 const { RuleTester } = require('./test-utils/RuleTester');
 
 const ruleTester = new RuleTester({
-  parser: require.resolve('@typescript-eslint/parser'),
-  parserOptions: {
-    tsconfigRootDir: path.join(__dirname, '../fixtures'),
-    project: './tsconfig.json',
-    ecmaFeatures: {
-      jsx: true,
+  languageOptions: {
+    parser: tseslint.parser,
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
     },
   },
 });
