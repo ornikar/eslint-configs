@@ -105,6 +105,15 @@ ruleTester.run('no-unsafe-callback-passthrough', rule, {
         }
       `,
     },
+    // 11. Local variable typed as () => void (not a prop passthrough)
+    {
+      code: `
+        function Comp() {
+          const handler: () => void = () => {};
+          return <Button onPress={handler} />;
+        }
+      `,
+    },
   ],
 
   invalid: [
@@ -193,34 +202,7 @@ ruleTester.run('no-unsafe-callback-passthrough', rule, {
         },
       ],
     },
-    // 5. Local variable typed as () => void
-    {
-      code: `
-        function Comp() {
-          const handler: () => void = () => {};
-          return <Button onPress={handler} />;
-        }
-      `,
-      errors: [
-        {
-          messageId: 'unsafePassthrough',
-          data: { propName: 'onPress', componentName: 'Button' },
-          suggestions: [
-            {
-              messageId: 'wrapInArrow',
-              data: { identifierText: 'handler' },
-              output: `
-        function Comp() {
-          const handler: () => void = () => {};
-          return <Button onPress={() => handler()} />;
-        }
-      `,
-            },
-          ],
-        },
-      ],
-    },
-    // 6. Inline object type
+    // 5. Inline object type
     {
       code: `
         function Comp({ onPress }: { onPress: () => void }) {

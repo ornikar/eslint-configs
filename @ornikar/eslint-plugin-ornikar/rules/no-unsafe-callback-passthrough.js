@@ -154,21 +154,6 @@ exports.create = (context) => {
       }
     }
 
-    // Case C: Local variable with type annotation
-    let currentScope = scope;
-    while (currentScope) {
-      for (const variable of currentScope.variables) {
-        if (variable.name === identifierName) {
-          for (const def of variable.defs) {
-            if (def.type === 'Variable' && def.node.type === 'VariableDeclarator' && def.node.id.typeAnnotation) {
-              return def.node.id.typeAnnotation.typeAnnotation;
-            }
-          }
-        }
-      }
-      currentScope = currentScope.upper;
-    }
-
     return null;
   }
 
