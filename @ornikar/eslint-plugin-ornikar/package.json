@@ -42,7 +42,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "2.1.4",
     "@typescript-eslint/rule-tester": "6.21.0",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "typescript": "5.9.3"
   },
   "engines": {
