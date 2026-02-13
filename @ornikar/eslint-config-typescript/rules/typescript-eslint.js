@@ -20,7 +20,16 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
-    '@typescript-eslint/prefer-ts-expect-error': 'error',
+    // prefer-ts-expect-error was merged into ban-ts-comment in v8
+    '@typescript-eslint/ban-ts-comment': [
+      'error',
+      {
+        'ts-expect-error': 'allow-with-description',
+        'ts-ignore': true,
+        'ts-nocheck': true,
+        'ts-check': false,
+      },
+    ],
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
@@ -38,11 +47,15 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
 
     /* Changed */
-    '@typescript-eslint/ban-types': [
+    // ban-types was removed in v8, replaced by no-restricted-types
+    '@typescript-eslint/no-restricted-types': [
       'error',
       {
         types: {
-          Omit: 'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/main/source/except.d.ts',
+          Omit: {
+            message:
+              'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/main/source/except.d.ts',
+          },
         },
       },
     ],
@@ -74,7 +87,8 @@ module.exports = {
     /* Disabled */
 
     // interface can be used for empty props
-    '@typescript-eslint/no-empty-interface': 'off',
+    // no-empty-interface was renamed to no-empty-object-type in v8
+    '@typescript-eslint/no-empty-object-type': 'off',
     // too much errors on existing code
     '@typescript-eslint/unbound-method': 'off',
 
