@@ -32,6 +32,10 @@ module.exports = {
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
     '@typescript-eslint/no-duplicate-type-constituents': 'error',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+    '@typescript-eslint/no-unnecessary-template-expression': 'error',
+    '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
+    '@typescript-eslint/no-unsafe-function-type': 'error',
+    '@typescript-eslint/no-wrapper-object-types': 'error',
 
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -73,7 +77,7 @@ module.exports = {
     /* Disabled */
 
     // interface can be used for empty props
-    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
     // too much errors on existing code
     '@typescript-eslint/unbound-method': 'off',
 
@@ -93,6 +97,14 @@ module.exports = {
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-return': 'off',
+
+    /* New v7 rules - warn as migration aid */
+
+    '@typescript-eslint/no-unnecessary-type-parameters': 'warn',
+    '@typescript-eslint/use-unknown-in-catch-callback-variable': 'warn',
+
+    // TypeScript's noImplicitReturns handles this better
+    '@typescript-eslint/consistent-return': 'off',
 
     /* in recommended, warnings to temporary check if we want to enable it */
 
