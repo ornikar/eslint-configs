@@ -20,7 +20,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
-    '@typescript-eslint/prefer-ts-expect-error': 'error',
     '@typescript-eslint/method-signature-style': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
@@ -90,7 +89,6 @@ module.exports = {
     /* in recommended, disabled but to enable */
 
     '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
     '@typescript-eslint/no-unsafe-call': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',

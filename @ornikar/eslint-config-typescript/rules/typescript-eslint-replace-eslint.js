@@ -66,9 +66,9 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': baseVariablesRules['no-shadow'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-throw-literal.md
+    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/only-throw-error.md
     'no-throw-literal': 'off',
-    '@typescript-eslint/no-throw-literal': baseBestPracticesRules['no-throw-literal'],
+    '@typescript-eslint/only-throw-error': baseBestPracticesRules['no-throw-literal'],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-unused-expressions.md
     'no-unused-expressions': 'off',
