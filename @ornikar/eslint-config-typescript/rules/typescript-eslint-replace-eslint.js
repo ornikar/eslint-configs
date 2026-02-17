@@ -10,18 +10,6 @@ const { rules: baseVariablesRules } = require('eslint-config-airbnb-base/rules/v
 module.exports = {
   /* Replace enabled rules in Airbnb by typescript-eslint rules */
   rules: {
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/brace-style.md
-    'brace-style': 'off',
-    '@typescript-eslint/brace-style': baseStyleRules['brace-style'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/comma-dangle.md
-    'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': baseStyleRules['comma-dangle'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/comma-spacing.md
-    'comma-spacing': 'off',
-    '@typescript-eslint/comma-spacing': baseStyleRules['comma-spacing'],
-
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/default-param-last.md
     'default-param-last': 'off',
     '@typescript-eslint/default-param-last': baseBestPracticesRules['default-param-last'],
@@ -30,25 +18,9 @@ module.exports = {
     'dot-notation': 'off',
     '@typescript-eslint/dot-notation': baseBestPracticesRules['dot-notation'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/func-call-spacing.md
-    'func-call-spacing': 'off',
-    '@typescript-eslint/func-call-spacing': baseStyleRules['func-call-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/indent.md
-    indent: 'off',
-    '@typescript-eslint/indent': baseStyleRules.indent,
-
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/init-declarations.md
     'init-declarations': 'off',
     '@typescript-eslint/init-declarations': baseVariablesRules['init-declarations'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/keyword-spacing.md
-    'keyword-spacing': 'off',
-    '@typescript-eslint/keyword-spacing': baseStyleRules['keyword-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/lines-between-class-members.md
-    'lines-between-class-members': 'off',
-    '@typescript-eslint/lines-between-class-members': baseStyleRules['lines-between-class-members'],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-array-constructor.md
     'no-array-constructor': 'off',
@@ -114,18 +86,6 @@ module.exports = {
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': baseES6Rules['no-useless-constructor'],
 
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/object-curly-spacing.md
-    'object-curly-spacing': 'off',
-    '@typescript-eslint/object-curly-spacing': baseStyleRules['object-curly-spacing'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/padding-line-between-statements.md
-    'padding-line-between-statements': 'off',
-    '@typescript-eslint/padding-line-between-statements': baseStyleRules['padding-line-between-statements'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/quotes.md
-    quotes: 'off',
-    '@typescript-eslint/quotes': baseStyleRules.quotes,
-
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/require-await.md
     'require-await': 'off',
     '@typescript-eslint/require-await': baseBestPracticesRules['require-await'],
@@ -133,17 +93,5 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/return-await.md
     'no-return-await': 'off',
     '@typescript-eslint/return-await': baseBestPracticesRules['no-return-await'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/semi.md
-    semi: 'off',
-    '@typescript-eslint/semi': baseStyleRules.semi,
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/space-before-function-paren.md
-    'space-before-function-paren': 'off',
-    '@typescript-eslint/space-before-function-paren': baseStyleRules['space-before-function-paren'],
-
-    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/space-infix-ops.md
-    'space-infix-ops': 'off',
-    '@typescript-eslint/space-infix-ops': baseStyleRules['space-infix-ops'],
   },
 };
