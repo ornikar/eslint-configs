@@ -17,7 +17,7 @@
   "prettier": "@ornikar/prettier-config",
   "packageManager": "yarn@4.3.1",
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=22.22.0"
   },
   "commitlint": {
     "extends": [
@@ -28,10 +28,10 @@
     "@ornikar/*"
   ],
   "devDependencies": {
-    "@ornikar/commitlint-config": "7.0.0",
-    "@ornikar/monorepo-config": "13.0.0",
-    "@ornikar/prettier-config": "8.0.0",
-    "@ornikar/repo-config": "14.1.1",
+    "@ornikar/commitlint-config": "8.1.1",
+    "@ornikar/monorepo-config": "14.2.1",
+    "@ornikar/prettier-config": "9.0.1",
+    "@ornikar/repo-config": "15.2.1",
     "check-package-dependencies": "7.2.0",
     "eslint": "8.57.1",
     "eslint-plugin-import": "2.32.0",
