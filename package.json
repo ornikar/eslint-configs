@@ -3,6 +3,7 @@
   "private": true,
   "repository": "ornikar/eslint-configs",
   "scripts": {
+    "preinstall": "test -n \"$NOYARNPREINSTALL\" || yarn dlx google-artifactregistry-auth --credential-config-yarn=$HOME/.yarnrc.yml",
     "lint": "yarn run lint:prettier && yarn run lint:eslint",
     "lint:eslint": "eslint --quiet --report-unused-disable-directives .",
     "lint:eslint:fix": "yarn lint:eslint --fix",
