@@ -93,22 +93,20 @@ exports.create = (context) => {
 
         const exportToken = sourceCode.getTokenByRangeStart(index);
 
-        if (!exportToken) {
-          throw new Error('Expected export node');
+        if (exportToken) {
+          context.report({
+            node: exportToken,
+            messageId: 'unusedExport',
+            data: { exportName: unusedExport.exportName },
+            suggest: [
+              {
+                messageId: 'removeExport',
+                data: { exportName: unusedExport.exportName },
+                fix: getSuggestionFixer(exportToken),
+              },
+            ],
+          });
         }
-
-        context.report({
-          node: exportToken,
-          messageId: 'unusedExport',
-          data: { exportName: unusedExport.exportName },
-          suggest: [
-            {
-              messageId: 'removeExport',
-              data: { exportName: unusedExport.exportName },
-              fix: getSuggestionFixer(exportToken),
-            },
-          ],
-        });
       }
     },
   };
