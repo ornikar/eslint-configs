@@ -36,17 +36,6 @@ exports.create = (context) => {
     return null;
   }
 
-  function isDOMElement(jsxOpeningElement) {
-    const nameNode = jsxOpeningElement.name;
-    if (nameNode.type === 'JSXMemberExpression') {
-      return false;
-    }
-    if (nameNode.type === 'JSXIdentifier') {
-      return /^[a-z]/.test(nameNode.name);
-    }
-    return false;
-  }
-
   function findEnclosingFunction(node) {
     let current = node.parent;
     while (current) {
@@ -190,11 +179,9 @@ exports.create = (context) => {
       const isMemberExpr = expr.type === 'MemberExpression' && !expr.computed;
       if (!isIdentifier && !isMemberExpr) return;
 
-      // Step 3: Skip DOM elements
       const jsxOpeningElement = node.parent;
-      if (isDOMElement(jsxOpeningElement)) return;
 
-      // Step 4 & 5: Trace to type annotation and resolve
+      // Step 3 & 4: Trace to type annotation and resolve
       let resolvedType;
       if (isIdentifier) {
         resolvedType = traceIdentifierType(expr.name, node);
@@ -202,7 +189,7 @@ exports.create = (context) => {
         resolvedType = traceMemberExpressionType(expr, node);
       }
 
-      // Step 6: Check if parameterless function type
+      // Step 5: Check if parameterless function type
       if (!isParameterlessFunctionType(resolvedType)) return;
 
       const componentName = getJSXElementName(jsxOpeningElement);

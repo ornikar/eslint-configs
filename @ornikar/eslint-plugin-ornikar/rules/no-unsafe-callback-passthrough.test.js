@@ -69,16 +69,7 @@ ruleTester.run('no-unsafe-callback-passthrough', rule, {
         }
       `,
     },
-    // 7. DOM element (lowercase)
-    {
-      code: `
-        interface Props { onClick: () => void }
-        function Comp({ onClick }: Props) {
-          return <div onClick={onClick} />;
-        }
-      `,
-    },
-    // 8. Non-event prop (doesn't match on[A-Z])
+    // 7. Non-event prop (doesn't match on[A-Z])
     {
       code: `
         interface Props { renderItem: () => void }
@@ -294,6 +285,21 @@ ruleTester.run('no-unsafe-callback-passthrough', rule, {
         {
           messageId: 'unsafePassthrough',
           data: { propName: 'onPress', componentName: 'Button' },
+        },
+      ],
+    },
+    // 11. DOM element (lowercase) with () => void
+    {
+      code: `
+        interface Props { onClick: () => void }
+        function Comp({ onClick }: Props) {
+          return <div onClick={onClick} />;
+        }
+      `,
+      errors: [
+        {
+          messageId: 'unsafePassthrough',
+          data: { propName: 'onClick', componentName: 'div' },
         },
       ],
     },
