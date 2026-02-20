@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.5.0](https://github.com/ornikar/eslint-configs/compare/v22.4.0...v22.5.0) (2026-02-20)
+
+
+### Features
+
+* add no-unsafe-callback-passthrough ESLint rule [no issue] ([#783](https://github.com/ornikar/eslint-configs/issues/783)) ([c4db439](https://github.com/ornikar/eslint-configs/commit/c4db4394301825908b5421d6d4064b4accce0d16))
+* upgrade to Node 22 [no issue] ([#785](https://github.com/ornikar/eslint-configs/issues/785)) ([9ffed28](https://github.com/ornikar/eslint-configs/commit/9ffed28af08c5c1723f66e5cb04203edc73c2f9a))
+
+
+
 ## [22.4.0](https://github.com/ornikar/eslint-configs/compare/v22.3.1...v22.4.0) (2025-11-21)
 
 
