@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.5.1](https://github.com/ornikar/eslint-configs/compare/v22.5.0...v22.5.1) (2026-02-23)
+
+**Note:** Version bump only for package @ornikar/eslint-config-babel
+
+
+
+
+
 ## [22.5.0](https://github.com/ornikar/eslint-configs/compare/v22.4.0...v22.5.0) (2026-02-20)
 
 
