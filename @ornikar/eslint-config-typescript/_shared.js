@@ -9,5 +9,6 @@ module.exports = {
   ].map(require.resolve),
   parserOptions: {
     project: './tsconfig.json',
+    EXPERIMENTAL_useProjectService: true,
   },
 };

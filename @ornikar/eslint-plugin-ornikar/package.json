@@ -19,7 +19,7 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^8.39.0",
+    "eslint": "^8.56.0",
     "typescript": ">=5.2.2"
   },
   "peerDependenciesMeta": {
@@ -35,13 +35,13 @@
     ".": "./index.js"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "6.21.0",
+    "@typescript-eslint/utils": "7.18.0",
     "eslint-plugin-react": "^7.33.2",
     "ts-unused-exports": "^10.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "2.1.4",
-    "@typescript-eslint/rule-tester": "6.21.0",
+    "@typescript-eslint/rule-tester": "7.18.0",
     "eslint": "8.57.1",
     "typescript": "5.9.3"
   },
