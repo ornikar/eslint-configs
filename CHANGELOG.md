@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.6.0](https://github.com/ornikar/eslint-configs/compare/v22.5.1...v22.6.0) (2026-04-17)
+
+
+### Features
+
+* add eslint-import-resolver-typescript to eslint-config [no issue] ([#794](https://github.com/ornikar/eslint-configs/issues/794)) ([82675ac](https://github.com/ornikar/eslint-configs/commit/82675ac1e7c82bec12ef4617affc42df0fc0b0d5))
+* also publish to GCP registry [CLOUD-4801] ([#788](https://github.com/ornikar/eslint-configs/issues/788)) ([7990308](https://github.com/ornikar/eslint-configs/commit/7990308e519d6c65602439797509662140b23089))
+
+
+### Bug Fixes
+
+* add libc to supportedArchitectures for Yarn 4 compatibility [no issue] ([#795](https://github.com/ornikar/eslint-configs/issues/795)) ([18426d8](https://github.com/ornikar/eslint-configs/commit/18426d8d5af63439b21a19a64d1fd5d61e211c37))
+
+
+
 ## [22.5.1](https://github.com/ornikar/eslint-configs/compare/v22.5.0...v22.5.1) (2026-02-23)
 
 

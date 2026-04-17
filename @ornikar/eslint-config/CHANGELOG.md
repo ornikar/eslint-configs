@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.6.0](https://github.com/ornikar/eslint-configs/compare/v22.5.1...v22.6.0) (2026-04-17)
+
+
+### Features
+
+* add eslint-import-resolver-typescript to eslint-config [no issue] ([#794](https://github.com/ornikar/eslint-configs/issues/794)) ([82675ac](https://github.com/ornikar/eslint-configs/commit/82675ac1e7c82bec12ef4617affc42df0fc0b0d5))
+
+
+
 ## [22.5.1](https://github.com/ornikar/eslint-configs/compare/v22.5.0...v22.5.1) (2026-02-23)
 
 **Note:** Version bump only for package @ornikar/eslint-config
