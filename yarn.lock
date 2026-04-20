@@ -1200,6 +1200,9 @@ __metadata:
     eslint-plugin-n: "npm:16.6.2"
     eslint-plugin-unicorn: "npm:48.0.1"
     prettier: "npm:2.8.8"
+  dependenciesMeta:
+    unrs-resolver:
+      built: true
   languageName: unknown
   linkType: soft
 
