@@ -9,7 +9,7 @@ module.exports = {
     'formatjs/enforce-plural-rules': 'error',
     'formatjs/enforce-default-message': 'error',
     'formatjs/no-camel-case': 'off',
-    'formatjs/no-emoji': 'error',
+    'formatjs/no-emoji': 'off',
     'formatjs/no-multiple-whitespaces': 'error',
     'formatjs/no-multiple-plurals': 'error',
     'formatjs/no-offset': 'error',
