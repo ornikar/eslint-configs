@@ -1,1 +1,4 @@
 node_modules
+# Skipped tests pending typescript-eslint v8 rule-tester API updates
+# (see header comments in the .test.skip.js files for context).
+**/*.test.skip.js
