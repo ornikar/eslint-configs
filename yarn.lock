@@ -1012,9 +1012,7 @@ __metadata:
     "@ornikar/eslint-config": "npm:22.6.0"
     eslint: "npm:8.57.1"
     eslint-config-airbnb-base: "npm:^15.0.0"
-    eslint-plugin-babel: "npm:^5.3.0"
     eslint-plugin-import: "npm:^2.25.4"
-    eslint-plugin-prefer-class-properties: "npm:^1.0.0"
   peerDependencies:
     eslint: ^8.44.0
     prettier: ^2.2.1
@@ -1094,7 +1092,6 @@ __metadata:
     eslint: "npm:8.57.1"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-plugin-import: "npm:^2.25.4"
-    eslint-plugin-prefer-class-properties: "npm:^1.0.0"
     type-fest: "npm:4.41.0"
     typescript: "npm:5.9.3"
   peerDependencies:
@@ -3425,17 +3422,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-babel@npm:^5.3.0":
-  version: 5.3.1
-  resolution: "eslint-plugin-babel@npm:5.3.1"
-  dependencies:
-    eslint-rule-composer: "npm:^0.3.0"
-  peerDependencies:
-    eslint: ">=4.0.0"
-  checksum: 10c0/c73e054c3cf3c5392e8ea7e56f41db3859b9d7c0dd347c28a5f08ae87889cc4879fcddfe227ee1ec075a9ab62e34e245d7e6e723180dfa36d07397c2cbb2c1a1
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-es-x@npm:^7.5.0":
   version: 7.5.0
   resolution: "eslint-plugin-es-x@npm:7.5.0"
@@ -3571,15 +3557,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prefer-class-properties@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "eslint-plugin-prefer-class-properties@npm:1.0.0"
-  dependencies:
-    requireindex: "npm:~1.1.0"
-  checksum: 10c0/b06a38d4ef67ec6a8f87c07ca0f2434ffb875466cd122e46217e6738d9400272dc55eb43f3c225497d6d71df75d50902b7e2f0de5b24872cbf1a7d9cc64bb7a7
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-react-hooks@npm:4.6.2":
   version: 4.6.2
   resolution: "eslint-plugin-react-hooks@npm:4.6.2"
@@ -3686,13 +3663,6 @@ __metadata:
   peerDependencies:
     eslint: ">=8.44.0"
   checksum: 10c0/158a9fc41c213a2d4a4d7ed9c866c86f9f1901d7f7371c60f3e18d05be73cb6982b72c33a679955142116032127835f8550b466484885c0cedb2e7ed951136ac
-  languageName: node
-  linkType: hard
-
-"eslint-rule-composer@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "eslint-rule-composer@npm:0.3.0"
-  checksum: 10c0/1f0c40d209e1503a955101a0dbba37e7fc67c8aaa47a5b9ae0b0fcbae7022c86e52b3df2b1b9ffd658e16cd80f31fff92e7222460a44d8251e61d49e0af79a07
   languageName: node
   linkType: hard
 
@@ -6797,13 +6767,6 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: 10c0/aaa267e0c5b022fc5fd4eef49d8285086b15f2a1c54b28240fdf03599cbd9c26049fee3eab894f2e1f6ca65e513b030a7c264201e3f005601e80c49fb2937ce2
-  languageName: node
-  linkType: hard
-
-"requireindex@npm:~1.1.0":
-  version: 1.1.0
-  resolution: "requireindex@npm:1.1.0"
-  checksum: 10c0/4d57e7c6d160c4d043a233a6a95a22c792ada72ff378c5ebd415be505b328f3c719f9188dd100f8fcaa8af513a85f39eee0a5047838d715e22e79544a3b7d002
   languageName: node
   linkType: hard
 

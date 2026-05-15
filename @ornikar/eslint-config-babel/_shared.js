@@ -1,8 +1,6 @@
 'use strict';
 
 module.exports = {
-  extends: ['./rules/prefer-class-properties'].map(require.resolve),
-
   parserOptions: {
     sourceType: 'module',
     // as we use babel, we can use latest ecma features
