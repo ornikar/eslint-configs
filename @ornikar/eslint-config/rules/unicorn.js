@@ -65,14 +65,8 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     */
     'unicorn/no-array-callback-reference': 'off',
 
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/import-index.md
-    'unicorn/import-index': 'error',
-
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/new-for-builtins.md
     'unicorn/new-for-builtins': 'error',
-
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/regex-shorthand.md
-    'unicorn/regex-shorthand': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'error',
@@ -100,9 +94,6 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-dom-node-text-content.md
     'unicorn/prefer-dom-node-text-content': 'error',
-
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-remove.md
-    'unicorn/prefer-node-remove': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-keyword-prefix.md
     'unicorn/no-keyword-prefix': 'off',
