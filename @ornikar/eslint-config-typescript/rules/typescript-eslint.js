@@ -20,7 +20,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/non-nullable-type-assertion-style': 'error',
-    // prefer-ts-expect-error was merged into ban-ts-comment in v8
     '@typescript-eslint/ban-ts-comment': [
       'error',
       {
@@ -47,7 +46,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'error',
 
     /* Changed */
-    // ban-types was removed in v8, replaced by no-restricted-types
     '@typescript-eslint/no-restricted-types': [
       'error',
       {
@@ -87,7 +85,6 @@ module.exports = {
     /* Disabled */
 
     // interface can be used for empty props
-    // no-empty-interface was renamed to no-empty-object-type in v8
     '@typescript-eslint/no-empty-object-type': 'off',
     // too much errors on existing code
     '@typescript-eslint/unbound-method': 'off',
