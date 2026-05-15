@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>22.7.1 (2026-05-15)</small>
+
+* feat(deps): update dependency eslint-config-prettier to v10 (#805) ([3aaf434](https://github.com/ornikar/eslint-configs/commit/3aaf434)), closes [#805](https://github.com/ornikar/eslint-configs/issues/805)
+* feat(deps): update dependency eslint-plugin-jest to v29 (#807) ([78d0c97](https://github.com/ornikar/eslint-configs/commit/78d0c97)), closes [#807](https://github.com/ornikar/eslint-configs/issues/807)
+* feat(deps): update dependency eslint-plugin-security to v4 (#810) ([8bb59a8](https://github.com/ornikar/eslint-configs/commit/8bb59a8)), closes [#810](https://github.com/ornikar/eslint-configs/issues/810)
+* feat(deps): update dependency eslint-plugin-simple-import-sort to v13 (#811) ([7d8f602](https://github.com/ornikar/eslint-configs/commit/7d8f602)), closes [#811](https://github.com/ornikar/eslint-configs/issues/811)
+* feat(deps): update dependency eslint-plugin-unicorn to v64 (#813) ([304e072](https://github.com/ornikar/eslint-configs/commit/304e072)), closes [#813](https://github.com/ornikar/eslint-configs/issues/813)
+
+
+
+
+
 ## [22.6.0](https://github.com/ornikar/eslint-configs/compare/v22.5.1...v22.6.0) (2026-04-17)
 
 

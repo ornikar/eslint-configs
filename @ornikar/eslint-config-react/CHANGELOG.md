@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>22.7.1 (2026-05-15)</small>
+
+* feat(deps): update dependency eslint-plugin-jest to v29 (#807) ([78d0c97](https://github.com/ornikar/eslint-configs/commit/78d0c97)), closes [#807](https://github.com/ornikar/eslint-configs/issues/807)
+* feat(deps): update dependency eslint-plugin-react-native to v5 (#809) ([0351478](https://github.com/ornikar/eslint-configs/commit/0351478)), closes [#809](https://github.com/ornikar/eslint-configs/issues/809)
+* feat(deps): update dependency eslint-plugin-testing-library to v7 (#812) ([bdc822e](https://github.com/ornikar/eslint-configs/commit/bdc822e)), closes [#812](https://github.com/ornikar/eslint-configs/issues/812)
+* feat(deps): update react monorepo (major) (#814) ([29a013e](https://github.com/ornikar/eslint-configs/commit/29a013e)), closes [#814](https://github.com/ornikar/eslint-configs/issues/814)
+
+
+
+
+
 ## [22.5.0](https://github.com/ornikar/eslint-configs/compare/v22.4.0...v22.5.0) (2026-02-20)
 
 
