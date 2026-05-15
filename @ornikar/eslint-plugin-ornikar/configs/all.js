@@ -6,5 +6,6 @@ module.exports = {
     '@ornikar/ornikar/react-function-component-return-react-node': 'error',
     '@ornikar/ornikar/typescript-no-unused-exports': 'off', // experimental
     '@ornikar/ornikar/no-callback-render-in-navigator': 'warn',
+    '@ornikar/ornikar/no-unsafe-callback-passthrough': 'warn',
   },
 };

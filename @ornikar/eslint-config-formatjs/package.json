@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-formatjs",
-  "version": "22.2.0",
+  "version": "22.7.0",
   "description": "eslint formatjs config files",
   "repository": {
     "directory": "@ornikar/eslint-config-formatjs",
@@ -10,7 +10,7 @@
   "main": "index.js",
   "license": "ISC",
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=22.22.0"
   },
   "publishConfig": {
     "access": "public"
@@ -19,7 +19,7 @@
     "eslint-plugin-formatjs": "^4.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0 || ^9.0.0",
+    "eslint": "^8.57.1 || ^9.0.0",
     "eslint-plugin-formatjs": "^4.0.0"
   },
   "peerDependenciesMeta": {

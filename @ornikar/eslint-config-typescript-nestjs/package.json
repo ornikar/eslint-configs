@@ -1,6 +1,6 @@
 {
   "name": "@ornikar/eslint-config-typescript-nestjs",
-  "version": "22.4.0",
+  "version": "22.6.0",
   "description": "eslint typescript nestjs config files",
   "repository": {
     "directory": "@ornikar/eslint-config-typescript-nestjs",
@@ -10,17 +10,17 @@
   "main": "index.js",
   "license": "ISC",
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=22.22.0"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@ornikar/eslint-config-typescript": "22.4.0",
+    "@ornikar/eslint-config-typescript": "22.6.0",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0 || ^9.0.0",
+    "eslint": "^8.57.1 || ^9.0.0",
     "prettier": "^2.2.1",
     "typescript": ">=4.8.4 <6.0.0"
   },

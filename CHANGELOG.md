@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.7.0](https://github.com/ornikar/eslint-configs/compare/v22.6.0...v22.7.0) (2026-04-28)
+
+
+### Features
+
+* disable formatjs no-emoji rule [no issue] ([#798](https://github.com/ornikar/eslint-configs/issues/798)) ([a3ca719](https://github.com/ornikar/eslint-configs/commit/a3ca719cfae455b2aec8b138c955b702cebf3aca))
+
+
+### Bug Fixes
+
+* publish npm [no issue] ([#791](https://github.com/ornikar/eslint-configs/issues/791)) ([795b7b2](https://github.com/ornikar/eslint-configs/commit/795b7b23022e2ee3462d506eebb6dfd90de4517c))
+
+
+
+## [22.6.0](https://github.com/ornikar/eslint-configs/compare/v22.5.1...v22.6.0) (2026-04-17)
+
+
+### Features
+
+* add eslint-import-resolver-typescript to eslint-config [no issue] ([#794](https://github.com/ornikar/eslint-configs/issues/794)) ([82675ac](https://github.com/ornikar/eslint-configs/commit/82675ac1e7c82bec12ef4617affc42df0fc0b0d5))
+* also publish to GCP registry [CLOUD-4801] ([#788](https://github.com/ornikar/eslint-configs/issues/788)) ([7990308](https://github.com/ornikar/eslint-configs/commit/7990308e519d6c65602439797509662140b23089))
+
+
+### Bug Fixes
+
+* add libc to supportedArchitectures for Yarn 4 compatibility [no issue] ([#795](https://github.com/ornikar/eslint-configs/issues/795)) ([18426d8](https://github.com/ornikar/eslint-configs/commit/18426d8d5af63439b21a19a64d1fd5d61e211c37))
+
+
+
+## [22.5.1](https://github.com/ornikar/eslint-configs/compare/v22.5.0...v22.5.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* flag unsafe callback passthroughs on DOM elements [no issue] ([#790](https://github.com/ornikar/eslint-configs/issues/790)) ([313d3b3](https://github.com/ornikar/eslint-configs/commit/313d3b3ea4d4d5f82980e453f7efb3fa7ab4541c))
+
+
+
+## [22.5.0](https://github.com/ornikar/eslint-configs/compare/v22.4.0...v22.5.0) (2026-02-20)
+
+
+### Features
+
+* add no-unsafe-callback-passthrough ESLint rule [no issue] ([#783](https://github.com/ornikar/eslint-configs/issues/783)) ([c4db439](https://github.com/ornikar/eslint-configs/commit/c4db4394301825908b5421d6d4064b4accce0d16))
+* update CODEOWNERS and template [no issue] ([#778](https://github.com/ornikar/eslint-configs/issues/778)) ([41df6bb](https://github.com/ornikar/eslint-configs/commit/41df6bb2bca6189fe536657a0125f0c3eccf95fe))
+* upgrade to Node 22 [no issue] ([#785](https://github.com/ornikar/eslint-configs/issues/785)) ([9ffed28](https://github.com/ornikar/eslint-configs/commit/9ffed28af08c5c1723f66e5cb04203edc73c2f9a))
+
+
+
 ## [22.4.0](https://github.com/ornikar/eslint-configs/compare/v22.3.1...v22.4.0) (2025-11-21)
 
 

@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.7.0](https://github.com/ornikar/eslint-configs/compare/v22.6.0...v22.7.0) (2026-04-28)
+
+
+### Features
+
+* disable formatjs no-emoji rule [no issue] ([#798](https://github.com/ornikar/eslint-configs/issues/798)) ([a3ca719](https://github.com/ornikar/eslint-configs/commit/a3ca719cfae455b2aec8b138c955b702cebf3aca))
+
+
+
+## [22.5.0](https://github.com/ornikar/eslint-configs/compare/v22.4.0...v22.5.0) (2026-02-20)
+
+
+### Features
+
+* upgrade to Node 22 [no issue] ([#785](https://github.com/ornikar/eslint-configs/issues/785)) ([9ffed28](https://github.com/ornikar/eslint-configs/commit/9ffed28af08c5c1723f66e5cb04203edc73c2f9a))
+
+
+
 ## [22.2.0](https://github.com/ornikar/eslint-configs/compare/v22.1.0...v22.2.0) (2025-04-25)
 
 **Note:** Version bump only for package @ornikar/eslint-config-formatjs

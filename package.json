@@ -9,15 +9,14 @@
     "lint:prettier": "prettier --no-error-on-unmatched-pattern --check . '**/.env*' '**/*.env'",
     "lint:prettier:fix": "prettier --no-error-on-unmatched-pattern --write . '**/.env*' '**/*.env'",
     "postinstall": "ornikar-repo-config-postinstall",
-    "release": "lerna publish --conventional-commits",
     "test": "node --test",
     "test:removethissuffixafternode18update": "node --test",
     "version": "ornikar-monorepo-update-peer-dependencies && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn && git add yarn.lock"
   },
   "prettier": "@ornikar/prettier-config",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.13.0",
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=22.22.0"
   },
   "commitlint": {
     "extends": [
@@ -28,15 +27,20 @@
     "@ornikar/*"
   ],
   "devDependencies": {
-    "@ornikar/commitlint-config": "7.0.0",
-    "@ornikar/monorepo-config": "13.0.0",
-    "@ornikar/prettier-config": "8.0.0",
-    "@ornikar/repo-config": "14.1.1",
+    "@ornikar/commitlint-config": "8.3.0",
+    "@ornikar/monorepo-config": "14.2.1",
+    "@ornikar/prettier-config": "9.0.1",
+    "@ornikar/repo-config": "15.3.1",
     "check-package-dependencies": "7.2.0",
     "eslint": "8.57.1",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "16.6.2",
-    "eslint-plugin-unicorn": "48.0.1",
+    "eslint-plugin-unicorn": "56.0.1",
     "prettier": "2.8.8"
+  },
+  "dependenciesMeta": {
+    "unrs-resolver": {
+      "built": true
+    }
   }
 }
