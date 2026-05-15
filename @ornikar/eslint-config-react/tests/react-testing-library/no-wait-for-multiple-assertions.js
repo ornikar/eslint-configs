@@ -7,14 +7,7 @@ const foo = async () => {
   await waitFor(() => {
     expect(a).toEqual('a');
     // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
-    expect(b).toEqual('b');
-  });
-
-  // or
-  await waitFor(() => {
-    expect(a).toEqual('a');
-    // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
-    expect(b).toEqual('b');
+    expect(a).toEqual('b');
   });
 };
 
