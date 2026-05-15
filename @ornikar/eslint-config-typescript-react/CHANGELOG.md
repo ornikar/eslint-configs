@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>22.7.1 (2026-05-15)</small>
+
+* feat(deps): update dependency eslint-plugin-jest to v29 (#807) ([78d0c97](https://github.com/ornikar/eslint-configs/commit/78d0c97)), closes [#807](https://github.com/ornikar/eslint-configs/issues/807)
+* feat(deps): update react monorepo (major) (#814) ([29a013e](https://github.com/ornikar/eslint-configs/commit/29a013e)), closes [#814](https://github.com/ornikar/eslint-configs/issues/814)
+
+
+
+
+
 ## [22.6.0](https://github.com/ornikar/eslint-configs/compare/v22.5.1...v22.6.0) (2026-04-17)
 
 **Note:** Version bump only for package @ornikar/eslint-config-typescript-react

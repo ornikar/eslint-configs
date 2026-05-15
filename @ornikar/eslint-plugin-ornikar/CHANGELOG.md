@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>22.7.1 (2026-05-15)</small>
+
+* feat(deps): update dependency eslint-plugin-jest to v29 (#807) ([78d0c97](https://github.com/ornikar/eslint-configs/commit/78d0c97)), closes [#807](https://github.com/ornikar/eslint-configs/issues/807)
+
+
+
+
+
 ## [22.5.1](https://github.com/ornikar/eslint-configs/compare/v22.5.0...v22.5.1) (2026-02-23)
 
 

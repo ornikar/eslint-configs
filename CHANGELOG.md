@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>22.7.1 (2026-05-15)</small>
+
+* feat: Remove lerna publish release script from package.json OSE-12308 (#799) ([d3c5019](https://github.com/ornikar/eslint-configs/commit/d3c5019)), closes [#799](https://github.com/ornikar/eslint-configs/issues/799)
+* feat(deps): update dependency eslint-config-prettier to v10 (#805) ([3aaf434](https://github.com/ornikar/eslint-configs/commit/3aaf434)), closes [#805](https://github.com/ornikar/eslint-configs/issues/805)
+* feat(deps): update dependency eslint-plugin-jest to v29 (#807) ([78d0c97](https://github.com/ornikar/eslint-configs/commit/78d0c97)), closes [#807](https://github.com/ornikar/eslint-configs/issues/807)
+* feat(deps): update dependency eslint-plugin-react-native to v5 (#809) ([0351478](https://github.com/ornikar/eslint-configs/commit/0351478)), closes [#809](https://github.com/ornikar/eslint-configs/issues/809)
+* feat(deps): update dependency eslint-plugin-security to v4 (#810) ([8bb59a8](https://github.com/ornikar/eslint-configs/commit/8bb59a8)), closes [#810](https://github.com/ornikar/eslint-configs/issues/810)
+* feat(deps): update dependency eslint-plugin-simple-import-sort to v13 (#811) ([7d8f602](https://github.com/ornikar/eslint-configs/commit/7d8f602)), closes [#811](https://github.com/ornikar/eslint-configs/issues/811)
+* feat(deps): update dependency eslint-plugin-testing-library to v7 (#812) ([bdc822e](https://github.com/ornikar/eslint-configs/commit/bdc822e)), closes [#812](https://github.com/ornikar/eslint-configs/issues/812)
+* feat(deps): update dependency eslint-plugin-unicorn to v64 (#813) ([304e072](https://github.com/ornikar/eslint-configs/commit/304e072)), closes [#813](https://github.com/ornikar/eslint-configs/issues/813)
+* feat(deps): update react monorepo (major) (#814) ([29a013e](https://github.com/ornikar/eslint-configs/commit/29a013e)), closes [#814](https://github.com/ornikar/eslint-configs/issues/814)
+* chore(deps): update repo shared configs ornikar (#800) ([e3d4246](https://github.com/ornikar/eslint-configs/commit/e3d4246)), closes [#800](https://github.com/ornikar/eslint-configs/issues/800)
+* chore(deps): update repo shared configs ornikar (#802) ([1a39b31](https://github.com/ornikar/eslint-configs/commit/1a39b31)), closes [#802](https://github.com/ornikar/eslint-configs/issues/802)
+
+
+
+
+
 ## [22.7.0](https://github.com/ornikar/eslint-configs/compare/v22.6.0...v22.7.0) (2026-04-28)
 
 
