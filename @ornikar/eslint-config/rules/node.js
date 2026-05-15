@@ -31,7 +31,10 @@ module.exports = {
     {
       files: ['scripts/**'],
       rules: {
+        // `n/shebang` was renamed to `n/hashbang` in eslint-plugin-n v17;
+        // keep both turned off so configs targeting either version work.
         'n/shebang': 'off',
+        'n/hashbang': 'off',
       },
     },
   ],

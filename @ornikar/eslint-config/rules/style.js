@@ -18,6 +18,9 @@ module.exports = {
       {
         vars: 'all',
         args: 'none', // changed after-used to none
+        // ESLint 9 changed the default for `caughtErrors` from 'none' to 'all'.
+        // Keep our historical behavior of not flagging unused catch variables.
+        caughtErrors: 'none',
         ignoreRestSiblings: true,
       },
     ],
