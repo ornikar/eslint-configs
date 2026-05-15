@@ -33,7 +33,7 @@ module.exports = function loadRules() {
   return Object.fromEntries(
     fs
       .readdirSync(path.resolve(__dirname, './rules'), { withFileTypes: true })
-      .filter((file) => file.isFile() && !file.name.endsWith('.test.js'))
+      .filter((file) => file.isFile() && !file.name.includes('.test.'))
       .map((file) => {
         const ruleId = path.basename(file.name, '.js');
         return [ruleId, loadRule(ruleId)];

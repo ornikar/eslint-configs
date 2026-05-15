@@ -99,12 +99,15 @@ const formTree = shallow(tree.find(x => FormWithApiCall(x)).prop('children')());
     'unicorn/no-keyword-prefix': 'off',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md
+    // `allowWarningComments` was effectively `true` by default in unicorn 48;
+    // v56 made the strict mode (`false`) flag plain `TODO` comments too — we
+    // restore the previous behavior here so only DATED/CONDITIONAL todos fire.
     'unicorn/expiring-todo-comments': [
       'error',
       {
-        allowWarningComments: false,
+        allowWarningComments: true,
         ignoreDatesOnPullRequests: true,
-        ignore: [/(\[https:\/\/ornikar.atlassian.net\/browse\/[A-Z]+-\d+])/i], // JIRA issue format (ex: https://ornikar.atlassian.net/browse/DR-123)
+        ignore: [/(\[https:\/\/ornikar.atlassian.net\/browse\/[A-Z]+-\d+])/i], // JIRA issue format (e.g. https://ornikar.atlassian.net/browse/DR-123)
         date: '9999-12-31', // invalidates all expiring dates <9999-12-31
       },
     ],

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-namespace, max-classes-per-file */
+/* eslint-disable @typescript-eslint/no-namespace, max-classes-per-file, @typescript-eslint/no-empty-object-type */
 
 // Incorrect uses
 

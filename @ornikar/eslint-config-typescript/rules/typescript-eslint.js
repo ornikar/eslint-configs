@@ -37,12 +37,21 @@ module.exports = {
     /* Enabled as 'warn' in recommended, changed to 'error' */
     '@typescript-eslint/no-non-null-assertion': 'error',
 
-    /* Changed */
-    '@typescript-eslint/ban-types': [
+    /* Changed: `@typescript-eslint/ban-types` was split in v8 into three rules. */
+    '@typescript-eslint/no-empty-object-type': 'error',
+    '@typescript-eslint/no-unsafe-function-type': 'error',
+    '@typescript-eslint/no-wrapper-object-types': 'error',
+    // The `Omit` -> `Except` from type-fest preference was previously enforced via
+    // the `types` option of `ban-types`. v8's split rules don't accept that option;
+    // we use `no-restricted-types` to keep the same warning.
+    '@typescript-eslint/no-restricted-types': [
       'error',
       {
         types: {
-          Omit: 'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/main/source/except.d.ts',
+          Omit: {
+            message:
+              'Prefer `Except` from type-fest. https://github.com/sindresorhus/type-fest/blob/main/source/except.d.ts',
+          },
         },
       },
     ],

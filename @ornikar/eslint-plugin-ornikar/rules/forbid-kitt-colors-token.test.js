@@ -3,13 +3,12 @@
 const { RuleTester } = require('eslint');
 const rule = require('./forbid-kitt-colors-token');
 
-const parserOptions = {
-  ecmaFeatures: {
-    jsx: true,
+// ESLint 9 RuleTester expects flat-config shape: parserOptions moved into languageOptions.
+const ruleTester = new RuleTester({
+  languageOptions: {
+    parserOptions: { ecmaFeatures: { jsx: true } },
   },
-};
-
-const ruleTester = new RuleTester({ parserOptions });
+});
 
 ruleTester.run('forbid-kitt-colors-token', rule, {
   valid: [
