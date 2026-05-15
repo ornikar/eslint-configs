@@ -3,7 +3,7 @@
 module.exports = {
   // https://github.com/nodesecurity/eslint-plugin-security
   plugins: ['security'],
-  extends: ['plugin:security/recommended'],
+  extends: ['plugin:security/recommended-legacy'],
   rules: {
     'security/detect-buffer-noassert': 'error',
     'security/detect-child-process': 'error',

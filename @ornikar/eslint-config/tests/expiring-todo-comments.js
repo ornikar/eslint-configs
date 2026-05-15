@@ -7,8 +7,8 @@
 // eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
 
-// TODO [>1]: If your package.json version is > 1.
-// TODO [>=1]: If your package.json version is >= 1.
+// TODO [>1000]: If your package.json version is > 1000.
+// TODO [>=1000]: If your package.json version is >= 1000.
 
 // eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [>1, >2]: Multiple package versions won't work.
