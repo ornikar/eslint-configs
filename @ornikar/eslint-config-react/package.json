@@ -20,22 +20,22 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-native": "^4.1.0",
-    "eslint-plugin-testing-library": "^6.0.0"
+    "eslint-plugin-testing-library": "^7.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.39.0"
+    "eslint": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "8.57.1",
+    "eslint": "^9.0.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "react": "18.3.1"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-react"
+    "lint:eslint": "ESLINT_USE_FLAT_CONFIG=false yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-react"
   }
 }

@@ -17,16 +17,16 @@
   },
   "dependencies": {
     "@ornikar/eslint-config-typescript": "22.6.0",
-    "eslint-plugin-prefer-arrow-functions": "^3.1.4"
+    "eslint-plugin-prefer-arrow-functions": "^3.4.0"
   },
   "peerDependencies": {
-    "eslint": "^8.44.0",
+    "eslint": "^9.0.0",
     "prettier": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "8.57.1"
+    "eslint": "^9.0.0"
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-typescript-nestjs"
+    "lint:eslint": "ESLINT_USE_FLAT_CONFIG=false yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-config-typescript-nestjs"
   }
 }

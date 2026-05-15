@@ -19,7 +19,7 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^8.39.0",
+    "eslint": "^9.0.0",
     "typescript": ">=5.2.2"
   },
   "peerDependenciesMeta": {
@@ -28,21 +28,22 @@
     }
   },
   "scripts": {
-    "lint:eslint": "yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-plugin-ornikar"
+    "lint:eslint": "ESLINT_USE_FLAT_CONFIG=false yarn ../.. eslint --report-unused-disable-directives --quiet @ornikar/eslint-plugin-ornikar"
   },
   "exports": {
     "./package.json": "./package.json",
     ".": "./index.js"
   },
   "dependencies": {
-    "@typescript-eslint/utils": "6.21.0",
+    "@typescript-eslint/utils": "^8.0.0",
     "eslint-plugin-react": "^7.33.2",
-    "ts-unused-exports": "^10.0.1"
+    "ts-unused-exports": "^11.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "2.1.4",
-    "@typescript-eslint/rule-tester": "6.21.0",
-    "eslint": "8.57.1",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@typescript-eslint/rule-tester": "^8.0.0",
+    "eslint": "^9.0.0",
     "typescript": "5.9.3"
   },
   "engines": {
