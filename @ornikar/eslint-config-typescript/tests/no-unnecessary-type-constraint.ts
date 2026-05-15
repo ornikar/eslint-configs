@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars  */
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 // ❌ Incorrect uses
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-constraint
 interface FooAny<T extends any> {}

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/explicit-function-return-type, @typescript-eslint/no-empty-function, no-void */
+/* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/explicit-function-return-type, @typescript-eslint/no-empty-function, no-void, @typescript-eslint/no-duplicate-type-constituents */
 // ❌ Incorrect uses with this rule
 // eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 type PossibleValues = string | number | void;

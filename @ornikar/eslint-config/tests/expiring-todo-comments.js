@@ -7,7 +7,9 @@
 // eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
 
+// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [>1]: If your package.json version is > 1.
+// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [>=1]: If your package.json version is >= 1.
 
 // eslint-disable-next-line unicorn/expiring-todo-comments
@@ -28,19 +30,16 @@
 // eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [engine:node@>=8]: Whoops, we are already supporting it!
 
-// eslint-disable-next-line unicorn/expiring-todo-comments
+// With our config (`allowWarningComments: true`), plain TODOs and TODOs with
+// non-recognized conditions are NOT flagged by the rule. The lines below used
+// to fire under unicorn 48 with `allowWarningComments: false`, but we relaxed
+// that during the ESLint 9 bump (unicorn 56 made strict mode flag even more
+// patterns). Kept here for documentation of the rule's reach.
+
 // TODO: Add unicorns.
-
-// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [DR-123]: wrong JIRA ticket format
-
-// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [ornikar.atlassian.net/browse/DR-123]: invalid JIRA ticket format
-
-// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [invalidstart https://ornikar.atlassian.net/browse/DR-123]: invalid start with ticket url
-
-// eslint-disable-next-line unicorn/expiring-todo-comments
 // TODO [https://ornikar.atlassian.net/browse/DR-123 invalidend]: invalid end with ticket url
 
 // ✅ Correct uses with this rule
