@@ -3,20 +3,26 @@
   "reviewers": ["team:core-edu-frontend"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^eslint-"],
-      "matchPackageNames": ["eslint", "typescript", "ts-unused-exports"],
+      "matchPackageNames": [
+        "eslint",
+        "typescript",
+        "ts-unused-exports",
+        "/^eslint-/"
+      ],
       "matchUpdateTypes": ["patch", "minor", "major"],
-      "masterIssue": false,
+      "dependencyDashboard": false,
       "schedule": ["at any time"],
       "reviewers": ["team:frontend-wg-foundations"]
     },
     {
-      "matchPackagePatterns": ["^@typescript-eslint/"],
-      "matchSourceUrlPrefixes": ["https://github.com/typescript-eslint/typescript-eslint"],
       "matchUpdateTypes": ["patch", "minor", "major"],
-      "masterIssue": false,
+      "dependencyDashboard": false,
       "schedule": ["at any time"],
-      "reviewers": ["team:frontend-wg-foundations"]
+      "reviewers": ["team:frontend-wg-foundations"],
+      "matchPackageNames": ["/^@typescript-eslint//"],
+      "matchSourceUrls": [
+        "https://github.com/typescript-eslint/typescript-eslint{/,}**"
+      ]
     }
   ]
 }
