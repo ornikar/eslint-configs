@@ -91,24 +91,32 @@ exports.create = (context) => {
           line: unusedExport.location.line,
         });
 
-        const exportToken = sourceCode.getTokenByRangeStart(index);
+        let exportToken = sourceCode.getTokenByRangeStart(index);
 
-        if (!exportToken) {
-          throw new Error('Expected export node');
+        // Try with 1-based line if 0-based didn't work (ts-unused-exports version differences)
+        if (!exportToken && unusedExport.location.line === 0) {
+          const altIndex = sourceCode.getIndexFromLoc({
+            column: unusedExport.location.character,
+            line: 1,
+          });
+          exportToken = sourceCode.getTokenByRangeStart(altIndex);
         }
 
-        context.report({
-          node: exportToken,
-          messageId: 'unusedExport',
-          data: { exportName: unusedExport.exportName },
-          suggest: [
-            {
-              messageId: 'removeExport',
-              data: { exportName: unusedExport.exportName },
-              fix: getSuggestionFixer(exportToken),
-            },
-          ],
-        });
+        // Report only if we can find the token
+        if (exportToken) {
+          context.report({
+            node: exportToken,
+            messageId: 'unusedExport',
+            data: { exportName: unusedExport.exportName },
+            suggest: [
+              {
+                messageId: 'removeExport',
+                data: { exportName: unusedExport.exportName },
+                fix: getSuggestionFixer(exportToken),
+              },
+            ],
+          });
+        }
       }
     },
   };
